@@ -55,6 +55,7 @@ jobs:
       - name: Verify deployment artifact
         shell: bash
         run: |
+          grep -Fxq "corinthians.mybibleexplorer.com" CNAME
           test -f out/index.html
           test -f out/404.html
           test -f out/.nojekyll
