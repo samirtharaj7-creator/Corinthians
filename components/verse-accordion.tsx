@@ -1,7 +1,7 @@
 "use client";
 
 import type { CSSProperties } from "react";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { BookOpen, Library, List, Minus, Plus } from "lucide-react";
 import type { ChapterContent, VerseEntry } from "@/lib/schemas";
 import {
@@ -47,6 +47,7 @@ export function ChapterStudy({
   const [scriptureLevel, setScriptureLevel] = useState(0);
   const [notesLevel, setNotesLevel] = useState(0);
   const [isMobileReader, setIsMobileReader] = useState(false);
+  const readerRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
     function syncFromHash() {
@@ -95,6 +96,119 @@ export function ChapterStudy({
     return () => mediaQuery.removeEventListener("change", syncReaderWidth);
   }, []);
 
+  useEffect(() => {
+    const reader = readerRef.current;
+    const footer = document.querySelector<HTMLElement>("body > .mbe-global-footer");
+    if (!reader || !footer) return;
+
+    const readerElement = reader;
+    const footerElement = footer;
+    const body = document.body;
+    const desktopQuery = window.matchMedia("(min-width: 981px)");
+    let disposeDesktop: (() => void) | undefined;
+
+    function clearFooterState() {
+      body.removeAttribute("data-reader-footer-visible");
+      body.style.removeProperty("--reader-footer-height");
+    }
+
+    function installDesktopFooterReveal() {
+      const panes = Array.from(
+        readerElement.querySelectorAll<HTMLElement>(".scripture-pane-body, .commentary-pane-body")
+      );
+      const content = Array.from(
+        readerElement.querySelectorAll<HTMLElement>(".scripture-list, .commentary-shell")
+      );
+      const atEnd = new Map<HTMLElement, boolean>(panes.map((pane) => [pane, false]));
+      let animationFrame = 0;
+      let pinFrame = 0;
+      let footerHeight = 0;
+
+      function syncFooterVisibility() {
+        const shouldShow = Array.from(atEnd.values()).some(Boolean);
+        const wasVisible = body.hasAttribute("data-reader-footer-visible");
+        body.toggleAttribute("data-reader-footer-visible", shouldShow);
+
+        if (shouldShow && !wasVisible) {
+          window.cancelAnimationFrame(pinFrame);
+          pinFrame = window.requestAnimationFrame(() => {
+            panes.forEach((pane) => {
+              if (atEnd.get(pane)) {
+                pane.scrollTop = pane.scrollHeight - pane.clientHeight;
+              }
+            });
+          });
+        }
+      }
+
+      function measureFooter() {
+        const height = Math.ceil(footerElement.getBoundingClientRect().height);
+        if (height > 0) {
+          footerHeight = height;
+          body.style.setProperty("--reader-footer-height", `${height}px`);
+        }
+      }
+
+      function updatePane(pane: HTMLElement) {
+        const maximumScroll = pane.scrollHeight - pane.clientHeight;
+        const distanceFromEnd = maximumScroll - pane.scrollTop;
+        const exitThreshold = Math.max(24, footerHeight + 16);
+        const threshold = atEnd.get(pane) ? exitThreshold : 4;
+        atEnd.set(pane, maximumScroll > 8 && distanceFromEnd <= threshold);
+      }
+
+      function updateAll() {
+        measureFooter();
+        panes.forEach(updatePane);
+        syncFooterVisibility();
+      }
+
+      function scheduleUpdate() {
+        window.cancelAnimationFrame(animationFrame);
+        animationFrame = window.requestAnimationFrame(updateAll);
+      }
+
+      function handlePaneScroll(event: Event) {
+        updatePane(event.currentTarget as HTMLElement);
+        syncFooterVisibility();
+      }
+
+      panes.forEach((pane) => pane.addEventListener("scroll", handlePaneScroll, { passive: true }));
+
+      const resizeObserver = new ResizeObserver(scheduleUpdate);
+      resizeObserver.observe(footerElement);
+      panes.forEach((pane) => resizeObserver.observe(pane));
+      content.forEach((element) => resizeObserver.observe(element));
+      scheduleUpdate();
+
+      return () => {
+        window.cancelAnimationFrame(animationFrame);
+        window.cancelAnimationFrame(pinFrame);
+        resizeObserver.disconnect();
+        panes.forEach((pane) => pane.removeEventListener("scroll", handlePaneScroll));
+      };
+    }
+
+    function syncViewportMode() {
+      disposeDesktop?.();
+      disposeDesktop = undefined;
+      clearFooterState();
+
+      if (desktopQuery.matches) {
+        disposeDesktop = installDesktopFooterReveal();
+      }
+    }
+
+    syncViewportMode();
+    desktopQuery.addEventListener("change", syncViewportMode);
+
+    return () => {
+      desktopQuery.removeEventListener("change", syncViewportMode);
+      disposeDesktop?.();
+      clearFooterState();
+    };
+  }, [bookName, chapter.chapterNumber, selectedVerseRef]);
+
   const selectedVerse = useMemo(
     () => chapter.verses.find((verse) => verse.verse === selectedVerseRef) ?? chapter.verses[0],
     [chapter.verses, selectedVerseRef]
@@ -131,6 +245,7 @@ export function ChapterStudy({
 
   return (
     <section
+      ref={readerRef}
       className="split-reader"
       aria-label={`${bookName} ${chapter.chapterNumber} reader`}
       style={{

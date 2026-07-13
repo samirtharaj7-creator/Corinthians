@@ -408,7 +408,40 @@ body[data-romans-route="commentary"] .commentary-blank-space {
     min-height: 0 !important;
   }
 
+  body.mbe-shell-managed[data-reader-footer-visible]:has(> .reader-header)
+    > main.reader-page:has(> .split-reader)
+    > .split-reader {
+    height: calc(
+      100dvh - 47px - 4.35rem - var(--chapter-strip-height) - var(--reader-footer-height, 10rem)
+    ) !important;
+  }
+
   body:has(> main.reader-page) > .mbe-global-footer {
-    display: none !important;
+    position: fixed;
+    z-index: 80;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block !important;
+    margin: 0 !important;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition:
+      opacity 160ms ease,
+      visibility 0s linear 160ms;
+  }
+
+  body[data-reader-footer-visible]:has(> main.reader-page) > .mbe-global-footer {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transition-delay: 0s;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    body:has(> main.reader-page) > .mbe-global-footer {
+      transition: none;
+    }
   }
 }

@@ -15,6 +15,7 @@
   --mbe-font-display:"Cormorant Garamond",Georgia,serif;
   --mbe-font-reading:"Literata",Georgia,serif;
   --mbe-font-ui:"Inter",system-ui,sans-serif;
+  --mbe-ribbon-occupied-height:47px;
 }
 
 .mbe-global-shell *,
@@ -379,6 +380,29 @@ body.mbe-shell-managed > .mbe-global-footer{
     .commentary-panel
   ){
     overscroll-behavior-y:contain;
+  }
+
+  /*
+   * The shared ribbon sits above each commentary's native reader header.
+   * Include both in the desktop height budget so the pane viewport ends at
+   * the browser edge instead of below it, where final lines would be clipped.
+   */
+  body.mbe-shell-managed:has(> .reader-header) > main.reader-page:has(> .split-reader){
+    height:calc(100dvh - var(--mbe-ribbon-occupied-height) - 4.35rem) !important;
+    min-height:calc(100dvh - var(--mbe-ribbon-occupied-height) - 4.35rem) !important;
+    flex:0 0 auto;
+  }
+
+  body.mbe-shell-managed:has(> .reader-header) > main.reader-page:has(> .split-reader) > .split-reader{
+    height:calc(100dvh - var(--mbe-ribbon-occupied-height) - 4.35rem - var(--chapter-strip-height)) !important;
+    min-height:0 !important;
+  }
+
+  body.mbe-shell-managed:has(> .reader-header) > main.reader-page:has(> .split-reader) :is(
+    .scripture-pane-body,
+    .commentary-pane-body
+  ){
+    padding-bottom:calc(1.5rem + env(safe-area-inset-bottom, 0px)) !important;
   }
 }
 
