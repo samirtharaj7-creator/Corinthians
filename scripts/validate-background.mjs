@@ -159,9 +159,6 @@ function validatePublicText(entries) {
 
 function narrativeEntries(background) {
   const entries = [];
-  (background.readingLens ?? []).forEach((text, index) => {
-    if (typeof text === "string") entries.push({ path: `background.readingLens[${index}]`, value: text });
-  });
   (background.sections ?? []).forEach((section, sectionIndex) => {
     (section?.blocks ?? []).forEach((block, blockIndex) => {
       if (block?.type === "paragraph" && typeof block.text === "string") {
@@ -222,17 +219,6 @@ if (!existsSync(backgroundPath)) {
   if (background) {
     assert(isNonEmptyString(background.title), "background.title must be a non-empty string.");
     assert(isNonEmptyString(background.subtitle), "background.subtitle must be a non-empty string.");
-    assert(Array.isArray(background.readingLens) && background.readingLens.length > 0, "background.readingLens must contain at least one paragraph.");
-    (background.readingLens ?? []).forEach((paragraph, index) => {
-      assert(isNonEmptyString(paragraph), `background.readingLens[${index}] must be a non-empty string.`);
-    });
-
-    assert(Array.isArray(background.facts) && background.facts.length === 4, `Expected exactly 4 background facts; found ${background.facts?.length ?? 0}.`);
-    (background.facts ?? []).forEach((fact, index) => {
-      assert(isNonEmptyString(fact?.icon), `background.facts[${index}].icon must be a non-empty string.`);
-      assert(isNonEmptyString(fact?.label), `background.facts[${index}].label must be a non-empty string.`);
-      assert(isNonEmptyString(fact?.value), `background.facts[${index}].value must be a non-empty string.`);
-    });
 
     assert(Array.isArray(background.sections), "background.sections must be an array.");
     const actualSectionIds = (background.sections ?? []).map((section) => section?.id);
@@ -243,7 +229,6 @@ if (!existsSync(backgroundPath)) {
 
     const blocks = [];
     (background.sections ?? []).forEach((section, sectionIndex) => {
-      assert(isNonEmptyString(section?.scope), `background.sections[${sectionIndex}].scope must be a non-empty string.`);
       assert(isNonEmptyString(section?.title), `background.sections[${sectionIndex}].title must be a non-empty string.`);
       assert(Array.isArray(section?.blocks) && section.blocks.length > 0, `background.sections[${sectionIndex}].blocks must not be empty.`);
       (section?.blocks ?? []).forEach((block, blockIndex) => {
@@ -290,7 +275,7 @@ if (!existsSync(backgroundPath)) {
     const narrativeWordCount = narrative.reduce((total, entry) => total + countWords(entry.value), 0);
     assert(
       narrativeWordCount >= 1600 && narrativeWordCount <= 2000,
-      `Background narrative must contain 1600–2000 words; found ${narrativeWordCount}. The count includes Reading Lens paragraphs and main paragraph blocks only.`
+      `Background narrative must contain 1600–2000 words; found ${narrativeWordCount}. The count includes main paragraph blocks only.`
     );
 
     const manuscriptArgument = process.argv[2];
@@ -306,9 +291,9 @@ if (!existsSync(backgroundPath)) {
     if (!errors.length) {
       const overlapSummary = process.argv[2] ? " Optional 12-word manuscript-overlap audit passed." : " Manuscript-overlap audit skipped (no path supplied).";
       console.log(
-        `Background content validated: ${expectedSectionIds.length} ordered sections, 4 facts, 1 seven-event timeline, ` +
+        `Background content validated: ${expectedSectionIds.length} ordered sections, 1 seven-event timeline, ` +
         `1 three-column comparison table, and ${narrativeWordCount} narrative words. ` +
-        `Word count includes Reading Lens paragraphs and main paragraph blocks only.${overlapSummary}`
+        `Word count includes main paragraph blocks only.${overlapSummary}`
       );
     }
   }

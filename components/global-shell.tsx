@@ -11,7 +11,7 @@ const libraryItems = [
 
 export function GlobalShell() {
   return (
-    <header className="mbe-global-shell" data-tool="romans" data-embedded="true">
+    <header className="mbe-global-shell" data-tool="corinthians" data-embedded="true">
       <div className="mbe-shell-wrap">
         <div className="mbe-ribbon-left">
           <a className="mbe-ribbon-brand" href="https://mybibleexplorer.com" aria-label="My Bible Explorer home">
@@ -51,7 +51,7 @@ export function GlobalShell() {
 
 export function GlobalFooter() {
   return (
-    <footer className="mbe-global-footer" data-tool="romans">
+    <footer className="mbe-global-footer" data-tool="corinthians">
       <div className="mbe-shell-wrap mbe-footer-wrap">
         <a className="mbe-footer-brand" href="https://mybibleexplorer.com" aria-label="My Bible Explorer home">
           <img className="mbe-footer-logo" src="/assets/my-bible-explorer-logo.png" alt="My Bible Explorer" />

@@ -36,9 +36,6 @@
     ".next/dev/types/**/*.ts"
   ],
   "exclude": [
-    "node_modules",
-    "Old",
-    "revelation-study-public-upload",
-    "revelation-study 2"
+    "node_modules"
   ]
 }

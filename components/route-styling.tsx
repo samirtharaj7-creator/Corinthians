@@ -27,14 +27,14 @@ export function RouteStyling() {
     html.classList.add("dark");
     html.style.colorScheme = "dark";
     body.classList.add("mbe-shell-managed");
-    body.removeAttribute("data-romans-chapter");
+    body.removeAttribute("data-corinthians-chapter");
 
-    if (path === "/") body.dataset.romansRoute = "home";
-    else if (path === "/background") body.dataset.romansRoute = "introduction";
+    if (path === "/") body.dataset.corinthiansRoute = "home";
+    else if (path === "/background") body.dataset.corinthiansRoute = "introduction";
     else if (chapterMatch) {
-      body.dataset.romansRoute = "commentary";
-      body.dataset.romansChapter = chapterMatch[1];
-    } else body.removeAttribute("data-romans-route");
+      body.dataset.corinthiansRoute = "commentary";
+      body.dataset.corinthiansChapter = chapterMatch[1];
+    } else body.removeAttribute("data-corinthians-route");
 
     return () => {
       window.cancelAnimationFrame(resetFrame);

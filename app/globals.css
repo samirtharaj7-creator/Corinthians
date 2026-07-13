@@ -1,12 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --font-sans: "Lato", "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-serif: "Crimson Pro", "Lora", Georgia, "Times New Roman", serif;
+  --font-sans: "Jost", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-serif: "EB Garamond", Georgia, "Times New Roman", serif;
   --background: #f7f9fc;
   --background-rgb: 247 249 252;
   --foreground: #121827;
@@ -480,13 +478,6 @@ body {
   font-weight: 850;
 }
 
-.toolbar-dot {
-  height: 0.72rem;
-  width: 0.72rem;
-  border-radius: 999px;
-  background: color-mix(in srgb, var(--primary) 55%, var(--border));
-}
-
 .background-page {
   min-height: calc(100vh - 4rem);
   background: #f7f9fc;
@@ -510,20 +501,6 @@ body {
   font-weight: 900;
   line-height: 0.98;
   letter-spacing: 0;
-}
-
-.background-kicker,
-
-.background-section-label {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.55rem;
-  color: #3563e9;
-  font-size: 0.76rem;
-  font-weight: 850;
-  letter-spacing: 0.14em;
-  line-height: 1;
-  text-transform: uppercase;
 }
 
 .background-subtitle {
@@ -592,53 +569,6 @@ body {
   min-width: 0;
 }
 
-.background-summary {
-  border-left: 5px solid #3563e9;
-  background: var(--card);
-  padding: clamp(1.1rem, 2.2vw, 1.5rem);
-  box-shadow: 0 14px 40px color-mix(in srgb, #64748b 9%, transparent);
-}
-
-.background-summary p:last-child {
-  max-width: 58rem;
-  margin-top: 0.75rem;
-  color: #48566b;
-  font-size: 1.04rem;
-  line-height: 1.75;
-}
-
-.background-fact-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.75rem;
-  margin-top: 1rem;
-}
-
-.background-fact-card {
-  min-height: 5.9rem;
-  border: 1px solid var(--border);
-  border-radius: 0.55rem;
-  background: var(--card);
-  padding: clamp(0.82rem, 1.5vw, 1.05rem);
-}
-
-.background-fact-card h2 {
-  color: #4a4238;
-  font-size: 0.7rem;
-  font-weight: 900;
-  letter-spacing: 0.16em;
-  line-height: 1;
-  text-transform: uppercase;
-}
-
-.background-fact-card p {
-  margin-top: 0.62rem;
-  color: var(--foreground);
-  font-size: clamp(0.92rem, 1.25vw, 1.08rem);
-  font-weight: 800;
-  line-height: 1.38;
-}
-
 .background-section-list {
   margin-top: 1.3rem;
   border-top: 1px solid var(--border);
@@ -682,49 +612,13 @@ body {
 }
 
 
-.dark .background-summary,
-
-.dark .background-fact-card,
-
 .dark .background-section-nav a {
   background: var(--card);
 }
 
-
-.dark .background-fact-card h2 {
-  color: var(--muted-foreground);
-}
-
 .dark .background-subtitle,
-
-.dark .background-summary p:last-child,
-
 .dark .background-section-body p {
   color: var(--muted-foreground);
-}
-
-.commentary-prose {
-  color: color-mix(in srgb, var(--foreground) 84%, var(--muted-foreground));
-  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
-  font-size: 1rem;
-  line-height: 1.8;
-}
-
-.commentary-prose p + p {
-  margin-top: 1rem;
-}
-
-.chapter-tile {
-  position: relative;
-  overflow: hidden;
-}
-
-.chapter-tile::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-left: 6px solid color-mix(in srgb, var(--primary) 72%, transparent);
-  pointer-events: none;
 }
 
 @media (max-width: 980px) {
@@ -849,10 +743,6 @@ body {
     line-height: 1.04;
   }
 
-  .background-fact-grid {
-    grid-template-columns: 1fr;
-  }
-
   .background-section {
     grid-template-columns: 1fr;
     gap: 0.5rem;
@@ -870,8 +760,8 @@ body {
 
 /* Base academic palette and typography. */
 :root {
-  --font-sans: "Lato", "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-serif: "Crimson Pro", "Lora", Georgia, "Times New Roman", serif;
+  --font-sans: "Jost", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-serif: "EB Garamond", Georgia, "Times New Roman", serif;
   --background: #fbf8f1;
   --background-rgb: 251 248 241;
   --foreground: #2d2824;
@@ -963,10 +853,7 @@ body {
 .background-hero-copy h1,
 
 
-.background-section-body h2,
-
-
-.CardTitle {
+.background-section-body h2 {
   font-family: var(--font-serif), Georgia, "Times New Roman", serif;
   letter-spacing: 0;
 }
@@ -1046,14 +933,6 @@ body {
 
 
 
-.background-kicker,
-
-
-.background-section-label {
-  color: var(--primary);
-  letter-spacing: 0.18em;
-}
-
 .reader-page {
   background: linear-gradient(90deg, var(--card) 0 40%, var(--muted) 40% 100%);
 }
@@ -1125,12 +1004,7 @@ body {
 }
 
 .exposition-card,
-
-
-.verse-study-card,
-
-
-.background-summary {
+.verse-study-card {
   border-color: var(--border);
   border-radius: 0.45rem;
   background: var(--card);
@@ -1206,15 +1080,7 @@ main {
 
 
 .background-subtitle,
-
-
-.background-summary p:last-child,
-
-
-.background-section-body p,
-
-
-.commentary-prose {
+.background-section-body p {
   color: var(--muted-foreground);
 }
 
@@ -1245,15 +1111,6 @@ main {
 
 .background-section {
   border-color: var(--border);
-}
-
-.background-summary {
-  border-left-color: var(--primary);
-}
-
-
-.chapter-tile::before {
-  border-left-color: var(--primary);
 }
 
 @media (max-width: 980px) {
@@ -1658,17 +1515,7 @@ html.dark .reader-menu-link.reader-menu-link-active {
 
 
 html.dark .reference-chip,
-
-
 html.dark .word-reference-chip,
-
-
-html.dark .background-kicker,
-
-
-html.dark .background-section-label,
-
-
 html.dark .verse-number,
 
 
@@ -1680,8 +1527,7 @@ html.dark .text-primary {
 }
 
 html.dark .scripture-card-active,
-html.dark .word-note,
-html.dark .background-summary {
+html.dark .word-note {
   border-color: var(--primary) !important;
 }
 
@@ -2484,27 +2330,10 @@ body {
   font-weight: 500;
 }
 
-main.mx-auto.max-w-7xl {
-  background: transparent;
-}
-
 .home-showcase-shell,
-
 .background-hero,
-
 .background-section-nav,
-
-.background-shell,
-
-main.mx-auto.max-w-7xl,
-
-div.mx-auto.max-w-7xl,
-
-section.mx-auto.max-w-7xl,
-
-section.mx-auto.w-full.max-w-7xl,
-
-section.mx-auto.w-full.sm\:max-w-7xl {
+.background-shell {
   width: min(100%, var(--site-content-width)) !important;
   max-width: var(--site-content-width) !important;
   margin-right: auto !important;
@@ -2512,33 +2341,11 @@ section.mx-auto.w-full.sm\:max-w-7xl {
 }
 
 .home-showcase-shell,
-
 .background-hero,
-
 .background-section-nav,
-
-.background-shell,
-
-main.mx-auto.max-w-7xl,
-
-div.mx-auto.max-w-7xl,
-
-section.mx-auto.max-w-7xl,
-
-section.mx-auto.w-full.max-w-7xl,
-
-section.mx-auto.w-full.sm\:max-w-7xl {
+.background-shell {
   padding-right: var(--site-content-gutter) !important;
   padding-left: var(--site-content-gutter) !important;
-}
-
-.grid .rounded-lg.border.border-border.bg-card,
-.rounded-lg.border.border-border.bg-card,
-.rounded-xl.border.border-border.bg-card,
-.rounded-2xl.border.border-border.bg-card {
-  border-color: var(--border);
-  background: color-mix(in srgb, var(--card) 72%, transparent);
-  box-shadow: none;
 }
 
 @media (max-width: 980px) {

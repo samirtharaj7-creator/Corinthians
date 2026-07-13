@@ -6,15 +6,6 @@
   min-width: 0;
 }
 
-.corinthians-background-page .background-fact-card > svg {
-  margin-bottom: 0.8rem;
-  color: #d8b866;
-}
-
-.corinthians-background-page .background-summary p + p {
-  margin-top: 0.9rem;
-}
-
 .corinthians-background-page .background-section-nav {
   position: sticky;
   top: calc(46px + 4.35rem);
@@ -59,24 +50,6 @@
 .corinthians-background-page .background-section-nav a:focus-visible {
   outline: 2px solid #d8b866;
   outline-offset: 3px;
-}
-
-.background-scope {
-  display: inline-flex;
-  align-items: center;
-  min-height: 1.8rem;
-  margin-bottom: 0.8rem;
-  border: 1px solid rgba(201, 164, 76, 0.22);
-  border-radius: 999px;
-  background: rgba(201, 164, 76, 0.1);
-  padding: 0.35rem 0.7rem;
-  color: #d8b866;
-  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
-  font-size: 0.68rem;
-  font-weight: 600;
-  letter-spacing: 0.16em;
-  line-height: 1;
-  text-transform: uppercase;
 }
 
 .corinthians-background-page .background-section-body > p strong {

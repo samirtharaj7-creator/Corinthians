@@ -223,9 +223,7 @@ body > #root:empty::before {
 
 .reader-page,
 
-.background-shell,
-
-main.mx-auto.max-w-7xl {
+.background-shell {
   background:
     linear-gradient(90deg, rgba(201, 164, 76, .05) 0 1px, transparent 1px),
     linear-gradient(180deg, rgba(14, 33, 56, .96), rgba(8, 21, 33, .98)) !important;
@@ -237,36 +235,36 @@ main.mx-auto.max-w-7xl {
   padding-top: clamp(2.75rem, 5vh, 4rem) !important;
 }
 
-body[data-romans-route="home"] .home-showcase {
+body[data-corinthians-route="home"] .home-showcase {
   background: linear-gradient(180deg, #0b1f3a 0%, #0e2138 44%, #0b1f3a 100%) !important;
   background-size: 100% 100% !important;
   padding-top: 0 !important;
 }
 
-html.dark body[data-romans-route="home"] .home-showcase,
-html.dark body[data-romans-route="home"] .home-showcase-shell {
+html.dark body[data-corinthians-route="home"] .home-showcase,
+html.dark body[data-corinthians-route="home"] .home-showcase-shell {
   background: linear-gradient(180deg, #0b1f3a 0%, #0e2138 44%, #0b1f3a 100%) !important;
   background-size: 100% 100% !important;
 }
 
-body[data-romans-route="home"] .home-showcase-shell {
+body[data-corinthians-route="home"] .home-showcase-shell {
   width: 100% !important;
   max-width: none !important;
   padding-inline: 0 !important;
 }
 
-body[data-romans-route="home"] .home-showcase-hero {
+body[data-corinthians-route="home"] .home-showcase-hero {
   position: relative !important;
   isolation: isolate;
   overflow: hidden !important;
   min-height: clamp(34rem, 68vh, 46rem) !important;
-  margin: 0 0 clamp(2rem, 4vw, 3.5rem) !important;
+  margin: 0 !important;
   padding: clamp(4rem, 8vw, 7rem) clamp(2rem, 6vw, 6.5rem) clamp(3rem, 6vw, 5rem) !important;
-  border-bottom: 1px solid rgba(201, 164, 76, .18) !important;
+  border-bottom: 0 !important;
   background: #0b1f3a !important;
 }
 
-body[data-romans-route="home"] .home-showcase-hero::before {
+body[data-corinthians-route="home"] .home-showcase-hero::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -276,60 +274,186 @@ body[data-romans-route="home"] .home-showcase-hero::before {
   opacity: .96;
 }
 
-body[data-romans-route="home"] .home-showcase-hero::after {
+body[data-corinthians-route="home"] .home-showcase-hero::after {
   content: "";
   position: absolute;
   inset: 0;
   z-index: -1;
   background:
+    linear-gradient(180deg, rgba(11, 31, 58, .03) 0%, rgba(11, 31, 58, .32) 57%, rgba(11, 31, 58, .72) 82%, rgba(11, 31, 58, .92) 94%, #0b1f3a 100%),
     radial-gradient(circle at 80% 28%, rgba(216, 184, 102, .18), rgba(216, 184, 102, 0) 28rem),
-    linear-gradient(90deg, rgba(8, 21, 33, .98) 0%, rgba(8, 21, 33, .86) 30%, rgba(8, 21, 33, .42) 62%, rgba(8, 21, 33, .72) 100%),
-    linear-gradient(180deg, rgba(8, 21, 33, .18), rgba(8, 21, 33, .88));
+    linear-gradient(90deg, rgba(8, 21, 33, .98) 0%, rgba(8, 21, 33, .86) 30%, rgba(8, 21, 33, .42) 62%, rgba(8, 21, 33, .72) 100%);
 }
 
-body[data-romans-route="home"] .home-action-grid,
-body[data-romans-route="home"] .home-chapter-study {
+body[data-corinthians-route="home"] .home-action-grid,
+body[data-corinthians-route="home"] .home-chapter-study {
   width: min(calc(100% - clamp(2rem, 8vw, 6rem)), 92rem) !important;
   margin-inline: auto !important;
 }
 
-body[data-romans-route="home"] .home-showcase-copy {
+body[data-corinthians-route="home"] .home-action-grid {
+  position: relative;
+  z-index: 2;
+  margin-top: clamp(-3rem, -3vw, -1.75rem) !important;
+}
+
+body[data-corinthians-route="home"] .home-section-split {
+  grid-template-columns: minmax(0, 1fr) !important;
+  gap: clamp(1rem, 2vw, 1.5rem) !important;
+  align-items: start !important;
+}
+
+body[data-corinthians-route="home"] .home-section-split > div,
+body[data-corinthians-route="home"] #home-chapter-title {
+  width: 100%;
+  max-width: none;
+}
+
+body[data-corinthians-route="home"] #home-chapter-title {
+  font-size: clamp(1.75rem, 3vw, 3.25rem) !important;
+  line-height: 1.08 !important;
+}
+
+body[data-corinthians-route="home"] .home-section-split > p {
+  max-width: 72rem;
+}
+
+body[data-corinthians-route="home"] .home-showcase-copy {
   position: relative;
   z-index: 1;
   text-shadow: 0 16px 34px rgba(0, 0, 0, .55);
 }
 
-body[data-romans-route="introduction"] .background-hero {
+body[data-corinthians-route="introduction"] .background-hero {
   position: relative !important;
   isolation: isolate;
   overflow: hidden !important;
+  display: flex !important;
+  align-items: center !important;
+  min-height: clamp(30rem, 58vh, 42rem) !important;
+  padding: clamp(4rem, 7vw, 6.5rem) clamp(2rem, 6vw, 5.5rem) !important;
   border-bottom: 1px solid rgba(201, 164, 76, .18) !important;
   background: #0b1f3a !important;
 }
 
-body[data-romans-route="introduction"] .background-hero::before {
+body[data-corinthians-route="introduction"] .background-hero::before {
   content: "";
   position: absolute;
-  inset: 0;
+  inset: -4rem -1.5rem -1.5rem;
   z-index: -2;
-  background: url("/assets/corinthians-hero-engraving-filled.png?v=1") center top / cover no-repeat;
-  filter: saturate(.82) contrast(1.08);
-  opacity: .66;
+  pointer-events: none;
+  background-image:
+    linear-gradient(90deg, rgba(11, 31, 58, .94) 0%, rgba(11, 31, 58, .72) 38%, rgba(11, 31, 58, .2) 72%, rgba(11, 31, 58, .08) 100%),
+    linear-gradient(180deg, rgba(11, 31, 58, .18) 0%, rgba(11, 31, 58, .2) 42%, rgba(11, 31, 58, .62) 78%, rgba(8, 21, 33, .96) 100%),
+    url("/assets/corinthians-hero-engraving-filled.png?v=1");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .76;
+  transform: scale(1.025);
+  transform-origin: center top;
+  filter: saturate(.86) contrast(.96) brightness(.86);
 }
 
-body[data-romans-route="introduction"] .background-hero::after {
+body[data-corinthians-route="introduction"] .background-hero::after {
   content: "";
   position: absolute;
   inset: 0;
   z-index: -1;
+  pointer-events: none;
   background:
-    linear-gradient(90deg, rgba(8, 21, 33, .97) 0%, rgba(8, 21, 33, .84) 48%, rgba(8, 21, 33, .66) 100%),
-    radial-gradient(circle at 80% 20%, rgba(216, 184, 102, .18), rgba(216, 184, 102, 0) 26rem);
+    radial-gradient(ellipse at 16% 56%, rgba(11, 31, 58, .96) 0%, rgba(11, 31, 58, .7) 34%, transparent 62%),
+    radial-gradient(ellipse at 74% 24%, rgba(201, 164, 76, .09) 0%, transparent 42%),
+    linear-gradient(90deg, rgba(11, 31, 58, .86) 0%, rgba(11, 31, 58, .36) 42%, rgba(11, 31, 58, .12) 100%),
+    linear-gradient(180deg, rgba(5, 15, 28, .08) 0%, rgba(5, 15, 28, 0) 34%, rgba(8, 21, 33, .34) 76%, #081521 100%);
 }
 
-body[data-romans-route="introduction"] .background-hero > * {
+body[data-corinthians-route="introduction"] .background-hero > * {
   position: relative;
   z-index: 1;
+}
+
+body[data-corinthians-route="introduction"] .background-hero-copy {
+  width: 100% !important;
+  max-width: 100rem !important;
+  margin: 0 auto !important;
+  padding: clamp(1.25rem, 3vw, 2.25rem) 0 !important;
+}
+
+body[data-corinthians-route="introduction"] .background-introduction-title {
+  max-width: min(100%, 72rem) !important;
+  margin: 0 !important;
+  color: #f3e8cc !important;
+  line-height: 1 !important;
+  text-transform: uppercase !important;
+  text-shadow: 0 18px 42px rgba(0, 0, 0, .34);
+}
+
+body[data-corinthians-route="introduction"] .background-introduction-prefix,
+body[data-corinthians-route="introduction"] .background-introduction-book {
+  display: block;
+}
+
+body[data-corinthians-route="introduction"] .background-introduction-prefix {
+  margin-bottom: 1.125rem;
+  color: #d8b866;
+  font-family: "Jost", system-ui, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: .18em;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+body[data-corinthians-route="introduction"] .background-introduction-book {
+  color: #f3e8cc;
+  font-family: "Cinzel", Georgia, serif;
+  font-size: clamp(3rem, 7vw, 7rem);
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: .9;
+  white-space: nowrap;
+}
+
+body[data-corinthians-route="introduction"] .background-subtitle {
+  max-width: 50rem !important;
+  margin: 1.6rem 0 0 !important;
+  color: #cbbf9e !important;
+  font-family: "Jost", system-ui, sans-serif !important;
+  font-size: 1.25rem !important;
+  font-weight: 400 !important;
+  line-height: 1.7 !important;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, .45);
+}
+
+@media (max-width: 760px) {
+  body[data-corinthians-route="introduction"] .background-hero {
+    min-height: 25rem !important;
+    padding: 3rem 1.35rem 1.75rem !important;
+  }
+
+  body[data-corinthians-route="introduction"] .background-hero::before {
+    background-position: 64% top;
+    opacity: .52;
+  }
+
+  body[data-corinthians-route="introduction"] .background-introduction-prefix {
+    margin-bottom: .72rem;
+    font-size: 1rem;
+    letter-spacing: .12em;
+    line-height: 1.3;
+    white-space: normal;
+  }
+
+  body[data-corinthians-route="introduction"] .background-introduction-book {
+    font-size: clamp(2.25rem, 11.5vw, 4.5rem);
+    white-space: normal;
+  }
+
+  body[data-corinthians-route="introduction"] .background-subtitle {
+    margin-top: 1.25rem !important;
+    font-size: 1.08rem !important;
+  }
 }
 
 .home-showcase-copy h1 {
@@ -477,7 +601,7 @@ body[data-romans-route="introduction"] .background-hero > * {
   color: #ece0c4 !important;
 }
 
-body[data-romans-chapter] .scripture-pane-header {
+body[data-corinthians-chapter] .scripture-pane-header {
   position: relative !important;
   border: 0 !important;
   border-radius: 0 !important;
@@ -485,7 +609,7 @@ body[data-romans-chapter] .scripture-pane-header {
   box-shadow: none !important;
 }
 
-body[data-romans-chapter] .scripture-pane-header > * {
+body[data-corinthians-chapter] .scripture-pane-header > * {
   position: relative;
   z-index: 1;
 }
@@ -769,13 +893,13 @@ caption {
 }
 
 /* Chapter-screen typography. */
-body[data-romans-chapter] .scripture-pane-header h1 {
+body[data-corinthians-chapter] .scripture-pane-header h1 {
   font-family: "Cinzel", Georgia, serif !important;
   font-weight: 500 !important;
   letter-spacing: .015em !important;
 }
 
-body[data-romans-chapter] .scripture-chapter-summary {
+body[data-corinthians-chapter] .scripture-chapter-summary {
   font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif !important;
   font-size: clamp(1rem, 1.25vw, 1.25rem) !important;
   font-weight: 400 !important;
@@ -783,32 +907,32 @@ body[data-romans-chapter] .scripture-chapter-summary {
   line-height: 1.65 !important;
 }
 
-body[data-romans-chapter] .passage-outline-title,
-body[data-romans-chapter] .verse-copy {
+body[data-corinthians-chapter] .passage-outline-title,
+body[data-corinthians-chapter] .verse-copy {
   font-family: var(--font-serif), Georgia, serif !important;
 }
 
-body[data-romans-chapter] .passage-outline-title {
+body[data-corinthians-chapter] .passage-outline-title {
   font-weight: 600 !important;
   letter-spacing: .01em !important;
   line-height: 1.18 !important;
 }
 
-body[data-romans-chapter] .exposition-card-heading h2,
-body[data-romans-chapter] .commentary-reading,
-body[data-romans-chapter] .commentary-reading p {
+body[data-corinthians-chapter] .exposition-card-heading h2,
+body[data-corinthians-chapter] .commentary-reading,
+body[data-corinthians-chapter] .commentary-reading p {
   font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif !important;
   letter-spacing: 0 !important;
 }
 
-body[data-romans-chapter] .exposition-card-heading h2 {
+body[data-corinthians-chapter] .exposition-card-heading h2 {
   font-size: 1rem !important;
   font-weight: 600 !important;
   line-height: 1.45 !important;
 }
 
-body[data-romans-chapter] .commentary-reading,
-body[data-romans-chapter] .commentary-reading p {
+body[data-corinthians-chapter] .commentary-reading,
+body[data-corinthians-chapter] .commentary-reading p {
   font-size: var(--notes-font-size, 1.125rem) !important;
   font-weight: 400 !important;
   line-height: 1.82 !important;
@@ -834,7 +958,7 @@ body[data-romans-chapter] .commentary-reading p {
   }
 }
 
-body[data-romans-route="home"] .home-title-prefix {
+body[data-corinthians-route="home"] .home-title-prefix {
   margin: 0 0 1rem;
   color: #d8b866;
   font-family: var(--font-display) !important;
@@ -846,7 +970,7 @@ body[data-romans-route="home"] .home-title-prefix {
 }
 
 @media (max-width: 640px) {
-  body[data-romans-route="home"] .home-title-prefix {
+  body[data-corinthians-route="home"] .home-title-prefix {
     margin-bottom: .75rem;
     font-size: 1rem !important;
     letter-spacing: .14em;
@@ -854,13 +978,13 @@ body[data-romans-route="home"] .home-title-prefix {
 }
 
 @media (min-width: 981px) {
-  body[data-romans-route="home"] .home-action-grid {
+  body[data-corinthians-route="home"] .home-action-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
   }
 }
 
 /* Final chapter typography layer. */
-body[data-romans-chapter] .scripture-pane-header h1 {
+body[data-corinthians-chapter] .scripture-pane-header h1 {
   max-width: none !important;
   font-family: "Cinzel", Georgia, serif !important;
   font-size: clamp(1.875rem, 2.3vw, 2.25rem) !important;
@@ -869,7 +993,7 @@ body[data-romans-chapter] .scripture-pane-header h1 {
   line-height: 2.5rem !important;
 }
 
-body[data-romans-chapter] .scripture-chapter-summary {
+body[data-corinthians-chapter] .scripture-chapter-summary {
   max-width: 42rem !important;
   margin-top: .75rem !important;
   font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif !important;
@@ -879,13 +1003,13 @@ body[data-romans-chapter] .scripture-chapter-summary {
   line-height: 1.75rem !important;
 }
 
-body[data-romans-chapter] .passage-outline-divider {
+body[data-corinthians-chapter] .passage-outline-divider {
   background: transparent !important;
   font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif !important;
   box-shadow: none !important;
 }
 
-body[data-romans-chapter] .passage-outline-range {
+body[data-corinthians-chapter] .passage-outline-range {
   font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif !important;
   font-size: .72rem !important;
   font-weight: 700 !important;
@@ -893,7 +1017,7 @@ body[data-romans-chapter] .passage-outline-range {
   line-height: 1.35 !important;
 }
 
-body[data-romans-chapter] .passage-outline-title {
+body[data-corinthians-chapter] .passage-outline-title {
   font-family: "Cinzel", Georgia, serif !important;
   font-size: 1rem !important;
   font-weight: 700 !important;
@@ -901,7 +1025,7 @@ body[data-romans-chapter] .passage-outline-title {
   line-height: 1.35 !important;
 }
 
-body[data-romans-chapter] .verse-copy {
+body[data-corinthians-chapter] .verse-copy {
   font-family: var(--font-serif), Georgia, serif !important;
   font-size: var(--scripture-desktop-font-size, 1.25rem) !important;
   font-weight: 400 !important;
@@ -909,7 +1033,7 @@ body[data-romans-chapter] .verse-copy {
   line-height: 1.75rem !important;
 }
 
-body[data-romans-chapter] .exposition-card-heading h2 {
+body[data-corinthians-chapter] .exposition-card-heading h2 {
   font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif !important;
   font-size: .875rem !important;
   font-weight: 600 !important;
@@ -917,8 +1041,8 @@ body[data-romans-chapter] .exposition-card-heading h2 {
   line-height: 1.25rem !important;
 }
 
-body[data-romans-chapter] .commentary-reading,
-body[data-romans-chapter] .commentary-reading p {
+body[data-corinthians-chapter] .commentary-reading,
+body[data-corinthians-chapter] .commentary-reading p {
   font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif !important;
   font-size: var(--notes-font-size, 1.125rem) !important;
   font-weight: 400 !important;
@@ -927,57 +1051,57 @@ body[data-romans-chapter] .commentary-reading p {
 }
 
 @media (max-width: 640px) {
-  body[data-romans-chapter] .verse-copy {
+  body[data-corinthians-chapter] .verse-copy {
     font-size: var(--scripture-mobile-font-size, 1.125rem) !important;
   }
 }
 
 /* Commentary typography split between Scripture, notes, and interface text. */
-body[data-romans-chapter] .split-reader {
+body[data-corinthians-chapter] .split-reader {
   --scripture-mobile-font-size: 1.125rem;
   --scripture-desktop-font-size: 1.25rem;
   --notes-font-size: 1.125rem;
 }
 
-body[data-romans-chapter] .scripture-pane,
-body[data-romans-chapter] .scripture-pane-body,
-body[data-romans-chapter] .scripture-list,
-body[data-romans-chapter] .scripture-card,
-body[data-romans-chapter] .verse-copy {
+body[data-corinthians-chapter] .scripture-pane,
+body[data-corinthians-chapter] .scripture-pane-body,
+body[data-corinthians-chapter] .scripture-list,
+body[data-corinthians-chapter] .scripture-card,
+body[data-corinthians-chapter] .verse-copy {
   font-family: var(--font-serif), Georgia, serif !important;
 }
 
-body[data-romans-chapter] .commentary-pane,
-body[data-romans-chapter] .commentary-pane-body,
-body[data-romans-chapter] .commentary-reading,
-body[data-romans-chapter] .commentary-reading p,
-body[data-romans-chapter] .reader-pane-toolbar,
-body[data-romans-chapter] .reader-pane-kicker,
-body[data-romans-chapter] .reader-pane-subtitle,
-body[data-romans-chapter] .reader-pane-controls,
-body[data-romans-chapter] .reader-pane-controls button,
-body[data-romans-chapter] .verse-number,
-body[data-romans-chapter] .passage-outline-divider,
-body[data-romans-chapter] .passage-outline-range,
-body[data-romans-chapter] .exposition-card-heading h2 {
+body[data-corinthians-chapter] .commentary-pane,
+body[data-corinthians-chapter] .commentary-pane-body,
+body[data-corinthians-chapter] .commentary-reading,
+body[data-corinthians-chapter] .commentary-reading p,
+body[data-corinthians-chapter] .reader-pane-toolbar,
+body[data-corinthians-chapter] .reader-pane-kicker,
+body[data-corinthians-chapter] .reader-pane-subtitle,
+body[data-corinthians-chapter] .reader-pane-controls,
+body[data-corinthians-chapter] .reader-pane-controls button,
+body[data-corinthians-chapter] .verse-number,
+body[data-corinthians-chapter] .passage-outline-divider,
+body[data-corinthians-chapter] .passage-outline-range,
+body[data-corinthians-chapter] .exposition-card-heading h2 {
   font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif !important;
 }
 
-body[data-romans-chapter] .scripture-pane-body {
+body[data-corinthians-chapter] .scripture-pane-body {
   padding: 1.5rem clamp(1.5rem, 3vw, 2.5rem) 0 !important;
 }
 
-body[data-romans-chapter] .scripture-pane-header {
+body[data-corinthians-chapter] .scripture-pane-header {
   margin-bottom: 1.75rem !important;
   padding-bottom: 1.5rem !important;
   border-bottom: 1px solid rgba(201, 164, 76, .18) !important;
 }
 
-body[data-romans-chapter] .scripture-pane-header::after {
+body[data-corinthians-chapter] .scripture-pane-header::after {
   display: none !important;
 }
 
-body[data-romans-chapter] .scripture-pane-header h1 {
+body[data-corinthians-chapter] .scripture-pane-header h1 {
   max-width: none !important;
   color: #f3e8cc !important;
   font-family: "Cinzel", Georgia, serif !important;
@@ -987,7 +1111,7 @@ body[data-romans-chapter] .scripture-pane-header h1 {
   line-height: 2.5rem !important;
 }
 
-body[data-romans-chapter] .scripture-chapter-summary {
+body[data-corinthians-chapter] .scripture-chapter-summary {
   max-width: 42rem !important;
   margin-top: .75rem !important;
   color: rgba(236, 224, 196, .78) !important;
@@ -998,7 +1122,7 @@ body[data-romans-chapter] .scripture-chapter-summary {
   line-height: 1.75rem !important;
 }
 
-body[data-romans-chapter] .scripture-list {
+body[data-corinthians-chapter] .scripture-list {
   margin-top: 0 !important;
   display: grid !important;
   gap: 1rem !important;
@@ -1007,7 +1131,7 @@ body[data-romans-chapter] .scripture-list {
   line-height: 1.75rem !important;
 }
 
-body[data-romans-chapter] .passage-outline-divider {
+body[data-corinthians-chapter] .passage-outline-divider {
   margin: 2rem 0 .65rem !important;
   padding-top: 1rem !important;
   border-top: 1px solid rgba(201, 164, 76, .18) !important;
@@ -1015,7 +1139,7 @@ body[data-romans-chapter] .passage-outline-divider {
   box-shadow: none !important;
 }
 
-body[data-romans-chapter] .passage-outline-range {
+body[data-corinthians-chapter] .passage-outline-range {
   color: #d8b866 !important;
   font-size: .72rem !important;
   font-weight: 700 !important;
@@ -1024,7 +1148,7 @@ body[data-romans-chapter] .passage-outline-range {
   text-transform: uppercase !important;
 }
 
-body[data-romans-chapter] .passage-outline-title {
+body[data-corinthians-chapter] .passage-outline-title {
   margin-top: .35rem !important;
   color: #f3e8cc !important;
   font-family: "Cinzel", Georgia, serif !important;
@@ -1034,7 +1158,7 @@ body[data-romans-chapter] .passage-outline-title {
   line-height: 1.35 !important;
 }
 
-body[data-romans-chapter] .scripture-card {
+body[data-corinthians-chapter] .scripture-card {
   display: block !important;
   width: 100% !important;
   padding: .5rem !important;
@@ -1047,19 +1171,19 @@ body[data-romans-chapter] .scripture-card {
   transform: none !important;
 }
 
-body[data-romans-chapter] .scripture-card:hover {
+body[data-corinthians-chapter] .scripture-card:hover {
   background: rgba(201, 164, 76, .10) !important;
   transform: none !important;
 }
 
-body[data-romans-chapter] .scripture-card-active,
-body[data-romans-chapter] .scripture-card-active:hover {
+body[data-corinthians-chapter] .scripture-card-active,
+body[data-corinthians-chapter] .scripture-card-active:hover {
   border: 0 !important;
   background: rgba(201, 164, 76, .10) !important;
   box-shadow: inset 3px 0 0 0 #c9a44c !important;
 }
 
-body[data-romans-chapter] .verse-number {
+body[data-corinthians-chapter] .verse-number {
   display: inline !important;
   margin-right: .5rem !important;
   color: #d8b866 !important;
@@ -1069,7 +1193,7 @@ body[data-romans-chapter] .verse-number {
   vertical-align: super !important;
 }
 
-body[data-romans-chapter] .verse-copy {
+body[data-corinthians-chapter] .verse-copy {
   display: inline !important;
   color: #f3e8cc !important;
   font-size: var(--scripture-desktop-font-size, 1.25rem) !important;
@@ -1078,25 +1202,25 @@ body[data-romans-chapter] .verse-copy {
   line-height: 1.75rem !important;
 }
 
-body[data-romans-chapter] .commentary-pane {
+body[data-corinthians-chapter] .commentary-pane {
   background: hsl(213 34% 18%) !important;
 }
 
-body[data-romans-chapter] .reader-pane-toolbar-notes {
+body[data-corinthians-chapter] .reader-pane-toolbar-notes {
   background: hsl(213 42% 16%) !important;
   border-bottom-color: hsl(213 26% 27%) !important;
 }
 
-body[data-romans-chapter] .commentary-pane-body {
+body[data-corinthians-chapter] .commentary-pane-body {
   padding: 1.25rem !important;
   background: hsl(213 34% 18%) !important;
 }
 
-body[data-romans-chapter] .commentary-shell {
+body[data-corinthians-chapter] .commentary-shell {
   max-width: none !important;
 }
 
-body[data-romans-chapter] .exposition-card {
+body[data-corinthians-chapter] .exposition-card {
   margin-top: 0 !important;
   padding: 1.25rem !important;
   border: 1px solid rgba(201, 164, 76, .55) !important;
@@ -1107,11 +1231,11 @@ body[data-romans-chapter] .exposition-card {
     0 1px 2px rgba(0, 0, 0, .18) !important;
 }
 
-body[data-romans-chapter] .exposition-card-heading {
+body[data-corinthians-chapter] .exposition-card-heading {
   margin-bottom: .75rem !important;
 }
 
-body[data-romans-chapter] .exposition-card-heading h2 {
+body[data-corinthians-chapter] .exposition-card-heading h2 {
   color: #f3e8cc !important;
   font-size: .875rem !important;
   font-weight: 600 !important;
@@ -1119,7 +1243,7 @@ body[data-romans-chapter] .exposition-card-heading h2 {
   line-height: 1.25rem !important;
 }
 
-body[data-romans-chapter] .commentary-reading {
+body[data-corinthians-chapter] .commentary-reading {
   margin-top: 0 !important;
   color: rgba(236, 224, 196, .86) !important;
   font-size: var(--notes-font-size, 1.125rem) !important;
@@ -1128,7 +1252,7 @@ body[data-romans-chapter] .commentary-reading {
   line-height: 2rem !important;
 }
 
-body[data-romans-chapter] .commentary-reading p {
+body[data-corinthians-chapter] .commentary-reading p {
   color: inherit !important;
   font-size: inherit !important;
   font-weight: inherit !important;
@@ -1136,62 +1260,62 @@ body[data-romans-chapter] .commentary-reading p {
   line-height: inherit !important;
 }
 
-body[data-romans-chapter] .commentary-reading p + p {
+body[data-corinthians-chapter] .commentary-reading p + p {
   margin-top: 1.5rem !important;
 }
 
 @media (max-width: 640px) {
-  body[data-romans-chapter] .scripture-list,
-  body[data-romans-chapter] .verse-copy {
+  body[data-corinthians-chapter] .scripture-list,
+  body[data-corinthians-chapter] .verse-copy {
     font-size: var(--scripture-mobile-font-size, 1.125rem) !important;
   }
 
-  body[data-romans-chapter] .scripture-pane-header h1 {
+  body[data-corinthians-chapter] .scripture-pane-header h1 {
     font-size: 1.875rem !important;
     line-height: 2.25rem !important;
   }
 }
 
 /* Final Corinthians chapter reader layer. */
-body[data-romans-chapter] {
+body[data-corinthians-chapter] {
   background: hsl(213 58% 13%) !important;
 }
 
-body[data-romans-chapter] .reader-page {
+body[data-corinthians-chapter] .reader-page {
   background: hsl(213 58% 13%) !important;
 }
 
-body[data-romans-chapter] .split-reader {
+body[data-corinthians-chapter] .split-reader {
   --scripture-mobile-font-size: 1.125rem;
   --scripture-desktop-font-size: 1.25rem;
   --notes-font-size: 1.125rem;
   background: hsl(213 58% 13%) !important;
 }
 
-body[data-romans-chapter] .scripture-pane {
+body[data-corinthians-chapter] .scripture-pane {
   background: hsl(213 42% 16%) !important;
 }
 
-body[data-romans-chapter] .commentary-pane,
-body[data-romans-chapter] .commentary-pane-body {
+body[data-corinthians-chapter] .commentary-pane,
+body[data-corinthians-chapter] .commentary-pane-body {
   background: hsl(213 34% 18%) !important;
 }
 
-body[data-romans-chapter] .scripture-pane-body {
+body[data-corinthians-chapter] .scripture-pane-body {
   padding: 1.5rem clamp(1.5rem, 3vw, 2.5rem) 0 !important;
 }
 
-body[data-romans-chapter] .scripture-pane-header {
+body[data-corinthians-chapter] .scripture-pane-header {
   margin-bottom: .75rem !important;
   padding-bottom: .35rem !important;
   border-bottom: 0 !important;
 }
 
-body[data-romans-chapter] .scripture-pane-header::after {
+body[data-corinthians-chapter] .scripture-pane-header::after {
   display: none !important;
 }
 
-body[data-romans-chapter] .scripture-pane-header h1 {
+body[data-corinthians-chapter] .scripture-pane-header h1 {
   color: hsl(41 44% 89%) !important;
   font-family: "Cinzel", Georgia, serif !important;
   font-size: clamp(1.875rem, 2.3vw, 2.25rem) !important;
@@ -1200,7 +1324,7 @@ body[data-romans-chapter] .scripture-pane-header h1 {
   line-height: 2.5rem !important;
 }
 
-body[data-romans-chapter] .scripture-chapter-summary {
+body[data-corinthians-chapter] .scripture-chapter-summary {
   max-width: 42rem !important;
   margin-top: .75rem !important;
   color: hsl(41 20% 68%) !important;
@@ -1210,13 +1334,13 @@ body[data-romans-chapter] .scripture-chapter-summary {
   line-height: 1.75rem !important;
 }
 
-body[data-romans-chapter] .passage-outline-divider {
+body[data-corinthians-chapter] .passage-outline-divider {
   margin: 0 0 .65rem !important;
   padding-top: 0 !important;
   border-top: 0 !important;
 }
 
-body[data-romans-chapter] .passage-outline-range {
+body[data-corinthians-chapter] .passage-outline-range {
   color: hsl(42 54% 54%) !important;
   font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif !important;
   font-size: .72rem !important;
@@ -1225,7 +1349,7 @@ body[data-romans-chapter] .passage-outline-range {
   line-height: 1.35 !important;
 }
 
-body[data-romans-chapter] .passage-outline-title {
+body[data-corinthians-chapter] .passage-outline-title {
   margin-top: .35rem !important;
   color: hsl(41 44% 89%) !important;
   font-family: "Cinzel", Georgia, serif !important;
@@ -1235,12 +1359,12 @@ body[data-romans-chapter] .passage-outline-title {
   line-height: 1.35 !important;
 }
 
-body[data-romans-chapter] .scripture-list {
+body[data-corinthians-chapter] .scripture-list {
   gap: 1rem !important;
   color: hsl(41 44% 89%) !important;
 }
 
-body[data-romans-chapter] .scripture-card {
+body[data-corinthians-chapter] .scripture-card {
   display: block !important;
   padding: .5rem !important;
   border: 0 !important;
@@ -1248,13 +1372,13 @@ body[data-romans-chapter] .scripture-card {
   background: transparent !important;
 }
 
-body[data-romans-chapter] .scripture-card-active,
-body[data-romans-chapter] .scripture-card-active:hover {
+body[data-corinthians-chapter] .scripture-card-active,
+body[data-corinthians-chapter] .scripture-card-active:hover {
   background: hsl(42 54% 54% / .10) !important;
   box-shadow: inset 3px 0 0 hsl(42 54% 54%) !important;
 }
 
-body[data-romans-chapter] .verse-number {
+body[data-corinthians-chapter] .verse-number {
   display: inline !important;
   margin-right: .5rem !important;
   color: hsl(42 54% 54%) !important;
@@ -1265,7 +1389,7 @@ body[data-romans-chapter] .verse-number {
   vertical-align: super !important;
 }
 
-body[data-romans-chapter] .verse-copy {
+body[data-corinthians-chapter] .verse-copy {
   display: inline !important;
   color: hsl(41 44% 89%) !important;
   font-family: var(--font-serif), Georgia, serif !important;
@@ -1274,14 +1398,14 @@ body[data-romans-chapter] .verse-copy {
   line-height: 1.75rem !important;
 }
 
-body[data-romans-chapter] .reader-pane-toolbar,
-body[data-romans-chapter] .reader-pane-toolbar-notes {
+body[data-corinthians-chapter] .reader-pane-toolbar,
+body[data-corinthians-chapter] .reader-pane-toolbar-notes {
   min-height: 65px !important;
   background: hsl(213 42% 16%) !important;
   border-color: hsl(213 26% 27%) !important;
 }
 
-body[data-romans-chapter] .reader-pane-kicker {
+body[data-corinthians-chapter] .reader-pane-kicker {
   color: hsl(41 44% 89%) !important;
   font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif !important;
   font-size: .875rem !important;
@@ -1289,15 +1413,15 @@ body[data-romans-chapter] .reader-pane-kicker {
   letter-spacing: .16em !important;
 }
 
-body[data-romans-chapter] .reader-pane-kicker svg {
+body[data-corinthians-chapter] .reader-pane-kicker svg {
   color: hsl(42 54% 54%) !important;
 }
 
-body[data-romans-chapter] .commentary-pane-body {
+body[data-corinthians-chapter] .commentary-pane-body {
   padding: 1.25rem !important;
 }
 
-body[data-romans-chapter] .exposition-card {
+body[data-corinthians-chapter] .exposition-card {
   margin-top: 0 !important;
   padding: 1.25rem !important;
   border: 1px solid hsl(42 54% 54% / .55) !important;
@@ -1308,11 +1432,11 @@ body[data-romans-chapter] .exposition-card {
     0 1px 2px rgb(0 0 0 / .18) !important;
 }
 
-body[data-romans-chapter] .exposition-card-heading {
+body[data-corinthians-chapter] .exposition-card-heading {
   margin-bottom: .75rem !important;
 }
 
-body[data-romans-chapter] .exposition-card-heading h2 {
+body[data-corinthians-chapter] .exposition-card-heading h2 {
   color: hsl(41 44% 89%) !important;
   font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif !important;
   font-size: .875rem !important;
@@ -1321,8 +1445,8 @@ body[data-romans-chapter] .exposition-card-heading h2 {
   line-height: 1.25rem !important;
 }
 
-body[data-romans-chapter] .commentary-reading,
-body[data-romans-chapter] .commentary-reading p {
+body[data-corinthians-chapter] .commentary-reading,
+body[data-corinthians-chapter] .commentary-reading p {
   color: hsl(41 44% 89%) !important;
   font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif !important;
   font-size: var(--notes-font-size, 1.125rem) !important;
@@ -1331,7 +1455,7 @@ body[data-romans-chapter] .commentary-reading p {
   line-height: 2rem !important;
 }
 
-body[data-romans-chapter] .commentary-reading p + p {
+body[data-corinthians-chapter] .commentary-reading p + p {
   margin-top: 1rem !important;
 }
 
@@ -1375,13 +1499,13 @@ body {
 .background-hero h2,
 
 
-body[data-romans-chapter] .scripture-pane-header h1,
+body[data-corinthians-chapter] .scripture-pane-header h1,
 
 
-body[data-romans-chapter] .passage-outline-title,
+body[data-corinthians-chapter] .passage-outline-title,
 
 
-body[data-romans-chapter] .reader-pane-toolbar-notes .reader-pane-kicker {
+body[data-corinthians-chapter] .reader-pane-toolbar-notes .reader-pane-kicker {
   font-family: var(--font-display) !important;
   font-weight: 600 !important;
 }
@@ -1404,7 +1528,7 @@ body[data-romans-chapter] .reader-pane-toolbar-notes .reader-pane-kicker {
   line-height: 1.12 !important;
 }
 
-body[data-romans-chapter] .scripture-pane-header h1 {
+body[data-corinthians-chapter] .scripture-pane-header h1 {
   font-size: clamp(1.7rem, 2.1vw, 2.15rem) !important;
   line-height: 2.15rem !important;
 }
@@ -1412,17 +1536,17 @@ body[data-romans-chapter] .scripture-pane-header h1 {
 .verse-copy,
 .scripture-card .verse-copy,
 .scripture-pane .verse-copy,
-body[data-romans-chapter] .verse-copy {
+body[data-corinthians-chapter] .verse-copy {
   font-family: var(--font-serif) !important;
 }
 
-body[data-romans-chapter] .verse-copy {
+body[data-corinthians-chapter] .verse-copy {
   font-size: var(--scripture-desktop-font-size, 1.25rem) !important;
   font-weight: 400 !important;
   line-height: 1.75rem !important;
 }
 
-body[data-romans-chapter] .passage-outline-title {
+body[data-corinthians-chapter] .passage-outline-title {
   font-family: var(--font-display) !important;
   font-size: 1.25rem !important;
   font-weight: 600 !important;
@@ -1430,9 +1554,9 @@ body[data-romans-chapter] .passage-outline-title {
   line-height: 1.25 !important;
 }
 
-body[data-romans-chapter] .commentary-reading,
+body[data-corinthians-chapter] .commentary-reading,
 
-body[data-romans-chapter] .commentary-reading p {
+body[data-corinthians-chapter] .commentary-reading p {
   font-family: var(--font-sans) !important;
   font-size: var(--notes-font-size, 1.125rem) !important;
   font-weight: 400 !important;
@@ -1518,9 +1642,6 @@ body[data-romans-chapter] .commentary-reading p {
 .home-chapter-mini-grid span,
 
 
-.background-kicker,
-
-
 .background-subtitle,
 
 
@@ -1530,19 +1651,7 @@ body[data-romans-chapter] .commentary-reading p {
 .background-section-nav a,
 
 
-.background-section-label,
-
-
 .background-section-number,
-
-
-.background-fact-card,
-
-
-.background-fact-card h2,
-
-
-.background-fact-card p,
 
 
 .reader-pane-toolbar,
@@ -1615,18 +1724,18 @@ caption {
   font-family: var(--font-sans) !important;
 }
 
-body[data-romans-chapter] .reader-pane-toolbar:not(.reader-pane-toolbar-notes) .reader-pane-kicker,
+body[data-corinthians-chapter] .reader-pane-toolbar:not(.reader-pane-toolbar-notes) .reader-pane-kicker,
 
-body[data-romans-chapter] .reader-pane-toolbar:not(.reader-pane-toolbar-notes) .reader-pane-kicker span,
+body[data-corinthians-chapter] .reader-pane-toolbar:not(.reader-pane-toolbar-notes) .reader-pane-kicker span,
 
-body[data-romans-chapter] .passage-outline-range,
+body[data-corinthians-chapter] .passage-outline-range,
 
-body[data-romans-chapter] .verse-number {
+body[data-corinthians-chapter] .verse-number {
   font-family: var(--font-sans) !important;
 }
 
-body[data-romans-chapter] .reader-pane-toolbar-notes .reader-pane-kicker,
-body[data-romans-chapter] .reader-pane-toolbar-notes .reader-pane-kicker span {
+body[data-corinthians-chapter] .reader-pane-toolbar-notes .reader-pane-kicker,
+body[data-corinthians-chapter] .reader-pane-toolbar-notes .reader-pane-kicker span {
   font-family: var(--font-display) !important;
   font-size: .875rem !important;
   font-weight: 600 !important;
@@ -1672,9 +1781,6 @@ body[data-romans-chapter] .reader-pane-toolbar-notes .reader-pane-kicker span {
 .home-action-card > span:not(.home-action-icon),
 
 .home-section-split > p,
-
-.background-summary p,
-
 .background-section-body p {
   font-size: .98rem !important;
 }
@@ -1693,7 +1799,7 @@ body[data-romans-chapter] .reader-pane-toolbar-notes .reader-pane-kicker span {
   font-size: .875rem !important;
 }
 
-body[data-romans-chapter] .split-reader {
+body[data-corinthians-chapter] .split-reader {
   --scripture-mobile-font-size: 1.125rem;
   --scripture-desktop-font-size: 1.25rem;
   --notes-font-size: 1.125rem;
@@ -1704,7 +1810,7 @@ body[data-romans-chapter] .split-reader {
     font-size: clamp(3rem, 16vw, 4.5rem) !important;
   }
 
-  body[data-romans-chapter] .verse-copy {
+  body[data-corinthians-chapter] .verse-copy {
     font-size: var(--scripture-mobile-font-size, 1.125rem) !important;
   }
 }

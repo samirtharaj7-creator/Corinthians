@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button";
 
 const links = [
   { href: "/", label: "Home", active: (pathname: string) => pathname === "/" },
-  { href: "/background/", label: "Background", active: (pathname: string) => pathname === "/background" },
+  { href: "/background/", label: "Introduction", active: (pathname: string) => pathname === "/background" },
   { href: "/1-corinthians/1/", label: "1 Corinthians", active: (pathname: string) => pathname.startsWith("/1-corinthians") },
   { href: "/2-corinthians/1/", label: "2 Corinthians", active: (pathname: string) => pathname.startsWith("/2-corinthians") }
 ];

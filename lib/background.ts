@@ -52,17 +52,8 @@ const backgroundBlockSchema = z.discriminatedUnion("type", [
 const backgroundSectionSchema = z
   .object({
     id: nonEmptyText,
-    scope: z.enum(["Both Letters", "1 Corinthians", "2 Corinthians"]),
     title: nonEmptyText,
     blocks: z.array(backgroundBlockSchema).min(3)
-  })
-  .strict();
-
-const backgroundFactSchema = z
-  .object({
-    icon: z.enum(["location", "period", "letters", "mission"]),
-    label: nonEmptyText,
-    value: nonEmptyText
   })
   .strict();
 
@@ -81,8 +72,6 @@ const backgroundContentSchema = z
   .object({
     title: nonEmptyText,
     subtitle: nonEmptyText,
-    readingLens: z.array(nonEmptyText).min(1).max(2),
-    facts: z.array(backgroundFactSchema).length(4),
     sections: z.array(backgroundSectionSchema).length(8)
   })
   .strict()
@@ -128,7 +117,6 @@ const backgroundContentSchema = z
   });
 
 export type BackgroundBlock = z.infer<typeof backgroundBlockSchema>;
-export type BackgroundFact = z.infer<typeof backgroundFactSchema>;
 export type BackgroundSection = z.infer<typeof backgroundSectionSchema>;
 export type BackgroundContent = z.infer<typeof backgroundContentSchema>;
 

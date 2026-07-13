@@ -8,6 +8,12 @@ import {
 
 const studyActions = [
   {
+    title: "Introduction",
+    href: "/background/",
+    description: "Explore Corinth, Paul's mission, the church's makeup, and the setting of both letters.",
+    icon: BookOpenCheck
+  },
+  {
     title: "First Corinthians",
     href: "/1-corinthians/1/",
     description: "Read the sixteen-chapter study of unity, holiness, worship, gifts, love, and resurrection.",
@@ -18,12 +24,6 @@ const studyActions = [
     href: "/2-corinthians/1/",
     description: "Read the thirteen-chapter study of comfort, ministry, reconciliation, generosity, and strength.",
     icon: BookOpen
-  },
-  {
-    title: "Historical Background",
-    href: "/background/",
-    description: "Explore Corinth, Paul's mission, the church's makeup, and the setting of both letters.",
-    icon: BookOpenCheck
   }
 ] as const;
 
@@ -65,7 +65,7 @@ export function HeroSection() {
                 Explore 2 Corinthians
               </a>
               <a href="/background/" className="home-showcase-secondary">
-                Read the Background
+                Read the Introduction
               </a>
             </div>
           </div>

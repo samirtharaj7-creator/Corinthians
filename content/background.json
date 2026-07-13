@@ -1,36 +1,9 @@
 {
-  "title": "Historical Background",
-  "subtitle": "The author, dates, city, church, correspondence, and pastoral setting behind both letters.",
-  "readingLens": [
-    "The Corinthian letters are pastoral communication within an ongoing relationship. Paul is not writing an abstract guide to Christian belief. He is helping a young congregation learn how the gospel reshapes loyalty, sexuality, worship, money, power, suffering, and community life.",
-    "Some details of the visits and letters between Paul and Corinth remain uncertain. The broad movement is clearer: the church was founded, serious disorders developed, correction brought pain, and reconciliation opened the way for renewed partnership."
-  ],
-  "facts": [
-    {
-      "icon": "mission",
-      "label": "Author",
-      "value": "Paul the apostle"
-    },
-    {
-      "icon": "period",
-      "label": "Dates",
-      "value": "Approximately A.D. 54–56"
-    },
-    {
-      "icon": "location",
-      "label": "Setting",
-      "value": "Roman Corinth, capital of Achaia"
-    },
-    {
-      "icon": "letters",
-      "label": "Letters",
-      "value": "1 and 2 Corinthians"
-    }
-  ],
+  "title": "Introduction to the Epistles to the Corinthians",
+  "subtitle": "A concise guide to the authorship, dates, city, church, correspondence, and pastoral setting of both letters.",
   "sections": [
     {
       "id": "pauline-authorship",
-      "scope": "Both Letters",
       "title": "Author: Paul the Apostle",
       "blocks": [
         {
@@ -49,7 +22,6 @@
     },
     {
       "id": "date-and-place-of-writing",
-      "scope": "Both Letters",
       "title": "Date and Place of Writing",
       "blocks": [
         {
@@ -68,7 +40,6 @@
     },
     {
       "id": "corinth-and-its-world",
-      "scope": "Both Letters",
       "title": "Historical Context: Corinth and Its World",
       "blocks": [
         {
@@ -91,7 +62,6 @@
     },
     {
       "id": "the-founding-and-makeup-of-the-church",
-      "scope": "Both Letters",
       "title": "Recipients and Church Formation",
       "blocks": [
         {
@@ -114,7 +84,6 @@
     },
     {
       "id": "pauls-relationship-with-corinth",
-      "scope": "Both Letters",
       "title": "Paul’s Relationship and Chronology",
       "blocks": [
         {
@@ -171,7 +140,6 @@
     },
     {
       "id": "why-paul-wrote-1-corinthians",
-      "scope": "1 Corinthians",
       "title": "Occasion and Purpose of 1 Corinthians",
       "blocks": [
         {
@@ -194,7 +162,6 @@
     },
     {
       "id": "why-paul-wrote-2-corinthians",
-      "scope": "2 Corinthians",
       "title": "Occasion and Purpose of 2 Corinthians",
       "blocks": [
         {
@@ -217,7 +184,6 @@
     },
     {
       "id": "how-the-letters-fit-together",
-      "scope": "Both Letters",
       "title": "How the Two Letters Fit Together",
       "blocks": [
         {

@@ -13,9 +13,7 @@
     "validate:theology": "node scripts/validate-corinthians-theology.mjs",
     "validate:humanization": "node scripts/validate-corinthians-humanization.mjs",
     "validate:library": "python3 scripts/validate-corinthians-library.py",
-    "generate:corinthians": "node scripts/generate-corinthians-content.mjs",
     "import:corinthians-notes": "node scripts/import-corinthians-notes.mjs",
-    "apply:corinthians-outlines": "node scripts/apply-corinthians-outlines.mjs",
     "audit:corinthians-copying": "python3 scripts/audit-corinthians-copying.py"
   },
   "dependencies": {
@@ -39,7 +37,6 @@
     "eslint-config-next": "latest",
     "postcss": "^8.5.15",
     "tailwindcss": "^3.4.17",
-    "tsx": "latest",
     "typescript": "latest"
   }
 }

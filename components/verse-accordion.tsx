@@ -37,10 +37,10 @@ function clampNumber(value: number, min: number, max: number) {
 
 export function ChapterStudy({
   chapter,
-  bookName = "Romans"
+  bookName
 }: {
   chapter: PublicChapterContent;
-  bookName?: string;
+  bookName: string;
 }) {
   const firstVerse = chapter.verses[0]?.verse ?? "";
   const [selectedVerseRef, setSelectedVerseRef] = useState(firstVerse);

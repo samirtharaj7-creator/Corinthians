@@ -1,10 +1,10 @@
-body[data-romans-route="commentary"] .exposition-card-blank {
+body[data-corinthians-route="commentary"] .exposition-card-blank {
   display: flex;
   min-height: clamp(24rem, 62vh, 42rem);
   flex-direction: column;
 }
 
-body[data-romans-route="commentary"] .commentary-blank-space {
+body[data-corinthians-route="commentary"] .commentary-blank-space {
   flex: 1;
   min-height: 20rem;
   margin-top: 1rem;
@@ -20,7 +20,7 @@ body[data-romans-route="commentary"] .commentary-blank-space {
 }
 
 @media (max-width: 980px) {
-  body[data-romans-route="commentary"] .exposition-card-blank {
+  body[data-corinthians-route="commentary"] .exposition-card-blank {
     min-height: 24rem;
   }
 }
