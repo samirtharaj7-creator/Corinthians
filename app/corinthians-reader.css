@@ -25,7 +25,7 @@ body[data-romans-route="commentary"] .commentary-blank-space {
   }
 }
 
-/* Compact chapter-and-verse navigator, matched to the current Romans reader. */
+/* Compact chapter-and-verse navigator for the Corinthians reader. */
 .reader-page {
   --chapter-strip-height: 3.35rem !important;
 }

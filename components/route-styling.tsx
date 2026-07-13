@@ -10,7 +10,7 @@ export function RouteStyling() {
     const html = document.documentElement;
     const body = document.body;
     const path = pathname.replace(/\/$/, "") || "/";
-    const chapterMatch = path.match(/^\/(?:romans|1-corinthians|2-corinthians)\/(\d+)$/);
+    const chapterMatch = path.match(/^\/(?:1-corinthians|2-corinthians)\/(\d+)$/);
 
     // Cross-page reader navigation must never inherit an outer-page scroll
     // position. Each reader pane maintains its own independent scroll state.
@@ -30,9 +30,7 @@ export function RouteStyling() {
     body.removeAttribute("data-romans-chapter");
 
     if (path === "/") body.dataset.romansRoute = "home";
-    else if (path === "/introduction" || path === "/background") body.dataset.romansRoute = "introduction";
-    else if (path === "/search") body.dataset.romansRoute = "search";
-    else if (path === "/articles" || path.startsWith("/articles/")) body.dataset.romansRoute = "articles";
+    else if (path === "/background") body.dataset.romansRoute = "introduction";
     else if (chapterMatch) {
       body.dataset.romansRoute = "commentary";
       body.dataset.romansChapter = chapterMatch[1];

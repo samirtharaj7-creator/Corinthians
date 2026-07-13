@@ -100,58 +100,9 @@ export const ChapterContentSchema = z.object({
   sources: z.array(SourceRefSchema)
 });
 
-const IntroductionSectionItemSchema = z.object({
-  title: z.string().optional(),
-  body: z.string()
-});
-
-const IntroductionSubsectionSchema = z.object({
-  title: z.string(),
-  body: z.array(z.string()).default([]),
-  items: z.array(z.string()).default([])
-});
-
-const IntroductionSectionSchema = z.object({
-  id: z.string(),
-  title: z.string(),
-  body: z.array(z.string()).default([]),
-  items: z.array(IntroductionSectionItemSchema).default([]),
-  subsections: z.array(IntroductionSubsectionSchema).default([])
-});
-
-export const IntroductionContentSchema = z.object({
-  title: z.string(),
-  subtitle: z.string(),
-  summary: z.string(),
-  facts: z.array(z.object({
-    label: z.string(),
-    value: z.string()
-  })).default([]),
-  highlights: z.array(z.string()),
-  sections: z.array(IntroductionSectionSchema),
-  relatedLinks: z.array(z.object({
-    title: z.string(),
-    href: z.string(),
-    description: z.string()
-  })).default([])
-});
-
-export const ResourceSchema = z.object({
-  id: z.string(),
-  title: z.string(),
-  author: z.string(),
-  type: z.string(),
-  tradition: z.string(),
-  interpretiveCategory: z.string(),
-  howUsed: z.string(),
-  citationFormat: z.string()
-});
-
 export type SourceRef = z.infer<typeof SourceRefSchema>;
 export type VerseCommentary = z.infer<typeof VerseCommentarySchema>;
 export type VerseSourceAudit = z.infer<typeof VerseSourceAuditSchema>;
 export type WordNote = z.infer<typeof WordNoteSchema>;
 export type VerseEntry = z.infer<typeof VerseEntrySchema>;
 export type ChapterContent = z.infer<typeof ChapterContentSchema>;
-export type IntroductionContent = z.infer<typeof IntroductionContentSchema>;
-export type Resource = z.infer<typeof ResourceSchema>;

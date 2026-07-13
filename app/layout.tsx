@@ -3,7 +3,6 @@ import { GlobalFooter, GlobalShell } from "@/components/global-shell";
 import { ReadingProgressBar } from "@/components/reading-progress";
 import { RouteStyling } from "@/components/route-styling";
 import { SiteHeader } from "@/components/site-header";
-import { TooltipProvider } from "@/components/ui/tooltip";
 import "./globals.css";
 import "./global-shell.css";
 import "./corinthians-illustrated.css";
@@ -36,7 +35,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <GlobalShell />
         <ReadingProgressBar />
         <SiteHeader />
-        <TooltipProvider>{children}</TooltipProvider>
+        {children}
         <GlobalFooter />
       </body>
     </html>
