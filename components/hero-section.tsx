@@ -1,4 +1,5 @@
-import Link from "next/link";
+/* eslint-disable @next/next/no-html-link-for-pages -- Full document navigation is intentional for the static Pages export. */
+
 import {
   ArrowRight,
   BookOpen,
@@ -8,19 +9,19 @@ import {
 const studyActions = [
   {
     title: "First Corinthians",
-    href: "/1-corinthians/1",
+    href: "/1-corinthians/1/",
     description: "Read the sixteen-chapter study of unity, holiness, worship, gifts, love, and resurrection.",
     icon: BookOpen
   },
   {
     title: "Second Corinthians",
-    href: "/2-corinthians/1",
+    href: "/2-corinthians/1/",
     description: "Read the thirteen-chapter study of comfort, ministry, reconciliation, generosity, and strength.",
     icon: BookOpen
   },
   {
     title: "Historical Background",
-    href: "/background",
+    href: "/background/",
     description: "Explore Corinth, Paul's mission, the church's makeup, and the setting of both letters.",
     icon: BookOpenCheck
   }
@@ -56,16 +57,16 @@ export function HeroSection() {
               study notes that trace Paul&apos;s argument, theology, and pastoral counsel.
             </p>
             <div className="home-showcase-actions">
-              <Link href="/1-corinthians/1" className="home-showcase-primary">
+              <a href="/1-corinthians/1/" className="home-showcase-primary">
                 Explore 1 Corinthians
                 <ArrowRight className="h-4 w-4" />
-              </Link>
-              <Link href="/2-corinthians/1" className="home-showcase-secondary">
+              </a>
+              <a href="/2-corinthians/1/" className="home-showcase-secondary">
                 Explore 2 Corinthians
-              </Link>
-              <Link href="/background" className="home-showcase-secondary">
+              </a>
+              <a href="/background/" className="home-showcase-secondary">
                 Read the Background
-              </Link>
+              </a>
             </div>
           </div>
         </section>
@@ -74,7 +75,7 @@ export function HeroSection() {
           {studyActions.map((action) => {
             const Icon = action.icon;
             return (
-              <Link key={action.href} href={action.href} className="home-action-card">
+              <a key={action.href} href={action.href} className="home-action-card">
                 <span className="home-action-icon">
                   <Icon className="h-5 w-5" />
                 </span>
@@ -84,7 +85,7 @@ export function HeroSection() {
                   Open
                   <ArrowRight className="h-4 w-4" />
                 </em>
-              </Link>
+              </a>
             );
           })}
         </section>
@@ -109,10 +110,10 @@ export function HeroSection() {
                 <h3>{book.title}</h3>
                 <div className="home-chapter-mini-grid">
                   {Array.from({ length: book.chapterCount }, (_, index) => index + 1).map((chapterNumber) => (
-                    <Link key={chapterNumber} href={`/${book.slug}/${chapterNumber}`} aria-label={`${book.title} chapter ${chapterNumber}`}>
+                    <a key={chapterNumber} href={`/${book.slug}/${chapterNumber}/`} aria-label={`${book.title} chapter ${chapterNumber}`}>
                       <span>{book.title}</span>
                       <strong>Chapter {chapterNumber}</strong>
-                    </Link>
+                    </a>
                   ))}
                 </div>
               </article>

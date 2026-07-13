@@ -378,3 +378,37 @@ body[data-romans-route="commentary"] .commentary-blank-space {
   }
 
 }
+
+/*
+ * The desktop reader is a self-contained workspace: Scripture and notes
+ * scroll inside their own panes. Prevent the outer document from continuing
+ * into the global footer and an empty body after those panes reach the end.
+ */
+@media (min-width: 981px) {
+  html:has(body > main.reader-page),
+  body:has(> main.reader-page) {
+    height: 100dvh;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  body:has(> main.reader-page) > main.reader-page {
+    min-height: 0 !important;
+    flex: 1 1 auto;
+    overflow: hidden;
+  }
+
+  body:has(> main.reader-page) .mbe-ref-strip {
+    position: relative !important;
+    top: auto !important;
+  }
+
+  body:has(> main.reader-page) .split-reader {
+    height: calc(100dvh - 47px - 4.35rem - var(--chapter-strip-height)) !important;
+    min-height: 0 !important;
+  }
+
+  body:has(> main.reader-page) > .mbe-global-footer {
+    display: none !important;
+  }
+}

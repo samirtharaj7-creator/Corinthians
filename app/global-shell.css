@@ -290,6 +290,11 @@ body > #root > div > header.sticky.top-0{
 
 html{
   scroll-padding-top:64px;
+  overscroll-behavior-y:none;
+}
+
+body{
+  overscroll-behavior-y:none;
 }
 
 body:has(> .mbe-global-footer){
@@ -344,6 +349,37 @@ body.mbe-shell-managed > .mbe-global-footer{
   order:9999;
   flex:0 0 auto;
   margin-top:auto;
+}
+
+/*
+ * Desktop commentary panes own their scrolling. Containment prevents their
+ * off-screen contents from enlarging the document beyond the global footer.
+ */
+@media(min-width:981px){
+  body.mbe-shell-managed > main:has(:is(.split-reader,.reader-shell)),
+  body:has(> .mbe-global-footer) > main:has(:is(.split-reader,.reader-shell)){
+    contain:layout paint;
+    overflow:clip;
+  }
+
+  body.mbe-shell-managed > main:has(:is(.split-reader,.reader-shell)) :is(
+    .scripture-pane,
+    .commentary-pane,
+    .scripture-pane-body,
+    .commentary-pane-body,
+    .scripture-panel,
+    .commentary-panel
+  ),
+  body:has(> .mbe-global-footer) > main:has(:is(.split-reader,.reader-shell)) :is(
+    .scripture-pane,
+    .commentary-pane,
+    .scripture-pane-body,
+    .commentary-pane-body,
+    .scripture-panel,
+    .commentary-panel
+  ){
+    overscroll-behavior-y:contain;
+  }
 }
 
 body > #root:empty{

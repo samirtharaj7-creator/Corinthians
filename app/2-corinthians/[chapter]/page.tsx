@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import Link from "next/link";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { BookChapterStrip } from "@/components/book-chapter-strip";
 import { ChapterStudy, type PublicChapterContent } from "@/components/verse-accordion";
@@ -63,18 +62,18 @@ export default async function SecondCorinthiansChapterPage({
       />
       <nav className="reader-chapter-nav no-print" aria-label={`${book.name} adjacent chapters`}>
         {adjacency.previous ? (
-          <Link href={`/${book.slug}/${adjacency.previous}`}>
+          <a href={`/${book.slug}/${adjacency.previous}/`}>
             <ChevronLeft className="h-4 w-4" />
             {book.name} {adjacency.previous}
-          </Link>
+          </a>
         ) : (
           <span />
         )}
         {adjacency.next ? (
-          <Link href={`/${book.slug}/${adjacency.next}`}>
+          <a href={`/${book.slug}/${adjacency.next}/`}>
             {book.name} {adjacency.next}
             <ChevronRight className="h-4 w-4" />
-          </Link>
+          </a>
         ) : null}
       </nav>
     </main>
