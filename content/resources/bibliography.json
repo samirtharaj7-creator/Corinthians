@@ -1,0 +1,794 @@
+{
+  "resources": [
+    {
+      "id": "kjv-gutenberg-30",
+      "title": "The Bible, King James Version, Complete",
+      "author": "Project Gutenberg",
+      "type": "Bible text",
+      "tradition": "Public domain",
+      "interpretiveCategory": "Primary text",
+      "howUsed": "Source for the Romans KJV verse text in this study workspace.",
+      "citationFormat": "Project Gutenberg eBook #30, The Bible, King James Version, Complete."
+    },
+    {
+      "id": "romans-1-16-17-handout",
+      "title": "Romans 1;16-17",
+      "author": "Various",
+      "type": "Topical PDF",
+      "tradition": "Reference",
+      "interpretiveCategory": "Supplementary reference",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Various. Romans 1;16-17. Local study file: 0027, Romans 1;16-17.pdf."
+    },
+    {
+      "id": "romans-12-1-handout",
+      "title": "Romans 12;1",
+      "author": "Various",
+      "type": "Topical PDF",
+      "tradition": "Reference",
+      "interpretiveCategory": "Supplementary reference",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Various. Romans 12;1. Local study file: 0601, Romans 12;1.pdf."
+    },
+    {
+      "id": "romans-10-6-13-righteousness-by-faith",
+      "title": "Righteousness by Faith - Romans 10.6;13",
+      "author": "Various",
+      "type": "Topical PDF",
+      "tradition": "Reference",
+      "interpretiveCategory": "Supplementary reference",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Various. Righteousness by Faith - Romans 10.6;13. Local study file: 0621, Righteousness by Faith - Romans 10.6;13.pdf."
+    },
+    {
+      "id": "romans-8-handout",
+      "title": "Romans 8",
+      "author": "Various",
+      "type": "Topical PDF",
+      "tradition": "Reference",
+      "interpretiveCategory": "Supplementary reference",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Various. Romans 8. Local study file: 1013, Romans 8.pdf."
+    },
+    {
+      "id": "romans-5-3-5-handout",
+      "title": "Romans 5;3-5",
+      "author": "Various",
+      "type": "Topical PDF",
+      "tradition": "Reference",
+      "interpretiveCategory": "Supplementary reference",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Various. Romans 5;3-5. Local study file: 1076, Romans 5;3-5.pdf."
+    },
+    {
+      "id": "samuel-romans-1",
+      "title": "Samuel Amirtharaj Pauline 1 Romans 1",
+      "author": "Samuel Amirtharaj",
+      "type": "Class notes",
+      "tradition": "Adventist",
+      "interpretiveCategory": "Controlling user resource",
+      "howUsed": "Used as a controlling source for Adventist-oriented synthesis.",
+      "citationFormat": "Samuel Amirtharaj. Samuel Amirtharaj Pauline 1 Romans 1. Local study file: 19. Samuel Amirtharaj_Pauline 1_Romans 1.docx."
+    },
+    {
+      "id": "samuel-romans-2",
+      "title": "Samuel Amirtharaj Pauline 1 Romans 2",
+      "author": "Samuel Amirtharaj",
+      "type": "Class notes",
+      "tradition": "Adventist",
+      "interpretiveCategory": "Controlling user resource",
+      "howUsed": "Used as a controlling source for Adventist-oriented synthesis.",
+      "citationFormat": "Samuel Amirtharaj. Samuel Amirtharaj Pauline 1 Romans 2. Local study file: 20. Samuel Amirtharaj_Pauline 1_Romans 2.docx."
+    },
+    {
+      "id": "samuel-romans-3",
+      "title": "Samuel Amirtharaj Pauline 1 Romans 3",
+      "author": "Samuel Amirtharaj",
+      "type": "Class notes",
+      "tradition": "Adventist",
+      "interpretiveCategory": "Controlling user resource",
+      "howUsed": "Used as a controlling source for Adventist-oriented synthesis.",
+      "citationFormat": "Samuel Amirtharaj. Samuel Amirtharaj Pauline 1 Romans 3. Local study file: 21. Samuel Amirtharaj_Pauline 1_Romans 3.docx."
+    },
+    {
+      "id": "samuel-romans-4",
+      "title": "Samuel Amirtharaj Pauline 1 Romans 4",
+      "author": "Samuel Amirtharaj",
+      "type": "Class notes",
+      "tradition": "Adventist",
+      "interpretiveCategory": "Controlling user resource",
+      "howUsed": "Used as a controlling source for Adventist-oriented synthesis.",
+      "citationFormat": "Samuel Amirtharaj. Samuel Amirtharaj Pauline 1 Romans 4. Local study file: 22. Samuel Amirtharaj_Pauline 1_Romans 4.docx."
+    },
+    {
+      "id": "samuel-romans-5",
+      "title": "Samuel Amirtharaj Pauline 1 Romans 5",
+      "author": "Samuel Amirtharaj",
+      "type": "Class notes",
+      "tradition": "Adventist",
+      "interpretiveCategory": "Controlling user resource",
+      "howUsed": "Used as a controlling source for Adventist-oriented synthesis.",
+      "citationFormat": "Samuel Amirtharaj. Samuel Amirtharaj Pauline 1 Romans 5. Local study file: 23. Samuel Amirtharaj_Pauline 1_Romans 5.docx."
+    },
+    {
+      "id": "samuel-romans-6",
+      "title": "Samuel Amirtharaj Pauline 1 Romans 6",
+      "author": "Samuel Amirtharaj",
+      "type": "Class notes",
+      "tradition": "Adventist",
+      "interpretiveCategory": "Controlling user resource",
+      "howUsed": "Used as a controlling source for Adventist-oriented synthesis.",
+      "citationFormat": "Samuel Amirtharaj. Samuel Amirtharaj Pauline 1 Romans 6. Local study file: 24. Samuel Amirtharaj_Pauline 1_Romans 6.docx."
+    },
+    {
+      "id": "samuel-romans-7",
+      "title": "Samuel Amirtharaj Pauline 1 Romans 7",
+      "author": "Samuel Amirtharaj",
+      "type": "Class notes",
+      "tradition": "Adventist",
+      "interpretiveCategory": "Controlling user resource",
+      "howUsed": "Used as a controlling source for Adventist-oriented synthesis.",
+      "citationFormat": "Samuel Amirtharaj. Samuel Amirtharaj Pauline 1 Romans 7. Local study file: 25. Samuel Amirtharaj_Pauline 1_Romans 7.docx."
+    },
+    {
+      "id": "samuel-romans-8",
+      "title": "Samuel Amirtharaj Pauline 1 Romans 8",
+      "author": "Samuel Amirtharaj",
+      "type": "Class notes",
+      "tradition": "Adventist",
+      "interpretiveCategory": "Controlling user resource",
+      "howUsed": "Used as a controlling source for Adventist-oriented synthesis.",
+      "citationFormat": "Samuel Amirtharaj. Samuel Amirtharaj Pauline 1 Romans 8. Local study file: 26. Samuel Amirtharaj_Pauline 1_Romans 8.docx."
+    },
+    {
+      "id": "samuel-romans-9",
+      "title": "Samuel Amirtharaj Pauline 1 Romans 9",
+      "author": "Samuel Amirtharaj",
+      "type": "Class notes",
+      "tradition": "Adventist",
+      "interpretiveCategory": "Controlling user resource",
+      "howUsed": "Used as a controlling source for Adventist-oriented synthesis.",
+      "citationFormat": "Samuel Amirtharaj. Samuel Amirtharaj Pauline 1 Romans 9. Local study file: 27. Samuel Amirtharaj_Pauline 1_Romans 9.docx."
+    },
+    {
+      "id": "samuel-romans-12",
+      "title": "Samuel Amirtharaj Pauline 1 Romans 12",
+      "author": "Samuel Amirtharaj",
+      "type": "Class notes",
+      "tradition": "Adventist",
+      "interpretiveCategory": "Controlling user resource",
+      "howUsed": "Used as a controlling source for Adventist-oriented synthesis.",
+      "citationFormat": "Samuel Amirtharaj. Samuel Amirtharaj Pauline 1 Romans 12. Local study file: 28. Samuel Amirtharaj_Pauline 1_Romans 12.docx."
+    },
+    {
+      "id": "samuel-romans-13",
+      "title": "Samuel Amirtharaj Pauline 1 Romans 13",
+      "author": "Samuel Amirtharaj",
+      "type": "Class notes",
+      "tradition": "Adventist",
+      "interpretiveCategory": "Controlling user resource",
+      "howUsed": "Used as a controlling source for Adventist-oriented synthesis.",
+      "citationFormat": "Samuel Amirtharaj. Samuel Amirtharaj Pauline 1 Romans 13. Local study file: 29. Samuel Amirtharaj_Pauline 1_Romans 13.docx."
+    },
+    {
+      "id": "samuel-romans-14",
+      "title": "Samuel Amirtharaj Pauline 1 Romans 14",
+      "author": "Samuel Amirtharaj",
+      "type": "Class notes",
+      "tradition": "Adventist",
+      "interpretiveCategory": "Controlling user resource",
+      "howUsed": "Used as a controlling source for Adventist-oriented synthesis.",
+      "citationFormat": "Samuel Amirtharaj. Samuel Amirtharaj Pauline 1 Romans 14. Local study file: 30. Samuel Amirtharaj_Pauline 1_Romans 14.docx."
+    },
+    {
+      "id": "keller-romans-1-7-alt",
+      "title": "-Romans-1-7-For-You-For-reading-Timothy-Keller-pdf",
+      "author": "Timothy Keller",
+      "type": "Commentary or study resource",
+      "tradition": "Mainstream conservative",
+      "interpretiveCategory": "Conservative support and comparison",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Timothy Keller. -Romans-1-7-For-You-For-reading-Timothy-Keller-pdf. Local study file: 399971232-Romans-1-7-For-You-For-reading-Timothy-Keller-pdf.pdf."
+    },
+    {
+      "id": "waggoner-articles-romans",
+      "title": "Articles on Romans - Waggoner",
+      "author": "E. J. Waggoner",
+      "type": "Commentary or study resource",
+      "tradition": "Adventist",
+      "interpretiveCategory": "Adventist interpretive guide",
+      "howUsed": "Used as a controlling source for Adventist-oriented synthesis.",
+      "citationFormat": "E. J. Waggoner. Articles on Romans - Waggoner. Local study file: Articles on Romans - Waggoner.pdf."
+    },
+    {
+      "id": "discovering-romans-content-interpretation-reception",
+      "title": "Discovering Romans Content, Interpretation, Reception (Discovering Biblical Texts (DBT)) (Anthony C. Thiselton)",
+      "author": "Anthony C. Thiselton",
+      "type": "Commentary or study resource",
+      "tradition": "Mainstream academic",
+      "interpretiveCategory": "Conservative support and comparison",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Anthony C. Thiselton. Discovering Romans Content, Interpretation, Reception (Discovering Biblical Texts (DBT)) (Anthony C. Thiselton). Local study file: Discovering Romans Content, Interpretation, Reception (Discovering Biblical Texts (DBT)) (Anthony C. Thiselton) (Z-Library).pdf."
+    },
+    {
+      "id": "eerdmans-commentary-on-the-bible-romans",
+      "title": "Eerdmans Commentary on the Bible Romans (John Reumann)",
+      "author": "Various",
+      "type": "Commentary or study resource",
+      "tradition": "Reference",
+      "interpretiveCategory": "Supplementary reference",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Various. Eerdmans Commentary on the Bible Romans (John Reumann). Local study file: Eerdmans Commentary on the Bible Romans (John Reumann) (Z-Library).pdf."
+    },
+    {
+      "id": "moo-encountering-romans",
+      "title": "Encountering the Book of Romans A Theological Survey, 2nd Edition by Douglas J. Moo.epub",
+      "author": "Douglas J. Moo",
+      "type": "Commentary or study resource",
+      "tradition": "Mainstream conservative",
+      "interpretiveCategory": "Conservative support and comparison",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Douglas J. Moo. Encountering the Book of Romans A Theological Survey, 2nd Edition by Douglas J. Moo.epub. Local study file: Encountering the Book of Romans A Theological Survey, 2nd Edition by Douglas J. Moo (z-lib.org).epub.pdf."
+    },
+    {
+      "id": "experiencing-jesus-through-galatians",
+      "title": "Experiencing Jesus Through Galatians (Jay Gallimore)",
+      "author": "Jay Gallimore",
+      "type": "Commentary or study resource",
+      "tradition": "Adventist",
+      "interpretiveCategory": "Adventist interpretive guide",
+      "howUsed": "Used as a controlling source for Adventist-oriented synthesis.",
+      "citationFormat": "Jay Gallimore. Experiencing Jesus Through Galatians (Jay Gallimore). Local study file: Experiencing Jesus Through Galatians (Jay Gallimore) (z-library.sk, 1lib.sk, z-lib.sk).pdf."
+    },
+    {
+      "id": "gallimore-experiencing-romans",
+      "title": "Experiencing Jesus Through Romans (Jay Gallimore)",
+      "author": "Jay Gallimore",
+      "type": "Commentary or study resource",
+      "tradition": "Adventist",
+      "interpretiveCategory": "Adventist interpretive guide",
+      "howUsed": "Used as a controlling source for Adventist-oriented synthesis.",
+      "citationFormat": "Jay Gallimore. Experiencing Jesus Through Romans (Jay Gallimore). Local study file: Experiencing Jesus Through Romans (Jay Gallimore) (z-library.sk, 1lib.sk, z-lib.sk).pdf."
+    },
+    {
+      "id": "knight-exploring-romans",
+      "title": "Exploring Romans A Devotional Commentary (George R. Knight)",
+      "author": "George R. Knight",
+      "type": "Commentary or study resource",
+      "tradition": "Adventist",
+      "interpretiveCategory": "Adventist interpretive guide",
+      "howUsed": "Used as a controlling source for Adventist-oriented synthesis.",
+      "citationFormat": "George R. Knight. Exploring Romans A Devotional Commentary (George R. Knight). Local study file: Exploring Romans A Devotional Commentary (George R. Knight) (z-library.sk, 1lib.sk, z-lib.sk).pdf."
+    },
+    {
+      "id": "into-the-heart-of-romans",
+      "title": "Into the Heart of Romans (N. T. Wright)",
+      "author": "N. T. Wright",
+      "type": "Commentary or study resource",
+      "tradition": "Mainstream academic",
+      "interpretiveCategory": "Conservative support and comparison",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "N. T. Wright. Into the Heart of Romans (N. T. Wright). Local study file: Into the Heart of Romans (N. T. Wright) (Z-Library).pdf."
+    },
+    {
+      "id": "lecture-romans-background",
+      "title": "Lecture 21 - Historical Background of Romans",
+      "author": "Samuel Amirtharaj",
+      "type": "Lecture notes",
+      "tradition": "Adventist",
+      "interpretiveCategory": "Controlling user resource",
+      "howUsed": "Used as a controlling source for Adventist-oriented synthesis.",
+      "citationFormat": "Samuel Amirtharaj. Lecture 21 - Historical Background of Romans. Local study file: Lecture_21_-_Historical_Background_of_Romans.docx."
+    },
+    {
+      "id": "lecture-romans-5-6",
+      "title": "Lecture 23 - Romans 5-6",
+      "author": "Samuel Amirtharaj",
+      "type": "Lecture notes",
+      "tradition": "Adventist",
+      "interpretiveCategory": "Controlling user resource",
+      "howUsed": "Used as a controlling source for Adventist-oriented synthesis.",
+      "citationFormat": "Samuel Amirtharaj. Lecture 23 - Romans 5-6. Local study file: Lecture_23_-_Romans_5-6.docx."
+    },
+    {
+      "id": "lecture-romans-7-8",
+      "title": "Lecture 24 - Romans 7-8",
+      "author": "Samuel Amirtharaj",
+      "type": "Lecture notes",
+      "tradition": "Adventist",
+      "interpretiveCategory": "Controlling user resource",
+      "howUsed": "Used as a controlling source for Adventist-oriented synthesis.",
+      "citationFormat": "Samuel Amirtharaj. Lecture 24 - Romans 7-8. Local study file: Lecture_24_-_Romans_7-8.docx."
+    },
+    {
+      "id": "lecture-romans-9-11",
+      "title": "Lecture 25 - Romans 9-11",
+      "author": "Samuel Amirtharaj",
+      "type": "Lecture notes",
+      "tradition": "Adventist",
+      "interpretiveCategory": "Controlling user resource",
+      "howUsed": "Used as a controlling source for Adventist-oriented synthesis.",
+      "citationFormat": "Samuel Amirtharaj. Lecture 25 - Romans 9-11. Local study file: Lecture_25_-_Romans_9-11.docx."
+    },
+    {
+      "id": "lecture-romans-12-13",
+      "title": "Lecture 26 - Romans 12-13",
+      "author": "Samuel Amirtharaj",
+      "type": "Lecture notes",
+      "tradition": "Adventist",
+      "interpretiveCategory": "Controlling user resource",
+      "howUsed": "Used as a controlling source for Adventist-oriented synthesis.",
+      "citationFormat": "Samuel Amirtharaj. Lecture 26 - Romans 12-13. Local study file: Lecture_26_-_Romans_12-13.docx."
+    },
+    {
+      "id": "lecture-romans-14-16",
+      "title": "Lecture 27 - Romans 14-16",
+      "author": "Samuel Amirtharaj",
+      "type": "Lecture notes",
+      "tradition": "Adventist",
+      "interpretiveCategory": "Controlling user resource",
+      "howUsed": "Used as a controlling source for Adventist-oriented synthesis.",
+      "citationFormat": "Samuel Amirtharaj. Lecture 27 - Romans 14-16. Local study file: Lecture_27_-_Romans_14-16.docx."
+    },
+    {
+      "id": "paul-for-everyone-romans-part-1-chapters-1-8",
+      "title": "Paul for Everyone. Romans Part 1. Chapters 1-8",
+      "author": "Various",
+      "type": "Commentary or study resource",
+      "tradition": "Reference",
+      "interpretiveCategory": "Supplementary reference",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Various. Paul for Everyone. Romans Part 1. Chapters 1-8. Local study file: Paul for Everyone. Romans Part 1. Chapters 1-8.pdf."
+    },
+    {
+      "id": "paul-for-everyone-romans-part-2-chapters-6-16",
+      "title": "Paul for Everyone. Romans Part 2. Chapters 6-16",
+      "author": "Various",
+      "type": "Commentary or study resource",
+      "tradition": "Reference",
+      "interpretiveCategory": "Supplementary reference",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Various. Paul for Everyone. Romans Part 2. Chapters 6-16. Local study file: Paul for Everyone. Romans Part 2. Chapters 6-16.pdf."
+    },
+    {
+      "id": "hartland-pauline-epistles",
+      "title": "Pauline Epistles",
+      "author": "Hartland College / Didasko",
+      "type": "Lecture notes",
+      "tradition": "Adventist",
+      "interpretiveCategory": "Controlling Adventist lecture source",
+      "howUsed": "Used as a controlling source for Adventist-oriented synthesis.",
+      "citationFormat": "Hartland College / Didasko. Pauline Epistles. Local study file: Pauline Epistles.pdf."
+    },
+    {
+      "id": "reading-romans-backwards",
+      "title": "Reading Romans Backwards (Scot McKnight)",
+      "author": "Scot McKnight",
+      "type": "Commentary or study resource",
+      "tradition": "Mainstream academic",
+      "interpretiveCategory": "Conservative support and comparison",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Scot McKnight. Reading Romans Backwards (Scot McKnight). Local study file: Reading Romans Backwards (Scot McKnight) (Z-Library).pdf."
+    },
+    {
+      "id": "reading-romans-in-context-paul-and-second-temple-judaism",
+      "title": "Reading Romans in Context Paul and Second Temple Judaism (Blackwell, Ben C. Goodrich, John K. Maston etc.)",
+      "author": "Various",
+      "type": "Commentary or study resource",
+      "tradition": "Reference",
+      "interpretiveCategory": "Supplementary reference",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Various. Reading Romans in Context Paul and Second Temple Judaism (Blackwell, Ben C. Goodrich, John K. Maston etc.). Local study file: Reading Romans in Context Paul and Second Temple Judaism (Blackwell, Ben C. Goodrich, John K. Maston etc.) (Z-Library).pdf."
+    },
+    {
+      "id": "reading-romans-with-eastern-eyes-honor-and-shame-in-pauls-message-and-mission",
+      "title": "Reading Romans with Eastern Eyes Honor and Shame in Pauls Message and Mission (Jackson W.)",
+      "author": "Various",
+      "type": "Commentary or study resource",
+      "tradition": "Reference",
+      "interpretiveCategory": "Supplementary reference",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Various. Reading Romans with Eastern Eyes Honor and Shame in Pauls Message and Mission (Jackson W.). Local study file: Reading Romans with Eastern Eyes  Honor and Shame in Pauls Message and Mission (Jackson W.) (Z-Library).pdf."
+    },
+    {
+      "id": "romans",
+      "title": "Romans ( etc.)",
+      "author": "Various",
+      "type": "Commentary or study resource",
+      "tradition": "Reference",
+      "interpretiveCategory": "Supplementary reference",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Various. Romans ( etc.). Local study file: Romans ( etc.) (Z-Library).pdf."
+    },
+    {
+      "id": "moo-romans-commentary",
+      "title": "Romans (Douglas J. Moo [Moo, Douglas J.])",
+      "author": "Douglas J. Moo",
+      "type": "Commentary or study resource",
+      "tradition": "Mainstream conservative",
+      "interpretiveCategory": "Conservative support and comparison",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Douglas J. Moo. Romans (Douglas J. Moo [Moo, Douglas J.]). Local study file: Romans (Douglas J. Moo [Moo, Douglas J.]) (z-library.sk, 1lib.sk, z-lib.sk).pdf."
+    },
+    {
+      "id": "schreiner-romans-commentary",
+      "title": "Romans (Thomas R. Schreiner).epub",
+      "author": "Thomas R. Schreiner",
+      "type": "Commentary or study resource",
+      "tradition": "Mainstream conservative",
+      "interpretiveCategory": "Conservative support and comparison",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Thomas R. Schreiner. Romans (Thomas R. Schreiner).epub. Local study file: Romans (Thomas R. Schreiner) (z-lib.org).epub.pdf."
+    },
+    {
+      "id": "romans-becoming-new-in-christ-19-studies-in-2-parts-for-individuals-or-groups",
+      "title": "Romans - Becoming New in Christ - 19 Studies in 2 Parts for Individuals or Groups (Lifeguide Bible Studies) (Jack Kuhatschek)",
+      "author": "Various",
+      "type": "Commentary or study resource",
+      "tradition": "Reference",
+      "interpretiveCategory": "Supplementary reference",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Various. Romans - Becoming New in Christ - 19 Studies in 2 Parts for Individuals or Groups (Lifeguide Bible Studies) (Jack Kuhatschek). Local study file: Romans - Becoming New in Christ - 19 Studies in 2 Parts for Individuals or Groups (Lifeguide Bible Studies) (Jack Kuhatschek) (Z-Library).pdf."
+    },
+    {
+      "id": "romans-volume-01-chapter-1-the-gospel-of-god-by-martyn-lloyd-jones",
+      "title": "Romans - Volume 01 - Chapter 1 - The Gospel of God by Martyn Lloyd Jones",
+      "author": "Martyn Lloyd-Jones",
+      "type": "Commentary or study resource",
+      "tradition": "Mainstream conservative",
+      "interpretiveCategory": "Conservative support and comparison",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Martyn Lloyd-Jones. Romans - Volume 01 - Chapter 1 - The Gospel of God by Martyn Lloyd Jones. Local study file: Romans - Volume 01 - Chapter 1 - The Gospel of God by Martyn Lloyd Jones (z-lib.org).pdf."
+    },
+    {
+      "id": "romans-volume-02-chapter-2-the-righteous-judgment-of-god-by-martyn-lloyd-jones",
+      "title": "Romans - Volume 02 - Chapter 2 - The Righteous Judgment of God by Martyn Lloyd Jones",
+      "author": "Martyn Lloyd-Jones",
+      "type": "Commentary or study resource",
+      "tradition": "Mainstream conservative",
+      "interpretiveCategory": "Conservative support and comparison",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Martyn Lloyd-Jones. Romans - Volume 02 - Chapter 2 - The Righteous Judgment of God by Martyn Lloyd Jones. Local study file: Romans - Volume 02 - Chapter 2 - The Righteous Judgment of God by Martyn Lloyd Jones (z-lib.org).pdf."
+    },
+    {
+      "id": "romans-volume-03-chapter-3-4-atonement-justification-by-martyn-lloyd-jones",
+      "title": "Romans - Volume 03 - Chapter 3, 4 - Atonement Justification by Martyn Lloyd Jones",
+      "author": "Martyn Lloyd-Jones",
+      "type": "Commentary or study resource",
+      "tradition": "Mainstream conservative",
+      "interpretiveCategory": "Conservative support and comparison",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Martyn Lloyd-Jones. Romans - Volume 03 - Chapter 3, 4 - Atonement Justification by Martyn Lloyd Jones. Local study file: Romans - Volume 03 - Chapter 3, 4 - Atonement  Justification by Martyn Lloyd Jones (z-lib.org).pdf."
+    },
+    {
+      "id": "romans-volume-04-chapter-5-assurance-by-martyn-lloyd-jones",
+      "title": "Romans - Volume 04 - Chapter 5 - Assurance by Martyn Lloyd Jones",
+      "author": "Martyn Lloyd-Jones",
+      "type": "Commentary or study resource",
+      "tradition": "Mainstream conservative",
+      "interpretiveCategory": "Conservative support and comparison",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Martyn Lloyd-Jones. Romans - Volume 04 - Chapter 5 - Assurance by Martyn Lloyd Jones. Local study file: Romans - Volume 04 - Chapter 5 - Assurance by Martyn Lloyd Jones (z-lib.org).pdf."
+    },
+    {
+      "id": "romans-volume-05-chapter-6-the-new-man-by-martyn-lloyd-jones",
+      "title": "Romans - Volume 05 - Chapter 6 - The New Man by Martyn Lloyd Jones",
+      "author": "Martyn Lloyd-Jones",
+      "type": "Commentary or study resource",
+      "tradition": "Mainstream conservative",
+      "interpretiveCategory": "Conservative support and comparison",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Martyn Lloyd-Jones. Romans - Volume 05 - Chapter 6 - The New Man by Martyn Lloyd Jones. Local study file: Romans - Volume 05 - Chapter 6 - The New Man by Martyn Lloyd Jones (z-lib.org).pdf."
+    },
+    {
+      "id": "romans-volume-06-chapter-7-the-law-by-martyn-lloyd-jones",
+      "title": "Romans - Volume 06 - Chapter 7 - The Law by Martyn Lloyd Jones",
+      "author": "Martyn Lloyd-Jones",
+      "type": "Commentary or study resource",
+      "tradition": "Mainstream conservative",
+      "interpretiveCategory": "Conservative support and comparison",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Martyn Lloyd-Jones. Romans - Volume 06 - Chapter 7 - The Law by Martyn Lloyd Jones. Local study file: Romans - Volume 06 - Chapter 7 - The Law by Martyn Lloyd Jones (z-lib.org).pdf."
+    },
+    {
+      "id": "romans-volume-07-chapter-8-the-sons-of-god-by-martyn-lloyd-jones",
+      "title": "Romans - Volume 07 - Chapter 8 - The Sons of God by Martyn Lloyd Jones",
+      "author": "Martyn Lloyd-Jones",
+      "type": "Commentary or study resource",
+      "tradition": "Mainstream conservative",
+      "interpretiveCategory": "Conservative support and comparison",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Martyn Lloyd-Jones. Romans - Volume 07 - Chapter 8 - The Sons of God by Martyn Lloyd Jones. Local study file: Romans - Volume 07 - Chapter 8 - The Sons of God by Martyn Lloyd Jones (z-lib.org).pdf."
+    },
+    {
+      "id": "romans-volume-08-chapter-8-the-final-perseverance-of-the-saints-by-martyn-lloyd-",
+      "title": "Romans - Volume 08 - Chapter 8 - The Final Perseverance of the Saints by Martyn Lloyd Jones",
+      "author": "Martyn Lloyd-Jones",
+      "type": "Commentary or study resource",
+      "tradition": "Mainstream conservative",
+      "interpretiveCategory": "Conservative support and comparison",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Martyn Lloyd-Jones. Romans - Volume 08 - Chapter 8 - The Final Perseverance of the Saints by Martyn Lloyd Jones. Local study file: Romans - Volume 08 - Chapter 8 - The Final Perseverance of the Saints by Martyn Lloyd Jones (z-lib.org).pdf."
+    },
+    {
+      "id": "romans-volume-09-chapter-9-god-s-sovereign-purpose-by-martyn-lloyd-jones",
+      "title": "Romans - Volume 09 - Chapter 9 - God's Sovereign Purpose by Martyn Lloyd Jones",
+      "author": "Martyn Lloyd-Jones",
+      "type": "Commentary or study resource",
+      "tradition": "Mainstream conservative",
+      "interpretiveCategory": "Conservative support and comparison",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Martyn Lloyd-Jones. Romans - Volume 09 - Chapter 9 - God's Sovereign Purpose by Martyn Lloyd Jones. Local study file: Romans - Volume 09 - Chapter 9 - God's Sovereign Purpose by Martyn Lloyd Jones (z-lib.org).pdf."
+    },
+    {
+      "id": "romans-volume-10-chapter-10-saving-faith-by-martyn-lloyd-jones",
+      "title": "Romans - Volume 10 - Chapter 10 - Saving Faith by Martyn Lloyd Jones",
+      "author": "Martyn Lloyd-Jones",
+      "type": "Commentary or study resource",
+      "tradition": "Mainstream conservative",
+      "interpretiveCategory": "Conservative support and comparison",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Martyn Lloyd-Jones. Romans - Volume 10 - Chapter 10 - Saving Faith by Martyn Lloyd Jones. Local study file: Romans - Volume 10 - Chapter 10 - Saving Faith by Martyn Lloyd Jones (z-lib.org).pdf."
+    },
+    {
+      "id": "romans-volume-11-chapter-11-to-god-s-glory-by-martyn-lloyd-jones",
+      "title": "Romans - Volume 11 - Chapter 11 - To God's Glory by Martyn Lloyd Jones",
+      "author": "Martyn Lloyd-Jones",
+      "type": "Commentary or study resource",
+      "tradition": "Mainstream conservative",
+      "interpretiveCategory": "Conservative support and comparison",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Martyn Lloyd-Jones. Romans - Volume 11 - Chapter 11 - To God's Glory by Martyn Lloyd Jones. Local study file: Romans - Volume 11 - Chapter 11 - To God's Glory by Martyn Lloyd Jones (z-lib.org).pdf."
+    },
+    {
+      "id": "romans-volume-12-chapter-12-christian-conduct-by-martyn-lloyd-jones",
+      "title": "Romans - Volume 12 - Chapter 12 - Christian Conduct by Martyn Lloyd Jones",
+      "author": "Martyn Lloyd-Jones",
+      "type": "Commentary or study resource",
+      "tradition": "Mainstream conservative",
+      "interpretiveCategory": "Conservative support and comparison",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Martyn Lloyd-Jones. Romans - Volume 12 - Chapter 12 - Christian Conduct by Martyn Lloyd Jones. Local study file: Romans - Volume 12 - Chapter 12 - Christian Conduct by Martyn Lloyd Jones (z-lib.org).pdf."
+    },
+    {
+      "id": "romans-volume-13-chapter-13-life-in-two-kingdoms-by-martyn-lloyd-jones",
+      "title": "Romans - Volume 13 - Chapter 13 - Life in Two Kingdoms by Martyn Lloyd Jones",
+      "author": "Martyn Lloyd-Jones",
+      "type": "Commentary or study resource",
+      "tradition": "Mainstream conservative",
+      "interpretiveCategory": "Conservative support and comparison",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Martyn Lloyd-Jones. Romans - Volume 13 - Chapter 13 - Life in Two Kingdoms by Martyn Lloyd Jones. Local study file: Romans - Volume 13 - Chapter 13 - Life in Two Kingdoms by Martyn Lloyd Jones (z-lib.org).pdf."
+    },
+    {
+      "id": "romans-volume-14-chapter-14-liberty-and-conscience-by-martyn-lloyd-jones",
+      "title": "Romans - Volume 14 - Chapter 14 - Liberty and Conscience by Martyn Lloyd Jones",
+      "author": "Martyn Lloyd-Jones",
+      "type": "Commentary or study resource",
+      "tradition": "Mainstream conservative",
+      "interpretiveCategory": "Conservative support and comparison",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Martyn Lloyd-Jones. Romans - Volume 14 - Chapter 14 - Liberty and Conscience by Martyn Lloyd Jones. Local study file: Romans - Volume 14 - Chapter 14 - Liberty and Conscience by Martyn Lloyd Jones (z-lib.org).pdf."
+    },
+    {
+      "id": "romans-1-16-macarthur-new-testament-commentary-two-volume-set-by-john-f-macarthu",
+      "title": "Romans 1-16 MacArthur New Testament Commentary Two Volume Set (Macarthur New Testament Commentary Series) by John F MacArthur.mobi",
+      "author": "John F. MacArthur",
+      "type": "Commentary or study resource",
+      "tradition": "Mainstream conservative",
+      "interpretiveCategory": "Conservative support and comparison",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "John F. MacArthur. Romans 1-16 MacArthur New Testament Commentary Two Volume Set (Macarthur New Testament Commentary Series) by John F MacArthur.mobi. Local study file: Romans 1-16 MacArthur New Testament Commentary Two Volume Set (Macarthur New Testament Commentary Series) by John F MacArthur (z-lib.org).mobi.pdf."
+    },
+    {
+      "id": "keller-romans-1-7",
+      "title": "Romans 1-7 for You For Reading, for Feeding, for Leading (Keller, Timothy)",
+      "author": "Timothy Keller",
+      "type": "Commentary or study resource",
+      "tradition": "Mainstream conservative",
+      "interpretiveCategory": "Conservative support and comparison",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Timothy Keller. Romans 1-7 for You For Reading, for Feeding, for Leading (Keller, Timothy). Local study file: Romans 1-7 for You For Reading, for Feeding, for Leading (Keller, Timothy) (Z-Library).pdf."
+    },
+    {
+      "id": "keller-romans-8-16",
+      "title": "Romans 8-16 for You For Reading, for Feeding, for Leading (Timothy Keller [Keller, Timothy])",
+      "author": "Timothy Keller",
+      "type": "Commentary or study resource",
+      "tradition": "Mainstream conservative",
+      "interpretiveCategory": "Conservative support and comparison",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Timothy Keller. Romans 8-16 for You For Reading, for Feeding, for Leading (Timothy Keller [Keller, Timothy]). Local study file: Romans 8-16 for You For Reading, for Feeding, for Leading (Timothy Keller [Keller, Timothy]) (Z-Library).pdf."
+    },
+    {
+      "id": "romans-a-theological-and-pastoral-commentary",
+      "title": "Romans A Theological and Pastoral Commentary (Michael J. Gorman)",
+      "author": "Michael J. Gorman",
+      "type": "Commentary or study resource",
+      "tradition": "Mainstream academic",
+      "interpretiveCategory": "Conservative support and comparison",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Michael J. Gorman. Romans A Theological and Pastoral Commentary (Michael J. Gorman). Local study file: Romans A Theological and Pastoral Commentary (Michael J. Gorman) (z-library.sk, 1lib.sk, z-lib.sk).pdf."
+    },
+    {
+      "id": "davis-romans-everyday-man",
+      "title": "Romans for the Everyday Man by Thomas A. Davis",
+      "author": "Thomas A. Davis",
+      "type": "Commentary or study resource",
+      "tradition": "Adventist",
+      "interpretiveCategory": "Adventist interpretive guide",
+      "howUsed": "Used as a controlling source for Adventist-oriented synthesis.",
+      "citationFormat": "Thomas A. Davis. Romans for the Everyday Man by Thomas A. Davis. Local study file: Romans for the Everyday Man by Thomas A. Davis (z-lib.org).pdf."
+    },
+    {
+      "id": "romans-interpretation-a-bible-commentary-for-teaching-and-preaching",
+      "title": "Romans Interpretation A Bible Commentary for Teaching and Preaching (Paul J. Achtemeier [Achtemeier, Paul J.])",
+      "author": "Paul J. Achtemeier",
+      "type": "Commentary or study resource",
+      "tradition": "Mainstream academic",
+      "interpretiveCategory": "Conservative support and comparison",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Paul J. Achtemeier. Romans Interpretation A Bible Commentary for Teaching and Preaching (Paul J. Achtemeier [Achtemeier, Paul J.]). Local study file: Romans Interpretation A Bible Commentary for Teaching and Preaching (Paul J. Achtemeier [Achtemeier, Paul J.]) (Z-Library).pdf."
+    },
+    {
+      "id": "romans-galatians",
+      "title": "Romans, Galatians ( etc.)",
+      "author": "Various",
+      "type": "Commentary or study resource",
+      "tradition": "Reference",
+      "interpretiveCategory": "Supplementary reference",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Various. Romans, Galatians ( etc.). Local study file: Romans, Galatians ( etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf."
+    },
+    {
+      "id": "bruce-letter-romans",
+      "title": "The letter of Paul to the Romans an introduction and commentary (Bruce, F. F. (Frederick Fyvie), 1910-1990 etc.)",
+      "author": "F. F. Bruce",
+      "type": "Commentary or study resource",
+      "tradition": "Mainstream conservative",
+      "interpretiveCategory": "Conservative support and comparison",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "F. F. Bruce. The letter of Paul to the Romans an introduction and commentary (Bruce, F. F. (Frederick Fyvie), 1910-1990 etc.). Local study file: The letter of Paul to the Romans  an introduction and commentary (Bruce, F. F. (Frederick Fyvie), 1910-1990 etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf."
+    },
+    {
+      "id": "stott-message-romans",
+      "title": "The Message of Romans Gods Good News for the World (The Bible Speaks Today Series) (John Stott [Stott, John])",
+      "author": "John Stott",
+      "type": "Commentary or study resource",
+      "tradition": "Mainstream conservative",
+      "interpretiveCategory": "Conservative support and comparison",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "John Stott. The Message of Romans Gods Good News for the World (The Bible Speaks Today Series) (John Stott [Stott, John]). Local study file: The Message of Romans Gods Good News for the World (The Bible Speaks Today Series) (John Stott [Stott, John]) (z-lib.org).pdf."
+    },
+    {
+      "id": "the-theology-of-paul-s-letter-to-the-romans",
+      "title": "The Theology of Paul's Letter to the Romans (New Testament Theology) (Klaus Haacker)",
+      "author": "Klaus Haacker",
+      "type": "Commentary or study resource",
+      "tradition": "Mainstream academic",
+      "interpretiveCategory": "Conservative support and comparison",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Klaus Haacker. The Theology of Paul's Letter to the Romans (New Testament Theology) (Klaus Haacker). Local study file: The Theology of Paul's Letter to the Romans (New Testament Theology) (Klaus Haacker) (z-library.sk, 1lib.sk, z-lib.sk).pdf."
+    },
+    {
+      "id": "through-the-bible-book-by-book-volume-4-new-testament-romans-to-revelation",
+      "title": "Through the Bible Book by Book Volume 4 New Testament Romans to Revelation (Myer Pearlman [Pearlman, Myer])",
+      "author": "Myer Pearlman",
+      "type": "Commentary or study resource",
+      "tradition": "Conservative devotional",
+      "interpretiveCategory": "Supplementary reference",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Myer Pearlman. Through the Bible Book by Book Volume 4 New Testament Romans to Revelation (Myer Pearlman [Pearlman, Myer]). Local study file: Through the Bible Book by Book Volume 4 New Testament Romans to Revelation (Myer Pearlman [Pearlman, Myer]) (Z-Library).pdf."
+    },
+    {
+      "id": "unlocking-romans",
+      "title": "Unlocking Romans (J. R. Daniel Kirk)",
+      "author": "Various",
+      "type": "Commentary or study resource",
+      "tradition": "Reference",
+      "interpretiveCategory": "Supplementary reference",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Various. Unlocking Romans (J. R. Daniel Kirk). Local study file: Unlocking Romans (J. R. Daniel Kirk) (Z-Library).pdf."
+    },
+    {
+      "id": "when-in-romans-an-invitation-to-linger-with-the-gospel-according-to-paul-by-beve",
+      "title": "When in Romans (Theological Explorations for the Church Catholic) An Invitation to Linger With the Gospel According to Paul by Beverly Roberts Gaventa [Gaventa, Beverly Roberts].epub",
+      "author": "Beverly Roberts Gaventa",
+      "type": "Commentary or study resource",
+      "tradition": "Mainstream academic",
+      "interpretiveCategory": "Conservative support and comparison",
+      "howUsed": "Used as a supporting source for grammar, historical setting, structure, and comparison.",
+      "citationFormat": "Beverly Roberts Gaventa. When in Romans (Theological Explorations for the Church Catholic) An Invitation to Linger With the Gospel According to Paul by Beverly Roberts Gaventa [Gaventa, Beverly Roberts].epub. Local study file: When in Romans (Theological Explorations for the Church Catholic) An Invitation to Linger With the Gospel According to Paul by Beverly Roberts Gaventa [Gaventa, Beverly Roberts] (z-lib.org).epub.pdf."
+    },
+    {
+      "id": "gc-methods-bible-study",
+      "title": "Methods of Bible Study",
+      "author": "General Conference of Seventh-day Adventists",
+      "type": "Voted church statement",
+      "tradition": "Seventh-day Adventist",
+      "interpretiveCategory": "Controlling hermeneutical method",
+      "howUsed": "Private control for Scripture-first, whole-Bible, context-sensitive interpretation.",
+      "citationFormat": "General Conference of Seventh-day Adventists, Methods of Bible Study, 1986, https://gc.adventist.org/documents/methods-of-bible-study/."
+    },
+    {
+      "id": "adventist-fundamental-beliefs",
+      "title": "The 28 Fundamental Beliefs",
+      "author": "General Conference of Seventh-day Adventists",
+      "type": "Official belief statement",
+      "tradition": "Seventh-day Adventist",
+      "interpretiveCategory": "Settled doctrinal control",
+      "howUsed": "Private control for settled teaching on salvation, law, Sabbath, human nature, death, resurrection, gifts, and Christian life.",
+      "citationFormat": "Seventh-day Adventist Church, What We Believe, https://adventist.org/en/beliefs."
+    },
+    {
+      "id": "bri-romans-14",
+      "title": "Romans 14",
+      "author": "Biblical Research Institute",
+      "type": "Exegetical study",
+      "tradition": "Seventh-day Adventist",
+      "interpretiveCategory": "Focused disputed-passage control",
+      "howUsed": "Private control for Romans 14 on disputed food practices, koinos, conscience, and days not identified as the weekly Sabbath.",
+      "citationFormat": "Biblical Research Institute, Romans 14, https://www.adventistbiblicalresearch.org/materials/romans-14/."
+    },
+    {
+      "id": "bri-clean-unclean-meats",
+      "title": "Clean and Unclean Meats",
+      "author": "Biblical Research Institute",
+      "type": "Exegetical study",
+      "tradition": "Seventh-day Adventist",
+      "interpretiveCategory": "Focused disputed-passage control",
+      "howUsed": "Private control for the distinction between koinos and akathartos in Romans 14:14.",
+      "citationFormat": "Biblical Research Institute, Clean and Unclean Meats, https://adventistbiblicalresearch.org/articles/clean-and-unclean-meats."
+    },
+    {
+      "id": "ostia-antica-urban-history",
+      "title": "Ancient Ostia: History and Urban Development",
+      "author": "Archaeological Park of Ostia Antica",
+      "type": "Official archaeological site guide",
+      "tradition": "Roman-period archaeology",
+      "interpretiveCategory": "Historical control",
+      "howUsed": "Private historical control for Rome's port economy, urban setting, and first-century social world.",
+      "citationFormat": "Archaeological Park of Ostia Antica, Ancient Ostia: History and Urban Development, https://www.ostiaantica.beniculturali.it/en/educational-panels/general-panels/ancient-ostia-history-and-urban-development/."
+    },
+    {
+      "id": "suetonius-claudius-25",
+      "title": "Life of Claudius 25",
+      "author": "Suetonius",
+      "type": "Primary historical text",
+      "tradition": "Roman primary source",
+      "interpretiveCategory": "Historical control",
+      "howUsed": "Private historical control for the expulsion of Jews from Rome under Claudius, stated with chronological caution.",
+      "citationFormat": "Suetonius, Life of Claudius 25.4, https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Claudius*.html."
+    },
+    {
+      "id": "ascsa-kenchreai-port",
+      "title": "Kenchreai, Eastern Port of Corinth",
+      "author": "American School of Classical Studies at Athens",
+      "type": "Archaeological report",
+      "tradition": "Roman-period archaeology",
+      "interpretiveCategory": "Historical control",
+      "howUsed": "Private historical control for Cenchrea as a diverse and prosperous Roman-era port associated with Phoebe.",
+      "citationFormat": "American School of Classical Studies at Athens, Kenchreai, Eastern Port of Corinth, https://www.ascsa.edu.gr/index.php/news/newsDetails/report-on-kenchreai-2012."
+    },
+    {
+      "id": "egw-faith-and-works",
+      "title": "Faith and Works",
+      "author": "Ellen G. White",
+      "type": "Private secondary theological cross-check",
+      "tradition": "Seventh-day Adventist",
+      "interpretiveCategory": "Secondary theological cross-check",
+      "howUsed": "Private secondary check for the relation of law and gospel, justification, sanctification, and obedience; never a replacement for exegesis of Scripture.",
+      "citationFormat": "Ellen G. White, Faith and Works, https://m.egwwritings.org/en/book/31/toc."
+    },
+    {
+      "id": "gaius-institutes-adoption",
+      "title": "The Institutes of Gaius, Book I, Sections 97-107",
+      "author": "Gaius",
+      "type": "Primary Roman legal text",
+      "tradition": "Roman legal history",
+      "interpretiveCategory": "Historical control",
+      "howUsed": "Private primary-source control for the legal and familial setting behind Paul's adoption imagery.",
+      "citationFormat": "Gaius, Institutes 1.97-107, Edward Poste translation, https://droitromain.univ-grenoble-alpes.fr/Anglica/gai1_Poste.htm."
+    }
+  ]
+}

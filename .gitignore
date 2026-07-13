@@ -1,0 +1,15 @@
+.DS_Store
+.next/
+node_modules
+.pnpm-store/
+out/
+outputs/
+*.tsbuildinfo
+__pycache__/
+
+# Local-only copyrighted research corpus and full-text search index.
+.research/
+tmp/pdfs/
+
+# Legacy named source inventory; keep source identities out of GitHub.
+research/corinthians-source-manifest.json

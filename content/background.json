@@ -1,0 +1,273 @@
+{
+  "title": "Historical Background",
+  "subtitle": "The author, dates, city, church, correspondence, and pastoral setting behind both letters.",
+  "readingLens": [
+    "The Corinthian letters are pastoral communication within an ongoing relationship. Paul is not writing an abstract guide to Christian belief. He is helping a young congregation learn how the gospel reshapes loyalty, sexuality, worship, money, power, suffering, and community life.",
+    "Some details of the visits and letters between Paul and Corinth remain uncertain. The broad movement is clearer: the church was founded, serious disorders developed, correction brought pain, and reconciliation opened the way for renewed partnership."
+  ],
+  "facts": [
+    {
+      "icon": "mission",
+      "label": "Author",
+      "value": "Paul the apostle"
+    },
+    {
+      "icon": "period",
+      "label": "Dates",
+      "value": "Approximately A.D. 54–56"
+    },
+    {
+      "icon": "location",
+      "label": "Setting",
+      "value": "Roman Corinth, capital of Achaia"
+    },
+    {
+      "icon": "letters",
+      "label": "Letters",
+      "value": "1 and 2 Corinthians"
+    }
+  ],
+  "sections": [
+    {
+      "id": "pauline-authorship",
+      "scope": "Both Letters",
+      "title": "Author: Paul the Apostle",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Both surviving letters present Paul as their primary sender, with trusted coworkers named alongside him in the customary opening. The claim is not confined to a heading. Throughout the letters, the writer speaks as the person who first brought the gospel to Corinth, supported himself through manual work, remained with the congregation during its beginning, and continued to guide it after leaving. These repeated personal claims form an integral part of each argument."
+        },
+        {
+          "type": "paragraph",
+          "text": "The many references to travel plans, coworkers, previous correspondence, financial arrangements, conflict, and reconciliation create a detailed pastoral setting. Timothy, Titus, Apollos, Aquila, and Priscilla belong to the same network of relationships that surrounds Paul’s wider ministry. The emotional range also suits an established founder addressing people who know him personally: he can correct, appeal, explain changed plans, recall shared experiences, and defend his conduct without introducing himself as a stranger."
+        },
+        {
+          "type": "paragraph",
+          "text": "First and Second Corinthians also share Paul’s characteristic theological and pastoral priorities. Christ’s cross overturns human pride, apostolic leadership takes the form of service, Christian freedom is governed by love, and weakness becomes the setting in which God’s power is displayed. Differences of tone reflect different moments in the relationship rather than different authors. Questions about whether 2 Corinthians was assembled from more than one Pauline letter remain debated, but that issue concerns its final arrangement; it does not displace Paul as the voice behind the material."
+        }
+      ]
+    },
+    {
+      "id": "date-and-place-of-writing",
+      "scope": "Both Letters",
+      "title": "Date and Place of Writing",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Paul likely wrote 1 Corinthians from Ephesus in the middle of the A.D. 50s, perhaps around A.D. 54 or 55. The letter belongs to the period after his initial eighteen-month ministry in Corinth and after continued contact through an earlier letter, visitors, and a written set of questions from the congregation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Second Corinthians was probably written from Macedonia around A.D. 55 or 56, after a painful visit, a forceful letter that has not survived, and encouraging news brought by Titus. Paul was preparing to return to Corinth and urging the church to complete its contribution for believers in Jerusalem."
+        },
+        {
+          "type": "paragraph",
+          "text": "The exact sequence of visits and letters remains debated, as does the possibility that 2 Corinthians preserves material first sent on separate occasions. These uncertainties affect the reconstruction of the correspondence but not its central setting: both letters arose during Paul’s active ministry in the eastern Mediterranean and address the congregation he had founded."
+        }
+      ]
+    },
+    {
+      "id": "corinth-and-its-world",
+      "scope": "Both Letters",
+      "title": "Historical Context: Corinth and Its World",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Corinth occupied a narrow land bridge joining northern and southern Greece. Its position gave the city access to routes moving in several directions, while nearby harbors connected it with the Aegean world to the east and the Adriatic routes to the west. Travelers, goods, news, and religious ideas passed through the region continually. Shipping, construction, crafts, retail trade, transport, and public administration all contributed to its busy economy."
+        },
+        {
+          "type": "paragraph",
+          "text": "The city was Greek in location and language, yet distinctly Roman in civic identity. After an earlier city had been destroyed, Corinth was re-established as a Roman colony in 44 B.C. Its institutions, public monuments, and ambitions reflected Roman rule, while older Greek customs remained deeply rooted. The result was a layered urban culture populated by Roman colonists, native Greeks, immigrants, merchants, artisans, freed people, enslaved workers, and visitors from across the Mediterranean."
+        },
+        {
+          "type": "paragraph",
+          "text": "Economic movement did not mean equal prosperity. A small number of families possessed wealth, influence, and public visibility, while many people lived through manual labor, service, or dependence on patrons. Social advancement mattered, and relationships with powerful benefactors could provide opportunity and protection. Public honor, reputation, and rank shaped everyday behavior. Banquets, courts, associations, and civic ceremonies could all become settings in which people displayed status or competed for recognition."
+        },
+        {
+          "type": "paragraph",
+          "text": "Religion was woven into public and private life. Temples, festivals, household practices, trade associations, and civic loyalty created overlapping obligations. Participation could involve meals, processions, sacrifices, or expressions of respect toward Roman authority. New believers therefore had to decide how allegiance to Christ affected habits that their neighbors considered ordinary. The letters address this complicated environment without reducing Corinth to a simple picture of unusual wickedness. Its deepest pressures were common urban pressures intensified by mobility, ambition, inequality, and religious variety."
+        }
+      ]
+    },
+    {
+      "id": "the-founding-and-makeup-of-the-church",
+      "scope": "Both Letters",
+      "title": "Recipients and Church Formation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Paul likely arrived in Corinth around A.D. 50 after ministry elsewhere in Greece. He began working alongside Aquila and Priscilla, a married couple who shared his manual trade. This work gave him a means of support and placed his ministry within the ordinary rhythms of city life. He first reasoned with people connected to the synagogue and later continued teaching from a nearby household when opposition increased."
+        },
+        {
+          "type": "paragraph",
+          "text": "Several early believers illustrate the congregation’s varied makeup. Some came from Jewish backgrounds, while many were Gentiles. A few household leaders had the space or means to host gatherings, yet most members did not possess exceptional education, wealth, or social influence. The congregation probably included householders, dependents, artisans, laborers, enslaved people, freed people, married couples, and unmarried believers. They did not enter the church with equal freedom, security, or standing."
+        },
+        {
+          "type": "paragraph",
+          "text": "Paul remained for approximately eighteen months, giving the community a substantial beginning. During that period the mission survived public resistance and a legal complaint brought before the provincial governor. The case did not result in a Roman prohibition of Paul’s work, allowing the congregation to become established before he departed. Other teachers later contributed, including Apollos, whose ability attracted admiration among some believers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Conversion joined people who had previously been separated by ethnicity, household rank, education, and income. Yet baptism did not instantly erase the habits of the surrounding culture. Competition for prestige appeared in loyalty to admired teachers. Wealth differences became visible at shared meals. Members carried disputes into public courts, evaluated spiritual gifts as signs of importance, and struggled to treat one another as members of one interdependent community. Much of Paul’s instruction addresses the difficult transition from ordinary Corinthian status patterns to a new family shaped by Christ."
+        }
+      ]
+    },
+    {
+      "id": "pauls-relationship-with-corinth",
+      "scope": "Both Letters",
+      "title": "Paul’s Relationship and Chronology",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Paul’s relationship with Corinth extended across several years and involved more contact than the two surviving letters alone reveal. He founded the congregation and continued to guide it after leaving. Messages traveled through coworkers, household representatives, and visiting believers. The church sent questions, Paul sent instructions, and trusted partners helped carry news between Corinth and the places where he was serving."
+        },
+        {
+          "type": "paragraph",
+          "text": "Across the correspondence, Paul moved between instruction, confrontation, grief, relief, and renewed partnership. He did not abandon the congregation when correction became costly. Trusted coworkers carried messages and helped restore communication when direct contact had become painful. Paul combined firmness with affection, defended his responsibility without making himself the center, and sought a church capable of truthful repentance, forgiveness, generosity, and mature cooperation."
+        },
+        {
+          "type": "timeline",
+          "title": "A Brief Corinthian Chronology",
+          "note": "Dates are approximate, and a few details in the sequence remain debated.",
+          "events": [
+            {
+              "date": "Around A.D. 50",
+              "title": "Paul Arrives",
+              "description": "Paul reaches Corinth, works with Aquila and Priscilla, and begins announcing the gospel."
+            },
+            {
+              "date": "Around A.D. 50–52",
+              "title": "The Church Takes Root",
+              "description": "An extended ministry establishes a congregation drawn from varied social and religious backgrounds."
+            },
+            {
+              "date": "After Paul’s Departure",
+              "title": "Continued Contact",
+              "description": "Other teachers serve in Corinth while Paul maintains contact through visitors, coworkers, and an earlier letter."
+            },
+            {
+              "date": "Around A.D. 53–55",
+              "title": "Problems Reach Paul",
+              "description": "Reports of division and misconduct arrive with a written set of questions from the church."
+            },
+            {
+              "date": "Middle A.D. 50s",
+              "title": "1 Corinthians Is Sent",
+              "description": "Paul writes from Ephesus to correct disorder and form the church around the pattern of Christ."
+            },
+            {
+              "date": "Soon Afterward",
+              "title": "A Difficult Crisis",
+              "description": "A painful meeting and a forceful letter likely follow, though the precise sequence remains uncertain."
+            },
+            {
+              "date": "Around A.D. 55–56",
+              "title": "Reconciliation and 2 Corinthians",
+              "description": "Encouraging news arrives through Titus, and Paul writes to strengthen reconciliation and prepare for another visit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "why-paul-wrote-1-corinthians",
+      "scope": "1 Corinthians",
+      "title": "Occasion and Purpose of 1 Corinthians",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Paul wrote 1 Corinthians because the church’s confession and its shared life were moving apart. Members had organized themselves around admired leaders, treating teachers as banners in a contest for importance. Paul redirects attention to Christ and presents the cross as a decisive challenge to self-promotion. Leadership is service, spiritual maturity is measured by faithful love, and no worker in the church can replace the foundation God has already given."
+        },
+        {
+          "type": "paragraph",
+          "text": "The letter also addresses conduct that threatened the congregation’s holiness and unity. Paul responds to sexual misconduct, lawsuits between believers, marriage and singleness, and the use of personal freedom. His answers do not follow one rule detached from all others. Again and again he asks believers to consider belonging, responsibility, conscience, and the good of another person. Christian freedom must not become a refined form of selfishness."
+        },
+        {
+          "type": "paragraph",
+          "text": "Food connected with idol worship raised difficult questions because religious, commercial, and social life often overlapped. Paul distinguishes knowledge from wisdom and warns that participation can carry meanings beyond private intention. A believer may have a legitimate freedom yet choose restraint for the sake of another person. Loyalty to God and care for the community must guide decisions that cannot be settled by appetite alone."
+        },
+        {
+          "type": "paragraph",
+          "text": "Disorder in gathered worship revealed the same underlying struggle. Wealthy members humiliated those with less at the communal meal, public participation became competitive, and spectacular gifts received greater attention than less visible service. Paul insists that every gift belongs to the whole church and must contribute to its growth. He then anchors hope in the future resurrection, showing that bodily life, moral faithfulness, patient service, and sacrificial generosity all matter because God’s renewing work will be completed."
+        }
+      ]
+    },
+    {
+      "id": "why-paul-wrote-2-corinthians",
+      "scope": "2 Corinthians",
+      "title": "Occasion and Purpose of 2 Corinthians",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Second Corinthians emerges from a more personal crisis. Paul’s changed travel plans had been interpreted by some as unreliability, and his authority had come under attack. Rather than present an image of effortless control, he explains ministry through weakness, endurance, comfort, and dependence on God. His hardships are not proof that his work has failed. They reveal a pattern in which divine power operates through fragile human servants."
+        },
+        {
+          "type": "paragraph",
+          "text": "A major purpose of the letter is to consolidate reconciliation. Paul explains the grief behind his severe correction and makes clear that discipline was intended to restore, not destroy. He urges the church to receive him with renewed openness and to complete the healing of their relationship. Forgiveness, truthful speech, and responsible action are all necessary if reconciliation is to become more than a passing emotion."
+        },
+        {
+          "type": "paragraph",
+          "text": "Paul also prepares the Corinthians to complete their contribution for struggling believers in Jerusalem. He treats generosity as an expression of grace rather than a tool of pressure. Willing participation, proportional giving, careful administration, and concern for equality belong together. The collection would meet practical needs while also demonstrating fellowship across geographic and ethnic boundaries."
+        },
+        {
+          "type": "paragraph",
+          "text": "The closing portion has a sharper tone because some opposition evidently remained. The exact identity and influence of Paul’s challengers are uncertain, but they appear to have promoted impressive credentials, forceful presence, and public success. Paul refuses that standard. He defends his authority by pointing to costly service, suffering, truthfulness, and concern for the church. His goal is not personal victory but a congregation able to recognize faithful ministry and resist manipulation."
+        }
+      ]
+    },
+    {
+      "id": "how-the-letters-fit-together",
+      "scope": "Both Letters",
+      "title": "How the Two Letters Fit Together",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The two letters illuminate different stages of one pastoral story. First Corinthians concentrates on disorders within the congregation and questions about Christian practice. Second Corinthians concentrates on the strained relationship between Paul and the church, the meaning of his ministry, and the work of rebuilding trust. The first is often more instructional; the second is often more personal. Both arise from the same desire to form a faithful community."
+        },
+        {
+          "type": "paragraph",
+          "text": "Several themes connect them. Human pride is confronted by the pattern of Christ. Leadership is evaluated through service rather than display. Spiritual experience must produce love and strengthen others. The body matters, whether Paul is discussing sexual conduct, resurrection, suffering, or embodied service. Money is also spiritual territory, appearing in shared meals, support for ministry, and the collection for Jerusalem."
+        },
+        {
+          "type": "paragraph",
+          "text": "Read together, the letters move from fragmentation toward mature partnership. They show that correction and reconciliation are not opposites. Honest confrontation can protect a community, while forgiveness can reopen a future after failure. Paul’s authority is firm, but its intended outcome is restoration. The church is called to become a people whose worship, relationships, possessions, and hope all display the transforming work of God."
+        },
+        {
+          "type": "paragraph",
+          "text": "These letters do not present Corinth as a hopeless church. They present a gifted but unfinished church learning to live differently within a demanding city. Its problems make the correspondence unusually practical, while its moments of repentance reveal that change is possible. The continuing invitation is to let the gospel shape not only belief, but also the patterns by which believers share life."
+        },
+        {
+          "type": "comparison",
+          "title": "The Two Letters at a Glance",
+          "headers": [
+            "Focus",
+            "1 Corinthians",
+            "2 Corinthians"
+          ],
+          "rows": [
+            [
+              "Immediate setting",
+              "Internal conflicts, misconduct, and questions from the congregation",
+              "A damaged pastoral relationship moving toward reconciliation"
+            ],
+            [
+              "Primary concern",
+              "Ordering communal life around Christ rather than status and self-interest",
+              "Recognizing faithful ministry and rebuilding trust"
+            ],
+            [
+              "Prominent themes",
+              "Unity, holiness, freedom, worship, spiritual gifts, love, and resurrection",
+              "Comfort, weakness, integrity, reconciliation, generosity, and authority"
+            ],
+            [
+              "Pastoral movement",
+              "From rivalry and disorder toward mutual care",
+              "From pain and suspicion toward restored partnership"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
