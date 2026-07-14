@@ -1,9 +1,10 @@
-import { readFileSync, readdirSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 
 const root = process.cwd();
 const books = ["1-corinthians", "2-corinthians"];
 const notes = [];
+const editorialFields = [];
 const errors = [];
 
 const stockPatterns = [
@@ -75,10 +76,27 @@ function coefficientOfVariation(values) {
   return Math.sqrt(variance) / average;
 }
 
+function addEditorialField(reference, text) {
+  const value = String(text ?? "").trim();
+  if (!value) return;
+  const paragraphs = value.split(/\n\s*\n/gu).map((paragraph) => paragraph.trim()).filter(Boolean);
+  editorialFields.push({
+    reference,
+    text: value,
+    paragraphs,
+    sentences: splitSentences(value)
+  });
+}
+
 for (const book of books) {
   const bookRoot = join(root, "content", book);
   for (const file of readdirSync(bookRoot).filter((entry) => entry.endsWith(".json")).sort()) {
     const chapter = JSON.parse(readFileSync(join(bookRoot, file), "utf8"));
+    const chapterReference = `${book} ${chapter.chapterNumber}`;
+    addEditorialField(`${chapterReference} summary`, chapter.summary);
+    (chapter.outline ?? []).forEach((section, index) => {
+      addEditorialField(`${chapterReference} outline ${index + 1}`, section.summary);
+    });
     const chapterNotes = [];
     for (const verse of chapter.verses ?? []) {
       const text = String(verse.commentary?.detailedExplanation ?? "").trim();
@@ -101,6 +119,9 @@ for (const book of books) {
       };
       notes.push(note);
       chapterNotes.push(note);
+      (verse.wordNotes ?? []).forEach((wordNote, index) => {
+        addEditorialField(`${verse.verse} word note ${index + 1}`, wordNote.explanation);
+      });
     }
 
     const counts = chapterNotes.map((note) => note.wordCount);
@@ -122,13 +143,38 @@ for (const book of books) {
   }
 }
 
+const backgroundPath = join(root, "content", "background.json");
+if (existsSync(backgroundPath)) {
+  const background = JSON.parse(readFileSync(backgroundPath, "utf8"));
+  const visit = (value, reference = "Introduction") => {
+    if (typeof value === "string") {
+      if (words(value).length >= 8) addEditorialField(reference, value);
+      return;
+    }
+    if (Array.isArray(value)) {
+      value.forEach((entry, index) => visit(entry, `${reference}[${index}]`));
+      return;
+    }
+    if (!value || typeof value !== "object") return;
+    Object.entries(value).forEach(([key, entry]) => {
+      if (!new Set(["id", "type"]).has(key)) visit(entry, `${reference}.${key}`);
+    });
+  };
+  visit(background);
+}
+
+const homepagePath = join(root, "components", "hero-section.tsx");
+if (existsSync(homepagePath)) {
+  addEditorialField("Homepage", readFileSync(homepagePath, "utf8"));
+}
+
 if (notes.length !== 694) errors.push(`Expected 694 notes; found ${notes.length}.`);
 for (const note of notes) {
   if (note.wordCount < 40) errors.push(`${note.reference} is unexpectedly short (${note.wordCount} words).`);
   if (/ {2,}/u.test(note.text)) errors.push(`${note.reference} contains repeated spaces.`);
 }
 
-const allText = notes.map((note) => note.text).join("\n");
+const allText = [...notes.map((note) => note.text), ...editorialFields.map((field) => field.text)].join("\n");
 for (const item of stockPatterns) {
   const count = countMatches(allText, item.pattern);
   item.count = count;
@@ -148,7 +194,7 @@ if (denseDisclaimerNotes.length > 20) {
 
 const duplicateSentences = new Map();
 const duplicateParagraphs = new Map();
-for (const note of notes) {
+for (const note of [...notes, ...editorialFields]) {
   for (const sentence of note.sentences) {
     if (words(sentence).length < 16) continue;
     const key = normalize(sentence);
@@ -198,6 +244,7 @@ const averageWords = mean(notes.map((note) => note.wordCount));
 const averageParagraphs = mean(notes.map((note) => note.paragraphCount));
 console.log("Corinthians humanization audit");
 console.log(`- Notes: ${notes.length}`);
+console.log(`- Additional editorial fields: ${editorialFields.length}`);
 console.log(`- Total words: ${notes.reduce((sum, note) => sum + note.wordCount, 0).toLocaleString()}`);
 console.log(`- Average words per note: ${averageWords.toFixed(1)}`);
 console.log(`- Average paragraphs per note: ${averageParagraphs.toFixed(1)}`);

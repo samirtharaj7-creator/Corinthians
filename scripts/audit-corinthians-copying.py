@@ -14,6 +14,8 @@ from pathlib import Path
 ROOT = Path.cwd()
 CONTENT_ROOT = ROOT / "content"
 CORPUS_TEXT_ROOT = ROOT / ".research" / "corinthians-corpus" / "text"
+BACKGROUND_PATH = CONTENT_ROOT / "background.json"
+HOMEPAGE_PATH = ROOT / "components" / "hero-section.tsx"
 EXACT_WINDOW = int(os.environ.get("CORINTHIANS_OVERLAP_WORDS", "20"))
 NORMALIZED_WINDOW = int(os.environ.get("CORINTHIANS_NORMALIZED_OVERLAP_WORDS", "16"))
 MAX_REPORTS = int(os.environ.get("CORINTHIANS_OVERLAP_REPORTS", "30"))
@@ -73,9 +75,35 @@ def generated_indexes():
     paragraph_count = 0
     field_count = 0
 
+    def index_public_field(reference: str, field: str, value: str) -> None:
+        nonlocal paragraph_count, field_count
+        if not value.strip():
+            return
+        field_count += 1
+        for paragraph in re.split(r"\n\s*\n", value):
+            if not paragraph.strip():
+                continue
+            paragraph_count += 1
+            add_windows(exact, reference, field, words(paragraph), EXACT_WINDOW)
+            add_windows(
+                normalized,
+                reference,
+                field,
+                normalized_content_words(paragraph),
+                NORMALIZED_WINDOW,
+            )
+
     for book in ("1-corinthians", "2-corinthians"):
         for chapter_path in sorted((CONTENT_ROOT / book).glob("chapter-*.json")):
             chapter = json.loads(chapter_path.read_text(encoding="utf-8"))
+            chapter_reference = f"{book} {chapter.get('chapterNumber', '?')}"
+            index_public_field(chapter_reference, "chapter.summary", str(chapter.get("summary", "")))
+            for outline_index, section in enumerate(chapter.get("outline", []), start=1):
+                index_public_field(
+                    chapter_reference,
+                    f"outline[{outline_index}].summary",
+                    str(section.get("summary", "")),
+                )
             for verse in chapter.get("verses", []):
                 reference = verse["verse"]
                 bible_text = str(verse.get("bibleText", ""))
@@ -92,21 +120,30 @@ def generated_indexes():
                     for index, note in enumerate(verse.get("wordNotes", []), start=1)
                 )
                 for field, value in public_fields:
-                    if not value.strip():
-                        continue
-                    field_count += 1
-                    for paragraph in re.split(r"\n\s*\n", value):
-                        if not paragraph.strip():
-                            continue
-                        paragraph_count += 1
-                        add_windows(exact, reference, field, words(paragraph), EXACT_WINDOW)
-                        add_windows(
-                            normalized,
-                            reference,
-                            field,
-                            normalized_content_words(paragraph),
-                            NORMALIZED_WINDOW,
-                        )
+                    index_public_field(reference, field, value)
+
+    if BACKGROUND_PATH.exists():
+        background = json.loads(BACKGROUND_PATH.read_text(encoding="utf-8"))
+
+        def walk_background(value: object, field: str = "background") -> None:
+            if isinstance(value, str):
+                index_public_field("Introduction", field, value)
+            elif isinstance(value, list):
+                for index, item in enumerate(value):
+                    walk_background(item, f"{field}[{index}]")
+            elif isinstance(value, dict):
+                for key, item in value.items():
+                    if key not in {"id", "type"}:
+                        walk_background(item, f"{field}.{key}")
+
+        walk_background(background)
+
+    if HOMEPAGE_PATH.exists():
+        index_public_field(
+            "Homepage",
+            "components/hero-section.tsx",
+            HOMEPAGE_PATH.read_text(encoding="utf-8"),
+        )
 
     return exact, normalized, kjv_exact, kjv_normalized, paragraph_count, field_count
 
@@ -188,7 +225,7 @@ def main() -> int:
 
     print(
         f"Corinthians copying audit passed: {paragraph_count} paragraphs across "
-        f"{field_count} public commentary/word-note fields checked against "
+        f"{field_count} public editorial fields checked against "
         f"{checked_sources} private source texts using {EXACT_WINDOW}-word exact and "
         f"{NORMALIZED_WINDOW}-content-word normalized windows (shared KJV wording excluded)."
     )

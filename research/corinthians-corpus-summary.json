@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-12T00:51:12.372276+00:00",
+  "generatedAt": "2026-07-14T10:34:35.781387+00:00",
   "note": "Aggregate statistics only. Named source metadata remains private under .research/.",
   "summary": {
-    "files": 38,
-    "uniqueFiles": 37,
+    "files": 40,
+    "uniqueFiles": 39,
     "duplicates": 1,
-    "readable": 37,
+    "readable": 39,
     "needsOcr": 0,
-    "pages": 8054,
+    "pages": 8354,
     "ocrPages": 190,
-    "words": 2884015,
-    "chunks": 7410
+    "words": 3067055,
+    "chunks": 7880
   }
 }

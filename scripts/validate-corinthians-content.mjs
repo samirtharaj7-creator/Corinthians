@@ -3,6 +3,7 @@ import { join } from "node:path";
 
 const root = process.cwd();
 const contentRoot = join(root, "content");
+const previewVersePath = join(root, "lib", "generated", "kjv-reference-verses.json");
 const books = {
   "1-corinthians": {
     name: "1 Corinthians",
@@ -45,8 +46,19 @@ const scriptureBooks = new Set([
 ]);
 const singleChapterBooks = new Set(["Obadiah", "Philemon", "2 John", "3 John", "Jude"]);
 const errors = [];
+const previewVerseLookup = existsSync(previewVersePath)
+  ? JSON.parse(readFileSync(previewVersePath, "utf8"))
+  : {};
+if (!existsSync(previewVersePath)) {
+  errors.push("The generated KJV reference-preview lookup is missing.");
+}
+const requiredPreviewVerseKeys = new Set();
 let populatedNoteCount = 0;
 let partialChapterCount = 0;
+let verseRecordCount = 0;
+let studyLinksVerseCount = 0;
+let crossReferenceCount = 0;
+let wordNotesVerseCount = 0;
 
 function assert(condition, message) {
   if (!condition) errors.push(message);
@@ -59,12 +71,12 @@ function pad(value) {
 function validateScriptureReference(citation, noteContext) {
   if (typeof citation !== "string" || !citation.trim()) {
     assert(false, `${noteContext} has an empty Scripture reference.`);
-    return;
+    return null;
   }
 
   const match = citation.trim().match(/^((?:[1-3] )?[A-Za-z]+(?: [A-Za-z]+)*) (?:(\d+):)?(\d+)(?:[-–—](\d+))?$/u);
   assert(Boolean(match), `${noteContext} has an invalid Scripture reference: ${citation}.`);
-  if (!match) return;
+  if (!match) return null;
 
   const [, bookName, chapterText, startText, endText] = match;
   assert(scriptureBooks.has(bookName), `${noteContext} names an unrecognized biblical book: ${bookName}.`);
@@ -75,6 +87,43 @@ function validateScriptureReference(citation, noteContext) {
   assert(chapter > 0, `${noteContext} has an invalid chapter number in ${citation}.`);
   assert(startVerse > 0, `${noteContext} has an invalid verse number in ${citation}.`);
   assert(endVerse >= startVerse, `${noteContext} has a reversed verse range in ${citation}.`);
+
+  const localBook = Object.values(books).find((book) => book.name === bookName);
+  if (localBook) {
+    assert(
+      chapter <= localBook.verseCounts.length,
+      `${noteContext} cites a chapter outside ${bookName}: ${citation}.`
+    );
+    const chapterVerseCount = localBook.verseCounts[chapter - 1];
+    if (chapterVerseCount) {
+      assert(
+        endVerse <= chapterVerseCount,
+        `${noteContext} cites a verse outside ${bookName} ${chapter}: ${citation}.`
+      );
+    }
+  }
+
+  const previewBookName = bookName === "Psalm"
+    ? "Psalms"
+    : bookName === "Song of Songs"
+      ? "Song of Solomon"
+      : bookName;
+  const previewEndVerse = Math.min(endVerse, startVerse + 2);
+  for (let verse = startVerse; verse <= previewEndVerse; verse += 1) {
+    const previewKey = `${previewBookName} ${chapter}:${verse}`;
+    requiredPreviewVerseKeys.add(previewKey);
+    assert(
+      typeof previewVerseLookup[previewKey] === "string" && previewVerseLookup[previewKey].trim().length > 0,
+      `${noteContext} is missing hover-preview text for ${previewKey}.`
+    );
+  }
+
+  return {
+    bookName,
+    chapter,
+    startVerse,
+    endVerse
+  };
 }
 
 for (const [bookSlug, book] of Object.entries(books)) {
@@ -129,6 +178,7 @@ for (const [bookSlug, book] of Object.entries(books)) {
     let populatedChapterNotes = 0;
     (chapter.verses ?? []).forEach((verse, verseIndex) => {
       const reference = `${book.name} ${chapterNumber}:${verseIndex + 1}`;
+      verseRecordCount += 1;
       assert(verse.verse === reference, `${context} verse ${verseIndex + 1} must be ${reference}.`);
       assert(typeof verse.bibleText === "string" && verse.bibleText.trim().length > 0, `${reference} is missing KJV text.`);
       verseTextFields.forEach((field) => {
@@ -148,10 +198,44 @@ for (const [bookSlug, book] of Object.entries(books)) {
         assert(verse.commentary?.[field] === "", `${reference}.commentary.${field} must remain blank.`);
       });
       assert(Array.isArray(verse.commentary?.reviewFlags) && verse.commentary.reviewFlags.length === 0, `${reference} must not have review flags.`);
-      assert(Array.isArray(verse.crossReferences) && verse.crossReferences.length === 0, `${reference} cross references must remain blank.`);
+      const crossReferences = Array.isArray(verse.crossReferences) ? verse.crossReferences : [];
+      assert(Array.isArray(verse.crossReferences), `${reference} cross references must be an array.`);
+      assert(crossReferences.length >= 3, `${reference} must include at least three useful cross references.`);
+      assert(crossReferences.length <= 5, `${reference} may include at most five selective cross references.`);
+      if (Array.isArray(verse.crossReferences) && crossReferences.length >= 3 && crossReferences.length <= 5) {
+        studyLinksVerseCount += 1;
+      }
+      crossReferenceCount += crossReferences.length;
+      const seenCrossReferences = new Set();
+      crossReferences.forEach((citation) => {
+        const citationContext = `${reference} cross reference`;
+        const parsedCitation = validateScriptureReference(citation, citationContext);
+        if (typeof citation !== "string") return;
+
+        const normalizedCitation = citation.trim().toLocaleLowerCase().replace(/[–—]/gu, "-");
+        assert(
+          !seenCrossReferences.has(normalizedCitation),
+          `${reference} repeats the cross reference ${citation}.`
+        );
+        seenCrossReferences.add(normalizedCitation);
+
+        if (!parsedCitation) return;
+        const containsCurrentVerse = parsedCitation.bookName === book.name
+          && parsedCitation.chapter === chapterNumber
+          && parsedCitation.startVerse <= verseIndex + 1
+          && parsedCitation.endVerse >= verseIndex + 1;
+        assert(
+          !containsCurrentVerse,
+          `${reference} must not cite itself, including within the range ${citation}.`
+        );
+      });
       const wordNotes = Array.isArray(verse.wordNotes) ? verse.wordNotes : [];
       assert(Array.isArray(verse.wordNotes), `${reference} word notes must be an array.`);
+      assert(wordNotes.length >= 1, `${reference} must include at least one focused Word / Phrase Note.`);
       assert(wordNotes.length <= 2, `${reference} may contain at most two selective word notes.`);
+      if (wordNotes.length >= 1 && wordNotes.length <= 2) {
+        wordNotesVerseCount += 1;
+      }
       const wordNoteTerms = new Set();
       wordNotes.forEach((note, noteIndex) => {
         const noteContext = `${reference} word note ${noteIndex + 1}`;
@@ -198,6 +282,25 @@ for (const [bookSlug, book] of Object.entries(books)) {
   });
 }
 
+const expectedVerseTotal = Object.values(books)
+  .flatMap((book) => book.verseCounts)
+  .reduce((total, chapterVerseCount) => total + chapterVerseCount, 0);
+assert(verseRecordCount === expectedVerseTotal, `Expected ${expectedVerseTotal} verse records, found ${verseRecordCount}.`);
+assert(
+  studyLinksVerseCount === expectedVerseTotal,
+  `Every verse must have three to five cross references; ${studyLinksVerseCount} of ${expectedVerseTotal} currently do.`
+);
+assert(
+  wordNotesVerseCount === expectedVerseTotal,
+  `Every verse must have one or two Word / Phrase Notes; ${wordNotesVerseCount} of ${expectedVerseTotal} currently do.`
+);
+Object.keys(previewVerseLookup).forEach((previewKey) => {
+  assert(
+    requiredPreviewVerseKeys.has(previewKey),
+    `The hover-preview lookup contains stale or unused text for ${previewKey}.`
+  );
+});
+
 if (errors.length) {
   console.error(`Corinthians validation failed with ${errors.length} error${errors.length === 1 ? "" : "s"}:`);
   errors.forEach((error) => console.error(`- ${error}`));
@@ -205,5 +308,5 @@ if (errors.length) {
 }
 
 console.log(
-  `Corinthians reader content validated: 29 chapters, 694 KJV verses, ${populatedNoteCount} populated study notes, and ${partialChapterCount} partially populated chapter${partialChapterCount === 1 ? "" : "s"}.`
+  `Corinthians reader content validated: 29 chapters, ${verseRecordCount} KJV verses, ${populatedNoteCount} populated study notes, ${crossReferenceCount} cross references, Word / Phrase Notes on all ${wordNotesVerseCount} verses, ${requiredPreviewVerseKeys.size} KJV hover-preview verses, and ${partialChapterCount} partially populated chapter${partialChapterCount === 1 ? "" : "s"}.`
 );

@@ -37,7 +37,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 2:6",
+        "1 Corinthians 3:3",
+        "1 Corinthians 14:20",
+        "1 Corinthians 2:15",
+        "1 Corinthians 3:4"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -51,7 +57,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Babes in Christ",
+          "explanation": "The Corinthians truly belong to Christ, but their capacity to receive instruction remains infantile. Paul’s metaphor distinguishes spiritual birth from spiritual maturity: time in the church and impressive gifts do not guarantee growth when rivalry still governs communal life.",
+          "scriptureReferences": [
+            "1 Corinthians 2:6",
+            "1 Corinthians 3:3"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -72,7 +87,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Hebrews 5:12-14",
+        "John 16:12",
+        "1 Peter 2:2",
+        "Mark 4:33",
+        "Ephesians 4:13-14"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -86,7 +107,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Milk, and not with meat",
+          "explanation": "Milk represents foundational instruction suited to their condition; solid food represents the fuller implications of the gospel for life together. The difference is not a secret second gospel. Their inability appears in refusing to practice the cross-shaped wisdom already taught.",
+          "scriptureReferences": [
+            "Hebrews 5:12-14",
+            "John 16:12"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -107,7 +137,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 1:11",
+        "Galatians 5:19-21",
+        "James 3:14-16",
+        "1 Corinthians 6:1-8",
+        "1 Corinthians 11:18"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -121,7 +157,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Walk as men",
+          "explanation": "The phrase means living according to merely ordinary human patterns untouched by the Spirit’s transforming rule. Envy, strife, and factionalism reveal this condition more clearly than claims to knowledge can conceal it; conduct supplies the test of claimed maturity.",
+          "scriptureReferences": [
+            "1 Corinthians 1:11",
+            "1 Corinthians 11:18"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -142,7 +187,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 1:12",
+        "1 Corinthians 4:6",
+        "1 Corinthians 3:3",
+        "1 Corinthians 3:21",
+        "Acts 18:24-28"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -156,7 +207,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "I am of Apollos",
+          "explanation": "The slogan claims identity through attachment to a favored teacher. Paul repeats it to show that the Corinthians’ apparently sophisticated preferences are actually “carnal”: servants whom God joined in one work have been turned into banners for competing camps.",
+          "scriptureReferences": [
+            "1 Corinthians 1:12",
+            "1 Corinthians 4:6"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -177,7 +237,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 3:7",
+        "1 Corinthians 3:10",
+        "1 Corinthians 4:1",
+        "1 Corinthians 9:17",
+        "1 Corinthians 4:2"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -191,7 +257,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Ministers by whom ye believed",
+          "explanation": "“Ministers” describes servants or agents, not masters of the faith. Paul and Apollos were channels through whom the Corinthians heard and believed, each carrying the assignment the Lord gave. The wording shifts attention from human impressiveness to God’s initiative.",
+          "scriptureReferences": [
+            "1 Corinthians 3:7",
+            "1 Corinthians 3:10"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -212,7 +287,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Acts 18:4-11",
+        "Acts 18:24-28",
+        "1 Corinthians 3:5",
+        "1 Corinthians 3:7",
+        "2 Corinthians 10:15"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -226,7 +307,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "God gave the increase",
+          "explanation": "Planting and watering picture distinct but complementary phases of ministry. Neither worker can produce spiritual life; God continuously supplies the growth. The phrase honors faithful labor while denying any minister the right to claim ownership of its fruit.",
+          "scriptureReferences": [
+            "1 Corinthians 3:9",
+            "Proverbs 11:25"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -247,7 +337,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "John 15:5",
+        "2 Corinthians 4:7",
+        "Psalms 115:1",
+        "Isaiah 40:17",
+        "1 Corinthians 3:5-6"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -261,7 +357,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Neither is he that planteth any thing",
+          "explanation": "Paul speaks comparatively: planter and waterer are not the source of life and therefore cannot be treated as rival saviors. Their service matters, but its effectiveness is wholly dependent on God, whose action gives the work its living result.",
+          "scriptureReferences": [
+            "1 Corinthians 13:2",
+            "Psalms 115:1"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -282,7 +387,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 3:9",
+        "Romans 2:6",
+        "Galatians 6:4-5",
+        "Revelation 22:12",
+        "1 Corinthians 4:5"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -296,7 +407,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Are one",
+          "explanation": "Paul and Apollos are one in purpose because both serve the same God and field. Unity does not erase their different tasks or personal accountability; each receives an assessment corresponding to faithful labor, not to a party’s applause.",
+          "scriptureReferences": [
+            "1 Corinthians 3:9",
+            "1 Corinthians 4:5"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -317,7 +437,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 3:6",
+        "Psalms 65:9-13",
+        "Isaiah 61:3",
+        "Mark 4:26-29",
+        "1 Corinthians 3:16"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -361,7 +487,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Romans 15:20",
+        "Ephesians 2:20-22",
+        "1 Peter 4:11",
+        "1 Corinthians 3:5-6",
+        "1 Corinthians 15:10"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -375,7 +507,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "A wise masterbuilder",
+          "explanation": "The “masterbuilder” is the skilled chief builder responsible for laying out the work. Paul’s wisdom consists in founding the congregation on Christ by God’s grace. Later teachers must build responsibly on that foundation rather than redesign the church around themselves.",
+          "scriptureReferences": [
+            "1 Corinthians 3:5",
+            "1 Peter 4:11"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -396,7 +537,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Isaiah 28:16",
+        "2 Timothy 2:19",
+        "Matthew 16:18",
+        "1 Peter 2:6-8",
+        "Acts 4:11"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -410,7 +557,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Other foundation can no man lay",
+          "explanation": "Christ is the once-laid basis of the church’s existence, not one option among competing religious foundations. Every ministry must take its bearings from his person, cross, resurrection, and teaching; replacing him with a leader or ideology destroys the work’s Christian identity.",
+          "scriptureReferences": [
+            "Isaiah 28:16",
+            "2 Timothy 2:19"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -431,11 +587,17 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "2 Timothy 2:20-21",
+        "1 Peter 1:7",
+        "Proverbs 30:6",
+        "Colossians 2:8",
+        "1 Corinthians 3:10"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
-        "detailedExplanation": "Gold, silver, precious stones, wood, hay, and stubble picture different qualities of work placed upon the one foundation. The descending list contrasts what can endure searching judgment with what is quickly consumed. Paul is speaking chiefly about how people build the church through teaching and leadership, though the principle reaches all Christian service.\n\nThe materials are not separate kinds of converts, as though some people were inherently precious and others disposable. They represent workmanship. A ministry may look substantial in the present yet be made of vanity, manipulation, or shallow instruction. Quiet labor shaped by truth and love may prove far more durable.\n\nThe first three materials are valuable and resistant; the last three are common and combustible. Attempts to assign a distinct doctrine or virtue to each item go beyond Paul’s metaphor. The relevant distinction is quality under fire.\n\nMaterials also raise a question of proportion. Wood can create a large structure quickly; gold may appear in smaller quantity. Ministry evaluated by visible scale alone can prefer what is easiest to accumulate. The coming test asks what was built into people, not how impressive the construction looked before inspection.\n\nThe materials may also be heard against Corinth’s built environment, where temples and public structures displayed costly stone and metal while ordinary dwellings used more perishable material. Paul does not invite an archaeological key to each item, but the contrast between monumental durability and quick construction would be immediately visible. God’s inspection, however, may reverse appearances: the truly durable material is fidelity to Christ, not expensive display.\n\nGold and stubble may coexist within one builder’s work. Paul does not divide ministers neatly into flawless and worthless classes. Mixed motives and results make self-examination necessary and premature hero-making dangerous. The Day can preserve what grace made durable while exposing what pride added to it.\n\nChrist as foundation does not make quality irrelevant. Grace secures belonging and also summons builders to use materials suited to the house God is making.",
+        "detailedExplanation": "Gold, silver, precious stones, wood, hay, and stubble picture the sharply different quality of what may be built on the one foundation. The first group is durable; the second is quickly consumed. Paul does not invite a separate symbolic definition for each material. The contrast asks whether ministry will endure God’s searching test.\n\nThe materials may represent the instruction leaders contribute, the people whose character that instruction helps to form, or both. The two ideas belong together. Sound teaching rooted in Christ tends to form sturdy disciples; shallow, fanatical, or compromising teaching leaves people poorly prepared for pressure. This does not divide converts into people of greater and lesser human worth. It describes the moral and spiritual result of workmanship.\n\nVisible scale is a poor guide to that result. Wood can produce a large structure quickly, while gold may appear in smaller quantity. A ministry can seem substantial because it attracts crowds, money, or attention and still build vanity, dependence on a personality, or fragile understanding into a congregation. Patient teaching and quiet care may leave less impressive statistics while producing faith that remains.\n\nThe materials also allow for mixture within one person’s work. Paul is not sorting all teachers into flawless and worthless classes. A servant may build faithfully in one respect and carelessly in another. That possibility makes honest review necessary and premature hero-making dangerous.\n\nChrist as foundation does not make quality irrelevant. Grace gives the church its only foundation and summons every builder to use materials suited to it. Teaching, methods, and relationships must all agree with the crucified Lord on whom the congregation stands.",
         "exegesis": "",
         "historicalBackground": "",
         "technicalNotes": "",
@@ -445,7 +607,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Gold, silver, precious stones",
+          "explanation": "The two sets of materials contrast work that can endure testing with work that is consumed. Paul is not assigning a fixed meaning to each item. The list asks whether teaching and ministry built on Christ possess durable, God-approved quality.",
+          "scriptureReferences": [
+            "Psalms 19:10",
+            "1 Peter 1:7"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -466,11 +637,17 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 4:5",
+        "2 Corinthians 5:10",
+        "Romans 14:10-12",
+        "1 Peter 1:7",
+        "Revelation 22:12"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
-        "detailedExplanation": "“The day” is the Lord’s day of judgment, when the quality of each person’s work will become plain. Present success can hide weak construction: crowds, eloquence, or institutional momentum may be mistaken for spiritual substance. Christ’s evaluation penetrates appearances.\n\nBiblical fire can signify God’s presence, purification, or destructive judgment; context decides. Here it “tries” the work and consumes inferior materials. The fire is an image of Christ’s penetrating assessment on the day of the Lord.\n\nPaul’s focus on work prevents a reading about a second chance after death. Each builder’s ministry is disclosed for what it already became in history. The final judgment reveals rather than invents its character.\n\nFor Adventist readers, the verse fits the broader biblical picture of an open and righteous judgment in which God’s verdict is shown to be just. It supplies no timetable here, but it clearly places human work under Christ’s future review.\n\nFire is the testing image. It reveals what the materials are by consuming what cannot endure. The object tested is “every man’s work,” especially the work done in building the congregation. Paul is not describing disembodied souls being purified after death.\n\nThe disclosure is individual—“every man’s work”—and corporate in consequence, because the work under review is construction of the church. Judgment brings responsibility down to each builder without treating ministry as private. What a teacher inserts into a congregation may endure across lives and generations. That long reach is why motives, message, and method all belong before the fire.\n\nThe phrase “of what sort it is” emphasizes quality, not simply quantity. Numerical growth can accompany faithful mission, but numbers alone cannot tell whether people have been rooted in Christ, protected from exploitation, and taught the whole counsel of God. Fire asks the question statistics cannot answer.\n\nThis future disclosure gives both warning and consolation. Careless ministry will not remain protected by reputation, and faithful work overlooked now will not remain unknown. The church can therefore resist hurried verdicts and build with the coming day in view.",
+        "detailedExplanation": "“The day” is the day of the Lord’s judgment, when the true quality of each builder’s work will be made plain. Present success can conceal weak construction. Crowds, eloquence, institutional momentum, or a leader’s reputation may look substantial now; Christ’s evaluation reaches the character of what was actually built into his people.\n\nFire is the testing image. It exposes the difference between durable and combustible material by consuming what cannot endure. Trials can begin that disclosure within history, as pressure reveals whether faith has been rooted in the gospel or mixed with compromise. The final judgment completes the exposure and gives the just verdict.\n\nThe object under examination is repeatedly named: “every man’s work.” Paul is discussing the work of those who build the congregation, not disembodied souls passing through cleansing flames after death. Judgment reveals what teaching and ministry have already produced; it does not create a second opportunity to change their character.\n\n“Of what sort it is” places the emphasis on quality rather than quantity. Numerical growth can accompany faithful mission, but numbers cannot show whether people have been rooted in Christ, protected from manipulation, and prepared to stand under pressure. A small work ignored in the present may prove durable, while a celebrated structure may burn quickly.\n\nThe verse gives warning and consolation together. Careless ministry will not remain sheltered by appearances, and faithful labor overlooked now will not remain unknown. Because what teachers place in a congregation can shape lives long after they speak, message, motive, and method all belong under the light of the coming day.",
         "exegesis": "",
         "historicalBackground": "",
         "technicalNotes": "",
@@ -480,7 +657,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "The day shall declare it",
+          "explanation": "“The day” is the future day of Christ’s judgment, when hidden quality becomes manifest. The testing fire examines each builder’s work, not souls undergoing purification after death. Paul directs leaders toward God’s final assessment rather than present popularity.",
+          "scriptureReferences": [
+            "1 Corinthians 4:5",
+            "2 Corinthians 5:10"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -501,11 +687,17 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 4:5",
+        "2 Corinthians 5:10",
+        "Matthew 25:21",
+        "1 Thessalonians 2:19-20",
+        "Revelation 22:12"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
-        "detailedExplanation": "Work that “abide[s]” after testing receives a reward. Paul does not define the reward here or turn service into a wage by which salvation is purchased. The builder already works upon Christ, the given foundation. Reward is God’s gracious recognition of labor that truly served his purpose.\n\nThe promise matters because much church work is slow and scarcely noticed. God sees the patient teaching, truthful correction, hidden prayer, and costly care that may never attract public honor.\n\nPaul can speak of reward because grace and judgment answer different questions. Christ alone is the foundation of salvation; the quality of service determines whether labor receives God’s approval and bears enduring fruit. Works evidence what grace has produced without purchasing the grace from which they came.\n\nThe form of the reward remains unspecified. Elsewhere Paul’s joy includes seeing people stand faithful at Christ’s coming. Reward may include the Lord’s commendation and participation in the lasting fruit of obedient work. Speculation about ranks in heaven misses the passage’s emphasis on careful building.\n\nEndurance under fire implies more than doctrinal wording that survives examination. Paul’s whole argument has connected the foundation to cruciform community. Work remains when truth has been taught in a way that forms humility, fidelity, and love. Correct propositions used to build a personal faction can be combustible in their social effect even when the vocabulary sounds orthodox.\n\nGod’s reward is personal—“he shall receive”—but its occasion is work done for others. Heavenly recognition does not sanctify individual ambition. The enduring building is a people strengthened in Christ. The servant’s joy and the congregation’s good converge rather than compete.\n\nReward also shifts ambition away from immediate applause. A servant can refuse shortcuts and build for endurance, trusting the Lord rather than the congregation’s changing estimates.",
+        "detailedExplanation": "Work that remains after testing receives a reward. Paul does not define that reward here, and he does not turn ministry into a wage by which salvation is purchased. The builder already stands on Christ, the foundation given by grace. Reward is God’s recognition of labor that has served his purpose and borne enduring fruit.\n\nThis promise matters because faithful church work is often slow and little noticed. Patient teaching, honest correction, prayer, and costly care may never attract public honor, yet none of it escapes the Lord’s sight. Elsewhere Paul can speak of faithful people themselves as his joy at Christ’s coming. The lasting strength of the congregation and the servant’s gladness belong together.\n\nWhat endures is more than correct vocabulary. Paul’s argument has joined sound teaching to a community shaped by the cross. Truth must be taught in ways that form humility, fidelity, holiness, and love. Even orthodox words can be used combustibly when they create a personal faction or protect exploitation.\n\nGrace and judgment therefore answer different questions. Christ alone gives salvation; judgment discloses what his grace produced in a servant’s work. The promise moves ambition away from immediate applause. Builders can refuse shortcuts and labor for endurance, trusting the Lord’s final assessment rather than a congregation’s changing estimates.",
         "exegesis": "",
         "historicalBackground": "",
         "technicalNotes": "",
@@ -515,7 +707,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Work abide",
+          "explanation": "Work “abides” when it survives God’s searching evaluation because it accords with Christ the foundation. The promised reward recognizes faithful service; it is not the purchase price of salvation, which remains grounded in God’s grace.",
+          "scriptureReferences": [
+            "1 Corinthians 3:8",
+            "Revelation 2:8-11"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -536,11 +737,17 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 3:13-14",
+        "2 Corinthians 5:10",
+        "Matthew 7:24-27",
+        "Romans 14:10-12",
+        "Revelation 22:12"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
-        "detailedExplanation": "A builder whose work burns “shall suffer loss,” even though “he himself shall be saved; yet so as by fire.” The picture is of escape from a burning structure with one’s life but without the fruit of one’s labor. It is severe mercy: personal salvation does not make damaging or wasted ministry trivial.\n\nThe verse does not teach purgatory. Fire tests and consumes the person’s deficient work; it is not a postmortem purification of the soul. Salvation rests on Christ, the one foundation, while judgment discloses what the believer built and what reward is lost.\n\nThe phrase “suffer loss” could be used of forfeiting something or being fined. Within the picture, the builder watches a lifetime’s construction disappear. That is more morally serious than a minor reduction in heavenly benefits: people and communities may have been poorly served.\n\nYet “he himself shall be saved” prevents the work from becoming a second foundation. Paul can distinguish a believer’s flawed service from final rejection while refusing to call the flaw harmless.\n\n“As by fire” is proverbial language for narrow escape. It offers no warrant for prayers, payments, or rites intended to shorten postmortem suffering. Christ’s judgment, not an ecclesiastical system, gives the verdict.\n\nThe text is equally distant from despair and complacency. It does not say that every defective teacher is lost, nor that deficient work carries no consequence. Paul leaves the builder standing on Christ while watching false confidence disappear. This can motivate honest review now: traditions, programs, and teaching methods may be tested under Scripture before the final day exposes what leaders were unwilling to examine.\n\nThe survival of the builder also cautions against declaring every failed ministry proof of a false conversion. God alone knows the person; the church can assess the work and protect those harmed. That distinction allows accountability without assuming omniscience. It can name combustible teaching clearly while leaving the final identity of the builder to Christ.\n\nPaul’s immediate concern is the church. Teachers can belong to Christ and still employ combustible materials—ego, fashionable speculation, coercion, or divisive leadership. Grace should make them more careful, not casual, because real people are being formed by their work.",
+        "detailedExplanation": "When deficient work burns, the builder “shall suffer loss.” Paul pictures someone escaping a ruined structure with life preserved but labor gone. The loss is not trivial. Faulty teaching and careless leadership may leave damage in people that the teacher’s later repentance cannot simply erase. Forgiveness does not make wasted influence unreal.\n\n“He himself shall be saved” distinguishes the builder from the work. Salvation rests on Christ, the one foundation, not on the flawless record of a minister. At the same time, this sentence is not a promise that every teacher will be saved irrespective of faith, repentance, or personal choice. Paul is describing ministry and its reward; he allows for a builder who remains on the foundation even though much of what he built proves worthless.\n\nThe verse does not teach purgatory. The fire tests and consumes the work; it is not a cleansing process imposed on a conscious soul after death. “As by fire” is an image of narrow escape, not a period of postmortem suffering that prayers, payments, or rites could shorten. Christ gives the verdict.\n\nThis distinction permits sober accountability without pretending to know a person’s final standing. The church can name harmful teaching, protect those affected, and require correction while leaving the builder’s ultimate judgment to God. A failed ministry is not automatic proof that conversion was false, but neither does personal forgiveness recover every lost result.\n\nThe warning belongs especially to those who teach. Ego, fashionable speculation, coercion, or shallow instruction can be placed on a genuine Christian foundation. Grace should make builders more careful, not casual, because real people are being formed by their work.",
         "exegesis": "",
         "historicalBackground": "",
         "technicalNotes": "",
@@ -555,8 +762,8 @@
           "term": "Suffer loss — ζημιόω (zēmioō)",
           "explanation": "To forfeit or sustain loss. In the building image, deficient work is lost under judgment even though the builder’s salvation rests on Christ, the foundation.",
           "scriptureReferences": [
-            "1 Corinthians 3:15",
-            "Philippians 3:8"
+            "1 Corinthians 3:13-15",
+            "2 Corinthians 5:10"
           ]
         }
       ],
@@ -580,7 +787,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Ephesians 2:19-22",
+        "1 Peter 2:5",
+        "2 Corinthians 6:16",
+        "1 Corinthians 6:19-20",
+        "1 Corinthians 3:9"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -594,7 +807,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Ye are the temple of God",
+          "explanation": "The plural “ye” identifies the gathered congregation as God’s sanctuary. His Spirit dwells among and within his people, so factional behavior is not merely poor teamwork; it damages a holy community that belongs to God and bears his presence.",
+          "scriptureReferences": [
+            "Ephesians 2:21-22",
+            "2 Corinthians 6:16"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -615,7 +837,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 3:16",
+        "2 Corinthians 6:16",
+        "Ephesians 4:30-32",
+        "1 Corinthians 6:19-20",
+        "Revelation 11:18"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -629,7 +857,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Defile the temple",
+          "explanation": "The verb can mean destroy, ruin, or corrupt, forming a deliberate echo: whoever ruins God’s temple faces God’s ruinous judgment. In context the warning concerns conduct that tears apart the congregation, not accidental damage to an individual body.",
+          "scriptureReferences": [
+            "1 Corinthians 3:16",
+            "2 Corinthians 6:16"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -650,7 +887,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Proverbs 3:5-7",
+        "1 Corinthians 1:18-25",
+        "Romans 12:16",
+        "Matthew 18:4",
+        "2 Timothy 3:13"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -664,7 +907,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Let him become a fool",
+          "explanation": "Becoming a “fool” means relinquishing the world’s claim to define wisdom and accepting the scandalous wisdom of the cross. Paul calls for conversion of judgment, not hostility toward learning: genuine wisdom begins when pride yields to God’s revelation.",
+          "scriptureReferences": [
+            "1 Corinthians 1:25",
+            "1 Corinthians 1:27"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -685,7 +937,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Job 5:13",
+        "1 Corinthians 1:19-20",
+        "Psalms 9:15",
+        "Proverbs 21:30",
+        "Romans 1:22"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -699,7 +957,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Taketh the wise in their own craftiness",
+          "explanation": "The quotation pictures God catching the schemer through the very strategy meant to secure advantage. Human cleverness becomes self-defeating when detached from truth, as the cross overturns calculations of power and honor that seemed unquestionable.",
+          "scriptureReferences": [
+            "1 Corinthians 1:19",
+            "Job 5:13"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -720,7 +987,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Psalms 94:8-11",
+        "Romans 1:21-22",
+        "Psalms 2:1-4",
+        "Job 11:11",
+        "1 Corinthians 1:20"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -734,7 +1007,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "They are vain",
+          "explanation": "“Vain” means empty, futile, or incapable of reaching the goal. God fully knows the reasonings admired as wise, yet sees their inability to produce knowledge of him or secure salvation. The verdict strips boasting of its foundation.",
+          "scriptureReferences": [
+            "Psalms 94:11",
+            "Job 11:11"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -755,7 +1037,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 3:4-7",
+        "1 Corinthians 1:12-17",
+        "1 Corinthians 4:6-7",
+        "2 Corinthians 4:5",
+        "Romans 8:28"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -769,7 +1057,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Glory in men",
+          "explanation": "To glory in a leader is to turn that person into a ground of identity and pride. Paul reverses the relationship: ministers are gifts serving the whole church, so believers need not shrink themselves into rival groups possessed by particular teachers.",
+          "scriptureReferences": [
+            "1 Corinthians 3:4-7",
+            "Romans 4:13"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -790,7 +1087,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 3:5-8",
+        "Romans 8:28",
+        "Romans 8:37-39",
+        "Philippians 1:21",
+        "2 Corinthians 4:5"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -804,7 +1107,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "All are your's",
+          "explanation": "The sweeping phrase describes the church’s inheritance under God, not unrestricted personal ownership. Ministers, present life, future realities, and even death cannot finally enslave those in Christ; all must serve God’s purpose for his people.",
+          "scriptureReferences": [
+            "1 Corinthians 3:5-8",
+            "Romans 8:37-39"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -825,7 +1137,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 8:6",
+        "1 Corinthians 11:3",
+        "1 Corinthians 15:24-28",
+        "Galatians 3:29",
+        "John 17:9-10"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -839,7 +1157,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Ye are Christ's",
+          "explanation": "This possessive statement supplies the boundary for “all are yours.” Believers belong to Christ because he has redeemed and claimed them. Their freedom from human ownership is therefore a freedom for loyalty, service, and obedience to their one Lord.",
+          "scriptureReferences": [
+            "1 Corinthians 6:19",
+            "1 Corinthians 8:6"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],

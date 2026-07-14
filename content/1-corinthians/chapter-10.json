@@ -42,7 +42,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 12:1",
+        "John 4:20",
+        "Exodus 13:21",
+        "Psalms 78:14",
+        "Exodus 14:19-22"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -56,7 +62,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "All our fathers",
+          "explanation": "Paul invites a largely Gentile congregation to claim Israel’s exodus as its covenant history. In Christ, Scripture’s warnings and promises belong to the whole church; “our” expresses spiritual continuity without erasing Israel’s historical identity.",
+          "scriptureReferences": [
+            "Exodus 13:21",
+            "Exodus 14:19-22"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -77,7 +92,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 1:13-16",
+        "Exodus 14:31",
+        "John 9:28",
+        "John 9:29",
+        "Hebrews 3:2"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -91,7 +112,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Baptized unto Moses",
+          "explanation": "The sea and cloud united Israel with Moses as God’s appointed covenant leader. Paul uses baptismal analogy, not a claim that the exodus rite itself was Christian baptism; privilege must be followed by faithful allegiance.",
+          "scriptureReferences": [
+            "Exodus 14:31",
+            "1 Corinthians 1:13-16"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -112,7 +142,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Exodus 16:4",
+        "Exodus 16:15",
+        "Exodus 16:35",
+        "Deuteronomy 8:3",
+        "Nehemiah 9:15"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -126,7 +162,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Spiritual meat",
+          "explanation": "“Spiritual” describes manna as divinely given and spiritually significant, not immaterial. Israel ate real food supplied by God, and its shared provision anticipates the church’s dependence upon grace.",
+          "scriptureReferences": [
+            "Exodus 16:4",
+            "Exodus 16:15"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -147,7 +192,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Exodus 17:6",
+        "John 4:10",
+        "Deuteronomy 9:21",
+        "1 Corinthians 11:24",
+        "Matthew 26:26-28"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -161,7 +212,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "That Rock was Christ",
+          "explanation": "The rock represents Christ as the true source of Israel’s sustaining gift. Paul reads the wilderness story christologically: the same Lord now confessed by the church was active in God’s saving care for his people.",
+          "scriptureReferences": [
+            "Exodus 17:6",
+            "John 4:10"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -182,7 +242,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Numbers 14:11",
+        "Psalms 90:1",
+        "Psalms 90:7",
+        "Numbers 14:12",
+        "Psalms 90:8"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -196,7 +262,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Overthrown in the wilderness",
+          "explanation": "The verb pictures bodies strewn down after judgment. Shared deliverance and sacred privileges did not make rebellion safe; Israel’s fall warns baptized believers against presuming that past experience replaces present faithfulness.",
+          "scriptureReferences": [
+            "Numbers 14:11",
+            "Psalms 90:7"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -217,7 +292,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 10:11",
+        "Romans 5:14",
+        "Numbers 11:4",
+        "Zephaniah 3:6",
+        "Hebrews 9:24"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -231,7 +312,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Our examples",
+          "explanation": "Israel’s experiences became patterns that disclose how desire can turn grace into presumption. Paul does not invite contempt for the earlier generation; he directs the church to recognize and resist the same craving for evil.",
+          "scriptureReferences": [
+            "1 Corinthians 10:11",
+            "Numbers 11:4"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -252,7 +342,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 14:20-22",
+        "Exodus 32:6-8",
+        "1 Corinthians 5:11",
+        "Exodus 32:17",
+        "1 Corinthians 6:9"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -266,7 +362,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Rose up to play",
+          "explanation": "Quoting the golden-calf account, “play” gathers the revelry that followed idolatrous eating and drinking and may include sexual misconduct. The feast was not innocent recreation; it enacted allegiance to a rival object of worship.",
+          "scriptureReferences": [
+            "Exodus 32:6-8",
+            "1 Corinthians 5:11"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -287,7 +392,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 6:9",
+        "1 Corinthians 6:18",
+        "Numbers 25:1-9",
+        "Psalms 106:29",
+        "Revelation 2:14"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -301,7 +412,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Three and twenty thousand",
+          "explanation": "Paul recalls the deaths connected with Israel’s sin at Baal-peor; Numbers records twenty-four thousand for the whole plague, while Paul names twenty-three thousand falling in one day. The numerical perspective does not soften the warning against idolatrous immorality.",
+          "scriptureReferences": [
+            "Numbers 25:1-9",
+            "1 Corinthians 6:18"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -322,7 +442,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Exodus 17:2",
+        "Hebrews 3:8-11",
+        "Numbers 21:6",
+        "Exodus 17:7",
+        "Hebrews 10:28-30"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -336,7 +462,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Tempt Christ",
+          "explanation": "To “tempt” is to put the Lord to the test through distrust and defiant demands. Paul identifies Christ with the divine Lord whom Israel provoked, warning the Corinthians not to presume upon his patience.",
+          "scriptureReferences": [
+            "Numbers 21:6",
+            "Hebrews 3:8-11"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -357,7 +492,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Exodus 15:24",
+        "Jude 1:16",
+        "Numbers 14:37",
+        "Exodus 12:23",
+        "2 Thessalonians 1:7"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -371,7 +512,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Murmured … the destroyer",
+          "explanation": "Murmuring is sustained rebellious complaint against God’s leading, not honest lament brought to him in faith. “The destroyer” names the agent of judgment; Paul’s focus is moral warning rather than speculation about the agent’s identity.",
+          "scriptureReferences": [
+            "Numbers 14:37",
+            "Exodus 15:24"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -392,7 +542,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 9:10",
+        "1 Corinthians 7:29",
+        "Romans 15:4",
+        "Philippians 4:5",
+        "Hebrews 10:25"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -406,7 +562,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Written for our admonition",
+          "explanation": "“Admonition” combines instruction with warning. Scripture preserves Israel’s history for believers living where the ages meet: God’s former acts expose present danger and train the church to persevere toward Christ’s promised consummation.",
+          "scriptureReferences": [
+            "Romans 15:4",
+            "1 Corinthians 9:10"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -427,7 +592,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 4:6-8",
+        "1 Corinthians 8:2",
+        "Proverbs 16:18",
+        "Proverbs 28:14",
+        "Matthew 26:33"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -441,7 +612,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Thinketh he standeth",
+          "explanation": "Confidence becomes dangerous when it rests in knowledge, ritual, or past experience rather than God. Paul addresses the person who assumes immunity from falling and calls for watchful, humble dependence.",
+          "scriptureReferences": [
+            "Proverbs 16:18",
+            "1 Corinthians 8:2"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -462,7 +642,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Jeremiah 12:5",
+        "Hebrews 11:35-38",
+        "1 Corinthians 1:9",
+        "1 Thessalonians 5:24",
+        "1 John 1:9"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -476,7 +662,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "God is faithful",
+          "explanation": "Temptation is humanly recognizable, but God’s covenant faithfulness sets its limit and provides an exit that makes endurance possible. The promise does not call every burden easy; it assures believers that sin is never their only available response.",
+          "scriptureReferences": [
+            "1 Corinthians 1:9",
+            "Hebrews 11:35-38"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -497,7 +692,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Romans 12:19",
+        "1 Peter 2:11",
+        "1 Corinthians 10:7",
+        "2 Corinthians 7:1",
+        "1 Corinthians 10:20"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -511,7 +712,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Flee from idolatry",
+          "explanation": "“Flee” demands decisive distance, as in Paul’s command concerning sexual immorality. Knowledge about an idol’s unreality does not permit participation in its worship; loyalty to the living God requires leaving the rival table.",
+          "scriptureReferences": [
+            "1 Corinthians 10:7",
+            "1 Peter 2:11"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -532,7 +742,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 4:10",
+        "1 Corinthians 6:5",
+        "1 Corinthians 8:1",
+        "1 Corinthians 11:13",
+        "1 Corinthians 14:20"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -546,7 +762,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Judge ye what I say",
+          "explanation": "Paul appeals to spiritually responsible discernment rather than demanding unthinking agreement. The Corinthians who prized wisdom must follow his argument about meals and fellowship to its covenantal conclusion.",
+          "scriptureReferences": [
+            "1 Corinthians 10:15",
+            "Luke 12:57"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -567,7 +792,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 10:21",
+        "1 Corinthians 10:20",
+        "1 Corinthians 11:23",
+        "1 Corinthians 11:23-29",
+        "1 Corinthians 1:9"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -581,7 +812,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Communion",
+          "explanation": "“Communion” means participation or sharing. The cup and broken bread are symbolic emblems through which believers proclaim and receive fellowship in Christ’s sacrificial death; they are not ordinary food detached from the body’s shared allegiance.",
+          "scriptureReferences": [
+            "1 Corinthians 11:23",
+            "1 Corinthians 10:21"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -602,7 +842,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 12:12",
+        "Ephesians 4:25",
+        "1 Corinthians 10:3",
+        "1 Corinthians 12:27",
+        "Colossians 2:19"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -616,7 +862,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "One bread, and one body",
+          "explanation": "Many believers share one loaf and thereby confess that they are one body in Christ. The Supper exposes divisions as contradictions: participation joins worshipers not only to Christ but also to one another.",
+          "scriptureReferences": [
+            "1 Corinthians 12:12",
+            "Ephesians 4:25"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -637,7 +892,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Romans 4:1",
+        "1 Corinthians 9:13",
+        "Romans 4:12",
+        "Leviticus 3:3-5",
+        "Romans 9:3-8"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -651,7 +912,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Partakers of the altar",
+          "explanation": "Eating Israel’s sacrifices identified worshipers with the altar and the worship it represented. Paul’s analogy establishes that a sacred meal forms real fellowship; location and ritual allegiance cannot be dismissed as spiritually neutral.",
+          "scriptureReferences": [
+            "1 Corinthians 9:13",
+            "Leviticus 7:6"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -672,7 +942,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 1:28",
+        "1 Corinthians 3:7",
+        "1 Corinthians 8:4",
+        "1 Corinthians 13:2",
+        "Deuteronomy 32:21"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -686,7 +962,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Is any thing?",
+          "explanation": "Paul denies that either an idol or food offered to it possesses divine substance. His next sentence still distinguishes powerless images from the real demonic fellowship involved in pagan sacrifice.",
+          "scriptureReferences": [
+            "1 Corinthians 8:4",
+            "Deuteronomy 32:17"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -707,7 +992,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Leviticus 17:7",
+        "Deuteronomy 32:16",
+        "Deuteronomy 32:17",
+        "2 Chronicles 11:15",
+        "Psalms 106:37-39"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -721,7 +1012,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Fellowship with devils",
+          "explanation": "The KJV “devils” refers to demons, not spirits of the dead. Pagan gods are not genuine deities, yet worship directed through idols can join participants to hostile spiritual powers; Paul therefore treats cultic meals as real covenant danger.",
+          "scriptureReferences": [
+            "Deuteronomy 32:17",
+            "Leviticus 17:7"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -742,7 +1042,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 10:16",
+        "1 Corinthians 8:10",
+        "Deuteronomy 32:37",
+        "Deuteronomy 32:38",
+        "1 Kings 18:21"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -756,7 +1062,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "The Lord’s table",
+          "explanation": "A table signifies shared provision, fellowship, and allegiance. The Lord’s Supper and an idolatrous banquet make rival covenant claims, so deliberate participation in both is spiritually incoherent.",
+          "scriptureReferences": [
+            "1 Corinthians 10:16",
+            "1 Corinthians 8:10"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -777,7 +1092,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Exodus 20:5",
+        "Zephaniah 1:18",
+        "Job 9:4",
+        "Exodus 34:14",
+        "Job 40:9-14"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -791,7 +1112,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Provoke the Lord to jealousy",
+          "explanation": "Divine jealousy is God’s holy claim to the exclusive loyalty of his covenant people, not insecure envy. Idolatry challenges that claim, and the question “are we stronger?” exposes the folly of presuming one can resist his judgment.",
+          "scriptureReferences": [
+            "Exodus 20:5",
+            "Job 9:4"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -812,7 +1142,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 6:12",
+        "1 Corinthians 8:1",
+        "1 Thessalonians 5:11",
+        "1 Corinthians 8:9",
+        "1 Corinthians 14:3-5"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -826,7 +1162,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Expedient … edify",
+          "explanation": "A lawful action must also be beneficial and constructive. “Edify” means build up; Paul tests freedom by whether it strengthens persons and community, not merely whether an individual can defend a right.",
+          "scriptureReferences": [
+            "1 Corinthians 6:12",
+            "1 Thessalonians 5:11"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -847,7 +1192,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 10:33",
+        "1 Corinthians 9:19-23",
+        "1 Corinthians 13:5",
+        "Philippians 2:4",
+        "Philippians 2:5"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -861,7 +1212,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Another’s wealth",
+          "explanation": "“Wealth” here means another person’s good or advantage, not financial riches. Christian freedom turns attention outward, asking what will protect and strengthen the neighbor rather than how much personal liberty can be retained.",
+          "scriptureReferences": [
+            "1 Corinthians 10:33",
+            "1 Corinthians 13:5"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -882,7 +1242,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 8:7",
+        "1 Corinthians 10:27-29",
+        "Acts 15:29",
+        "Leviticus 11:46-47",
+        "Romans 14:14"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -925,7 +1291,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 10:28",
+        "Exodus 19:5",
+        "Deuteronomy 10:14",
+        "Job 41:11",
+        "Psalms 24:1"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -939,7 +1311,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "The fulness thereof",
+          "explanation": "The psalm declares that the earth and everything filling it belong to the Lord. In context this grounds freedom to buy ordinary market food without anxious inquiry; it does not by itself erase every biblical teaching about what is fit for food.",
+          "scriptureReferences": [
+            "Exodus 19:5",
+            "Deuteronomy 10:14"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -960,7 +1341,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 5:9-11",
+        "Luke 10:7",
+        "1 Corinthians 10:25",
+        "Luke 5:29",
+        "2 Corinthians 1:13"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -974,7 +1361,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Be disposed to go",
+          "explanation": "Paul permits accepting an unbeliever’s private invitation; social contact is not the same as cultic participation. If the believer chooses to attend, ordinary hospitality may be received without conducting an investigation that burdens conscience.",
+          "scriptureReferences": [
+            "1 Corinthians 5:9-11",
+            "Luke 10:7"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -995,7 +1391,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 8:10-13",
+        "1 Corinthians 10:26",
+        "Romans 14:15",
+        "Exodus 9:29",
+        "Deuteronomy 10:14"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -1009,7 +1411,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "This is offered in sacrifice unto idols",
+          "explanation": "Once someone explicitly identifies the food’s cultic history, the social meaning changes. Abstaining then serves the informer’s conscience and clearly separates Christian freedom from approval of idol worship.",
+          "scriptureReferences": [
+            "1 Corinthians 8:10-13",
+            "Romans 14:15"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -1030,7 +1441,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 10:32",
+        "Romans 14:16",
+        "1 Corinthians 8:9-13",
+        "2 Corinthians 8:21",
+        "Romans 14:15-21"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -1044,7 +1461,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "My liberty judged",
+          "explanation": "Paul’s rhetorical question defends freedom from another person’s mistaken verdict while the surrounding counsel voluntarily limits conduct for that person’s good. Love restrains liberty without conceding that the neighbor’s conscience defines truth for everyone.",
+          "scriptureReferences": [
+            "Romans 14:16",
+            "1 Corinthians 8:9-13"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -1065,7 +1491,12 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Romans 14:6",
+        "1 Timothy 4:3",
+        "1 Timothy 4:4",
+        "1 Corinthians 10:29"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -1079,7 +1510,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "By grace be a partaker",
+          "explanation": "The phrase may mean eating with gratitude or receiving one’s portion thankfully. Paul insists that God’s gifts can be enjoyed with thanksgiving, yet the whole passage makes gratitude inseparable from concern for conscience and God’s glory.",
+          "scriptureReferences": [
+            "Romans 14:6",
+            "1 Timothy 4:4"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -1100,7 +1540,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 7:34",
+        "Colossians 3:17",
+        "Deuteronomy 12:7",
+        "Colossians 3:23",
+        "Deuteronomy 12:12"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -1114,7 +1560,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "To the glory of God",
+          "explanation": "God’s character and honor become the comprehensive aim of ordinary life, including eating and drinking. This principle rules out both idolatrous participation and self-centered liberty; bodily habits belong within worship.",
+          "scriptureReferences": [
+            "Colossians 3:17",
+            "Deuteronomy 12:7"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -1135,7 +1590,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 10:33",
+        "1 Corinthians 11:22",
+        "1 Corinthians 8:13",
+        "Acts 20:28",
+        "Romans 14:13"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -1149,7 +1610,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Give none offence",
+          "explanation": "“Offence” means an avoidable obstacle that pushes others away from faithfulness, not every feeling of displeasure. Paul names Jews, Gentiles, and the church so Christian conduct will consider its witness across the whole human field.",
+          "scriptureReferences": [
+            "1 Corinthians 8:13",
+            "1 Corinthians 10:33"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -1170,7 +1640,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 10:24",
+        "1 Corinthians 9:19-23",
+        "Romans 15:2",
+        "Romans 15:3",
+        "2 Corinthians 11:28"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -1184,7 +1660,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "That they may be saved",
+          "explanation": "Paul’s accommodation seeks others’ eternal good, not applause. He can “please” many because he refuses to center his own advantage; every adjustment remains ordered toward bringing people to the saving gospel.",
+          "scriptureReferences": [
+            "1 Corinthians 10:24",
+            "1 Corinthians 9:19-23"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],

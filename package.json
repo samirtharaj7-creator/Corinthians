@@ -13,6 +13,12 @@
     "validate:theology": "node scripts/validate-corinthians-theology.mjs",
     "validate:humanization": "node scripts/validate-corinthians-humanization.mjs",
     "validate:library": "python3 scripts/validate-corinthians-library.py",
+    "build:sdabc-map": "python3 scripts/build-sdabc-verse-map.py",
+    "build:sdabc-matrix": "python3 scripts/build-sdabc-alignment-matrix.py",
+    "resolve:sdabc-matrix": "python3 scripts/resolve-sdabc-alignment.py",
+    "validate:sdabc": "python3 scripts/validate-sdabc-alignment.py",
+    "validate:sdabc:structure": "python3 scripts/validate-sdabc-alignment.py --allow-pending",
+    "generate:reference-previews": "node scripts/generate-reference-previews.mjs",
     "import:corinthians-notes": "node scripts/import-corinthians-notes.mjs",
     "audit:corinthians-copying": "python3 scripts/audit-corinthians-copying.py"
   },
