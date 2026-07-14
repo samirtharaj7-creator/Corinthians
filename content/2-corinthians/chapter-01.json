@@ -42,7 +42,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Romans 1:1-5",
+        "Acts 16:1",
+        "2 Thessalonians 1:1",
+        "Acts 18:1-11",
+        "1 Corinthians 6:11"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -56,7 +62,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "An apostle of Jesus Christ by the will of God",
+          "explanation": "Paul grounds his apostleship in God’s will rather than personal ambition or congregational approval. The title gives his difficult pastoral appeal genuine authority, while Timothy’s presence beside him shows that apostolic ministry is exercised within a wider fellowship of trusted coworkers.",
+          "scriptureReferences": [
+            "Romans 1:1-5",
+            "Acts 16:1"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -77,7 +92,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Romans 1:7",
+        "Philippians 1:2",
+        "Numbers 6:24-26",
+        "Colossians 1:2",
+        "John 14:27"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -91,7 +112,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Grace be to you and peace",
+          "explanation": "Grace names God’s undeserved action toward his people; peace names the restored wholeness that grace creates. Paul addresses a strained relationship with this gospel-shaped greeting because reconciliation between him and Corinth must begin in the gift shared from the Father and the Lord Jesus Christ.",
+          "scriptureReferences": [
+            "Romans 1:7",
+            "Philippians 1:2"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -112,7 +142,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Genesis 14:20",
+        "Ephesians 1:3",
+        "2 Corinthians 11:31",
+        "2 John 1:4",
+        "Psalms 86:5"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -156,7 +192,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "2 Corinthians 7:6",
+        "John 14:18",
+        "2 Corinthians 1:5",
+        "1 Thessalonians 5:11",
+        "2 Corinthians 7:7"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -170,7 +212,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Comforteth us in all our tribulation",
+          "explanation": "Biblical comfort is more than soothing emotion; it is God’s strengthening presence that enables endurance within affliction. What Paul receives does not terminate on him. Experienced consolation equips sufferers to stand beside others with tested hope rather than distant advice.",
+          "scriptureReferences": [
+            "2 Corinthians 7:6",
+            "John 14:18"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -191,7 +242,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "2 Corinthians 4:10",
+        "Philippians 3:10",
+        "2 Corinthians 4:11",
+        "1 Peter 4:13",
+        "2 Corinthians 11:23-30"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -205,7 +262,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "The sufferings of Christ abound in us",
+          "explanation": "These are sufferings borne through belonging to and serving Christ, not additions to his atoning sacrifice. Paul’s hardships follow the crucified Lord’s pattern, while consolation “by Christ” shows that union with him supplies sustaining grace in the same measure that costly ministry increases.",
+          "scriptureReferences": [
+            "2 Corinthians 4:10",
+            "2 Corinthians 11:23-30"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -226,7 +292,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "2 Corinthians 1:4",
+        "Colossians 1:24",
+        "2 Corinthians 4:17",
+        "2 Corinthians 4:15-18",
+        "2 Timothy 2:10"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -240,7 +312,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Effectual in the enduring",
+          "explanation": "God’s consolation becomes effective as it produces patient endurance in people facing comparable suffering. Paul does not treat his affliction as private tragedy; God turns it into a means of strengthening the Corinthians’ salvation-shaped perseverance without making suffering itself spiritually meritorious.",
+          "scriptureReferences": [
+            "2 Corinthians 1:4",
+            "2 Corinthians 4:15-18"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -261,7 +342,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "2 Corinthians 1:14",
+        "Matthew 5:11",
+        "James 1:2-4",
+        "2 Corinthians 7:9",
+        "Matthew 5:12"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -275,7 +362,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Partakers of the sufferings",
+          "explanation": "“Partakers” describes sharing or participation. The Corinthians’ solidarity with apostolic suffering supports Paul’s confidence that they will also share God’s consolation. Christian fellowship includes burdens honestly borne together, not merely agreement during seasons of ease.",
+          "scriptureReferences": [
+            "2 Corinthians 1:14",
+            "Matthew 5:11"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -296,7 +392,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "2 Corinthians 4:7-12",
+        "Acts 19:23-35",
+        "1 Corinthians 15:32",
+        "Acts 14:19-20",
+        "2 Corinthians 12:10"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -310,7 +412,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Pressed out of measure, above strength",
+          "explanation": "Paul describes pressure that exceeded his own resources, openly rejecting the idea that faithful believers always possess enough inner strength for every crisis. The extremity of the experience prepares his confession that dependence shifted from self-confidence to the God who raises the dead.",
+          "scriptureReferences": [
+            "2 Corinthians 4:7-12",
+            "Acts 19:23-35"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -331,7 +442,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "2 Corinthians 3:5",
+        "Jeremiah 17:5-7",
+        "2 Corinthians 4:13",
+        "2 Corinthians 4:7",
+        "Romans 4:17"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -345,7 +462,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "The sentence of death in ourselves",
+          "explanation": "The phrase means Paul inwardly regarded death as the certain outcome, whether or not a formal judicial sentence was involved. That collapse of self-reliance taught him to trust the God whose resurrection power reaches beyond every human possibility, including death itself.",
+          "scriptureReferences": [
+            "2 Corinthians 3:5",
+            "Jeremiah 17:5-7"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -366,7 +492,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Samuel 7:12",
+        "2 Peter 2:9",
+        "1 Samuel 17:37",
+        "Job 5:17-22",
+        "Psalms 34:19"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -380,7 +512,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Doth deliver",
+          "explanation": "Paul views deliverance across past, present, and future: God rescued, continues to preserve, and remains the object of hope. The repeated verb does not promise exemption from every hardship; it confesses God’s faithful rule even when the final form of rescue is resurrection.",
+          "scriptureReferences": [
+            "1 Samuel 7:12",
+            "2 Peter 2:9"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -401,7 +542,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "2 Corinthians 9:14",
+        "Colossians 4:3",
+        "2 Corinthians 4:15",
+        "Isaiah 37:4",
+        "1 Thessalonians 5:25"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -415,7 +562,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Helping together by prayer",
+          "explanation": "Prayer makes the Corinthians genuine participants in Paul’s ministry and deliverance. Their intercession does not manipulate God; it joins many people in dependent appeal so that the answer produces correspondingly widespread thanksgiving and directs attention to the Giver.",
+          "scriptureReferences": [
+            "2 Corinthians 9:14",
+            "Colossians 4:3"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -436,7 +592,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Job 13:15",
+        "Acts 24:16",
+        "1 Peter 3:16",
+        "2 Corinthians 11:3",
+        "2 Corinthians 2:17"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -450,7 +612,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Godly sincerity",
+          "explanation": "The phrase describes transparent integrity that has its source and standard in God, contrasting with calculating “fleshly wisdom.” Paul appeals to conscience because his conduct toward Corinth was governed by grace rather than a hidden strategy for influence or advantage.",
+          "scriptureReferences": [
+            "Job 13:15",
+            "Acts 24:16"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -471,7 +642,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "2 Corinthians 4:2",
+        "2 Corinthians 5:11",
+        "2 Corinthians 13:6",
+        "2 Peter 3:15-16",
+        "2 Corinthians 1:12"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -485,7 +662,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "What ye read or acknowledge",
+          "explanation": "Paul insists that his letters carry no coded second meaning behind their ordinary sense. What the Corinthians read can be recognized and understood as his actual intention. Such openness is essential while mistrust has made every alteration of plans seem suspicious.",
+          "scriptureReferences": [
+            "2 Corinthians 4:2",
+            "2 Corinthians 5:11"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -506,7 +692,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "2 Corinthians 5:12",
+        "Philippians 4:1",
+        "1 Corinthians 1:8",
+        "1 Thessalonians 2:19-20",
+        "Philippians 2:16"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -520,7 +712,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "In the day of the Lord Jesus",
+          "explanation": "The coming day of Christ supplies the horizon for mutual rejoicing. Paul and the Corinthians will not finally be measured by temporary controversy or reputation, but by the Lord’s judgment, when faithful ministry and its fruit can be celebrated together.",
+          "scriptureReferences": [
+            "Philippians 4:1",
+            "1 Corinthians 1:8"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -541,7 +742,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 4:19",
+        "Romans 1:11",
+        "1 Corinthians 16:5-7",
+        "Acts 19:21",
+        "Romans 15:29"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -555,7 +762,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "A second benefit",
+          "explanation": "“Benefit” carries the sense of grace or favor. Paul had hoped a further visit would become another gracious occasion for strengthening the church, not merely a logistical stop. The later change of itinerary therefore requires explanation because it could be misread as withdrawn affection.",
+          "scriptureReferences": [
+            "1 Corinthians 4:19",
+            "Romans 1:11"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -576,7 +792,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Acts 19:21",
+        "Acts 19:22",
+        "Acts 21:5",
+        "1 Corinthians 16:5-7",
+        "2 Corinthians 1:15"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -590,7 +812,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Brought on my way",
+          "explanation": "The expression describes a congregation assisting a missionary’s onward journey through provision, companionship, prayer, or arrangements. Paul’s planned route assumed renewed partnership with Corinth: they would not be passive hosts but active participants in his mission toward Judaea.",
+          "scriptureReferences": [
+            "Acts 19:21",
+            "Acts 19:22"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -611,7 +842,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "2 Corinthians 1:12",
+        "2 Corinthians 1:18-20",
+        "Matthew 5:37",
+        "James 5:12",
+        "2 Corinthians 10:2"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -625,7 +862,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Did I use lightness?",
+          "explanation": "“Lightness” means fickleness or careless changeability. Paul asks whether revising his travel plans proves that his commitments alternate between yes and no according to self-interest. He will distinguish pastoral flexibility from the unreliable speech his critics alleged.",
+          "scriptureReferences": [
+            "2 Corinthians 1:12",
+            "2 Corinthians 1:18-20"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -646,7 +892,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "2 Corinthians 1:23",
+        "2 Corinthians 11:31",
+        "John 7:28",
+        "John 8:26",
+        "1 John 5:20"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -660,7 +912,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "God is true",
+          "explanation": "Paul anchors the reliability of his message in God’s own faithfulness. His defense is not that every personal plan remains unalterable, but that the gospel proclaimed among them is not contradictory. The true God gives coherence to the apostolic word.",
+          "scriptureReferences": [
+            "John 8:26",
+            "1 John 5:20"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -681,7 +942,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Psalms 2:7",
+        "John 1:34",
+        "Romans 1:3",
+        "Acts 18:5",
+        "Exodus 3:14"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -695,7 +962,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "In him was yea",
+          "explanation": "God’s decisive “yes” is embodied in the Son whom Paul and his companions proclaimed. Jesus Christ does not vacillate between fulfillment and refusal; in him God acts consistently to accomplish salvation, providing the standard by which apostolic integrity must be understood.",
+          "scriptureReferences": [
+            "Psalms 2:7",
+            "John 1:34"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -716,7 +992,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Genesis 3:15",
+        "John 1:17",
+        "Hebrews 6:12-19",
+        "Isaiah 65:16",
+        "Romans 15:8"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -730,7 +1012,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "In him Amen",
+          "explanation": "“Amen” expresses firm affirmation: truly, let it be so. God fulfills his promises in Christ, and the believing community answers through Christ with its own Amen to God’s glory. Divine faithfulness evokes confident worship rather than making human plans inflexible.",
+          "scriptureReferences": [
+            "Genesis 3:15",
+            "John 1:17"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -751,7 +1042,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "2 Corinthians 5:5",
+        "1 Thessalonians 3:13",
+        "Psalms 45:7",
+        "1 John 2:20",
+        "1 John 2:27"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -765,7 +1062,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Hath anointed us",
+          "explanation": "Anointing identifies God’s consecrating and empowering work through the Holy Spirit. Paul includes the Corinthians with his coworkers in the sentence: the same God establishes them together in Christ, making spiritual life a shared divine work rather than an apostolic possession.",
+          "scriptureReferences": [
+            "2 Corinthians 5:5",
+            "1 Thessalonians 3:13"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -786,11 +1092,17 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "John 6:27",
+        "2 Corinthians 5:5",
+        "Romans 8:23",
+        "Ephesians 1:13-14",
+        "Ephesians 4:30"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
-        "detailedExplanation": "God has also “sealed” believers and placed the Holy Spirit in their hearts as a guarantee. The images overlap, yet each adds something precious. A seal communicates ownership and authentication: God marks His people as belonging to Him and confirms the reality of His work in them. Their identity is not secured by self-assertion but by His claim upon their lives.\n\nThe Spirit is given “in our hearts.” God’s pledge is more than an external sign or a distant promise. He comes near and works within the center of personal life. The Spirit assures, transforms, convicts, strengthens, and creates a living relationship with God. Christian assurance is therefore more than an argument about the future. It includes God’s present activity within His people.\n\nPaul calls the Spirit a guarantee, pledge, first installment, or down payment. The meaning is that God has already given part of what He promises to complete. The gift of the Spirit is not a disposable token unrelated to the future inheritance. It is the beginning of that future life within the present. Because God has given the Spirit, believers may trust that He intends to finish His saving work.\n\nThis pledge is especially meaningful in a chapter filled with suffering and uncertainty. The presence of the Spirit does not mean that believers have already received everything or that pain has ended. A guarantee is given precisely because completion is still awaited. The church lives between what God has begun and what He will bring to fullness. The Spirit assures believers that waiting is not abandonment.",
+        "detailedExplanation": "God has also “sealed” believers and placed the Holy Spirit in their hearts as a guarantee. The images overlap, yet each adds something precious. A seal communicates ownership and authentication: God marks His people as belonging to Him and confirms the reality of His work in them. Their identity is not secured by self-assertion but by His claim upon their lives.\n\nThe Spirit is given “in our hearts.” God’s pledge is more than an external sign or a distant promise. He comes near and works within the center of personal life. The Spirit assures, transforms, convicts, strengthens, and creates a living relationship with God. Christian assurance is therefore more than an argument about the future. It includes God’s present activity within His people.\n\nPaul calls the Spirit a guarantee, pledge, first installment, or down payment. The image is stronger than a bare promise about something entirely absent: the Spirit already belongs to the future God has pledged. His present renewing work lets believers taste now the life that will reach its fullness at the resurrection and in the renewed creation.\n\nThis pledge is especially meaningful in a chapter filled with suffering and uncertainty. The presence of the Spirit does not mean that believers have already received everything or that pain has ended. A guarantee is given precisely because completion is still awaited. The church lives between what God has begun and what He will bring to fullness. The Spirit assures believers that waiting is not abandonment.",
         "exegesis": "",
         "historicalBackground": "",
         "technicalNotes": "",
@@ -803,7 +1115,7 @@
       "wordNotes": [
         {
           "term": "ἀρραβών (arrabōn) — “earnest”",
-          "explanation": "An arrabōn is a first installment that guarantees the remainder. The Spirit is God’s present pledge that He will complete the salvation He has begun.",
+          "explanation": "An arrabōn is an initial share of the promised whole. The Spirit’s renewing presence therefore gives believers a real foretaste and assurance of the inheritance God will complete.",
           "scriptureReferences": [
             "2 Corinthians 5:5",
             "Ephesians 1:13-14"
@@ -830,7 +1142,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "2 Corinthians 1:18",
+        "2 Corinthians 10:2",
+        "2 Corinthians 11:11",
+        "2 Corinthians 10:6-11",
+        "2 Corinthians 11:31"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -844,7 +1162,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "To spare you",
+          "explanation": "Paul invokes God as witness that postponing his visit was an act of restraint, not indifference. An immediate return would have required painful confrontation before the severe letter had time to work. Pastoral authority sometimes serves love by delaying direct intervention.",
+          "scriptureReferences": [
+            "2 Corinthians 1:18",
+            "2 Corinthians 10:2"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -865,7 +1192,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Matthew 23:8-10",
+        "2 Corinthians 2:1-3",
+        "2 Corinthians 5:7",
+        "1 Peter 5:2-3",
+        "Romans 1:12"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -879,7 +1212,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Helpers of your joy",
+          "explanation": "Paul rejects dominion over another person’s faith, which stands by trusting God rather than submitting to apostolic control. His authority is cooperative and pastoral: he labors alongside the Corinthians so that truth, reconciliation, and obedience can restore their joy.",
+          "scriptureReferences": [
+            "Matthew 23:8-10",
+            "2 Corinthians 2:1-3"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],

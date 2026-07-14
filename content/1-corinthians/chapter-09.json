@@ -37,7 +37,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 9:2",
+        "Romans 11:13",
+        "2 Timothy 1:11",
+        "1 Corinthians 9:19",
+        "1 Corinthians 15:8"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -51,7 +57,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Am I not an apostle?",
+          "explanation": "The question claims Paul’s commission as one sent by the risen Christ. Having seen the Lord and founded the Corinthian church are not self-made credentials; they are evidence that Christ called him and worked through his ministry.",
+          "scriptureReferences": [
+            "1 Corinthians 9:2",
+            "2 Timothy 1:11"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -72,7 +87,12 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "John 6:27",
+        "2 Corinthians 3:1-3",
+        "2 Corinthians 12:12",
+        "1 Corinthians 9:1"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -86,7 +106,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "The seal of mine apostleship",
+          "explanation": "A seal authenticates ownership or authority. The Corinthians’ existence as a church is living confirmation of Paul’s apostolic labor among them: the Lord used his preaching to bring them to faith.",
+          "scriptureReferences": [
+            "2 Corinthians 3:1-3",
+            "2 Corinthians 12:12"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -107,7 +136,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Acts 22:1",
+        "1 Corinthians 14:37",
+        "Acts 25:16",
+        "2 Corinthians 10:7",
+        "Philippians 1:7"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -121,7 +156,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Mine answer",
+          "explanation": "“Answer” carries the sense of a reasoned defense against examination. Paul does not evade accountability, but he answers criticism by pointing to the ministry Christ entrusted to him and the congregation that resulted.",
+          "scriptureReferences": [
+            "Acts 22:1",
+            "Acts 25:16"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -142,7 +186,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 9:7-14",
+        "Matthew 10:10",
+        "Luke 10:7",
+        "Galatians 6:6",
+        "1 Thessalonians 2:6"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -156,7 +206,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Power to eat and to drink",
+          "explanation": "“Power” means a legitimate right. Apostolic workers may receive ordinary food and support from those they serve. Paul establishes that right before explaining why, in Corinth, he voluntarily declined to exercise it.",
+          "scriptureReferences": [
+            "1 Corinthians 9:7-14",
+            "Luke 10:7"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -177,7 +236,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Timothy 3:2",
+        "Matthew 8:14",
+        "Matthew 12:46-50",
+        "1 Corinthians 1:12",
+        "1 Timothy 4:3"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -191,7 +256,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "A sister, a wife",
+          "explanation": "The phrase describes a believing wife who might accompany a traveling apostle. Paul’s point is financial and ministerial: other recognized leaders received support that included their households, so his own apostolic rights were not inferior.",
+          "scriptureReferences": [
+            "1 Timothy 3:2",
+            "Matthew 12:46-50"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -212,7 +286,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Acts 4:36",
+        "1 Corinthians 4:11",
+        "Acts 11:22",
+        "1 Corinthians 4:12",
+        "Acts 13:1"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -226,7 +306,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Forbear working",
+          "explanation": "Paul and Barnabas possessed the right to cease manual labor while engaged in gospel ministry. Their choice to work was a voluntary surrender of support, not proof that ministers must always fund themselves.",
+          "scriptureReferences": [
+            "Acts 18:3",
+            "1 Corinthians 4:11-12"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -247,7 +336,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "2 Corinthians 10:4",
+        "1 Corinthians 3:6-8",
+        "Jeremiah 23:2",
+        "Proverbs 27:27",
+        "2 Corinthians 10:5"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -261,7 +356,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "At his own charges",
+          "explanation": "The phrase means serving as a soldier at one’s own expense. Together with the vineyard and flock, the image appeals to ordinary fairness: workers normally share in the material fruit of their labor.",
+          "scriptureReferences": [
+            "Luke 10:7",
+            "1 Corinthians 3:6-8"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -282,7 +386,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Deuteronomy 25:4",
+        "1 Timothy 5:18",
+        "Romans 7:12",
+        "Romans 15:4",
+        "Matthew 12:11-12"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -296,7 +406,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Saith not the law",
+          "explanation": "Paul moves from common human judgment to Scripture’s authority. The law confirms rather than opposes his reasoning, showing that care for those who labor is rooted in God’s revealed concern for justice.",
+          "scriptureReferences": [
+            "Deuteronomy 25:4",
+            "Romans 15:4"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -317,7 +436,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Deuteronomy 25:4",
+        "Numbers 22:28-35",
+        "Matthew 6:26-30",
+        "1 Timothy 5:18",
+        "Deuteronomy 5:14"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -331,7 +456,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Thou shalt not muzzle",
+          "explanation": "An ox was to eat while treading grain. Paul reads this humane command as expressing a wider principle: God’s law protects laborers from being denied a share in the fruit their work produces.",
+          "scriptureReferences": [
+            "Deuteronomy 25:4",
+            "Matthew 6:26-30"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -352,7 +486,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 3:9",
+        "Romans 15:4",
+        "2 Timothy 2:6",
+        "James 5:7",
+        "Galatians 6:6-9"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -366,7 +506,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Plow in hope",
+          "explanation": "Biblical hope gives labor an expected share in the harvest. Plowing and threshing illustrate patient ministry: the worker serves before the crop is gathered, trusting that faithful labor is not meant to be exploited.",
+          "scriptureReferences": [
+            "1 Corinthians 3:9",
+            "Romans 15:4"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -387,7 +536,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Romans 15:27",
+        "Galatians 6:6",
+        "1 Timothy 5:17-18",
+        "Matthew 10:10",
+        "Luke 10:7"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -401,7 +556,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Spiritual things … carnal things",
+          "explanation": "“Carnal” here means material, not sinful. If the Corinthians received the greater benefit of gospel instruction, sharing ordinary resources with those who taught them would be a proportionate and reasonable response.",
+          "scriptureReferences": [
+            "Malachi 3:8",
+            "Malachi 3:9"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -422,7 +586,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 9:15",
+        "2 Corinthians 11:7-12",
+        "2 Corinthians 12:13-15",
+        "1 Thessalonians 2:9",
+        "2 Thessalonians 3:8-9"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -436,7 +606,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Lest we should hinder the gospel",
+          "explanation": "“Hinder” pictures placing an obstacle in the gospel’s path. Paul bears hardship rather than let financial suspicion obscure Christ’s message. His restraint serves the mission; it does not cancel the right he has just defended.",
+          "scriptureReferences": [
+            "1 Corinthians 9:15",
+            "2 Corinthians 11:9-12"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -457,11 +636,17 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 10:18",
+        "Numbers 18:21-24",
+        "Deuteronomy 18:1-5",
+        "Leviticus 6:16-18",
+        "Leviticus 7:6-8"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
-        "detailedExplanation": "Paul turns to another accepted pattern: those who perform sacred service receive food from the temple, and those who attend the altar share in what is offered there. The example reinforces the same principle through the worshiping life of God’s people. Those set apart for sustained religious service were provided for through that service.\n\nHe does not introduce the temple comparison to identify gospel ministers with a privileged religious class seeking special honor. His point remains practical. Sacred responsibilities do not remove bodily needs. A person who spends time and strength serving in worship may legitimately receive a portion of the material gifts brought for that purpose.\n\nThe reference to the altar also places support within an atmosphere of devotion. What was given to God could, by God’s arrangement, provide for His servants. Supporting ministry is therefore not merely paying for a service received. It can be an act of worship and shared participation in God’s work. Nevertheless, sacred association does not permit greed. Those who served at the altar received a portion; the offerings were not their private property to use without restraint or accountability. In the same way, Christian ministers must never treat gifts given for gospel work as though spiritual office placed them beyond examination.\n\nPaul’s example also resists the notion that genuine holiness requires material deprivation. Poverty can be endured faithfully, but it is not automatically a higher spiritual state. Provision and devotion are not enemies. God may sustain His servants through the willing gifts of His people.\n\nThe Corinthians would have understood the ordinary connection between sacred labor and provision. Paul appeals to that connection before moving to the direct instruction of the Lord. His cumulative argument is difficult to evade: common practice, Scripture, agricultural labor, and worship all affirm the right of workers to support. Yet the chapter’s surprise remains. Paul possesses the right and declines it. His self-denial does not overturn the principle; it reveals that the gospel may call a servant to surrender even a divinely recognized provision when love and mission require it.",
+        "detailedExplanation": "Paul turns to another accepted pattern: those who perform sacred service receive food from the temple, and those who attend the altar share in what is offered there. The example reinforces the same principle through the worshiping life of God’s people. Those set apart for sustained religious service were provided for through that service.\n\nHe does not introduce the temple comparison to identify gospel ministers with a privileged religious class seeking special honor. His point remains practical. Sacred responsibilities do not remove bodily needs. A person who spends time and strength serving in worship may legitimately receive a portion of the material gifts brought for that purpose.\n\nIsrael’s arrangement joined several forms of provision. Levites received the tithe because their assigned service left them without an ordinary territorial inheritance, while priests received designated portions of offerings brought to the altar. Paul does not reproduce every administrative detail for the church in this verse. He draws from the whole pattern the enduring principle that resources dedicated to God may rightly sustain those set apart for His work.\n\nThe reference to the altar also places support within an atmosphere of devotion. What was given to God could, by God’s arrangement, provide for His servants. Supporting ministry is therefore not merely paying for a service received. It can be an act of worship and shared participation in God’s work. Nevertheless, sacred association does not permit greed. Those who served at the altar received a portion; the offerings were not their private property to use without restraint or accountability. In the same way, Christian ministers must never treat gifts given for gospel work as though spiritual office placed them beyond examination.\n\nPaul’s example also resists the notion that genuine holiness requires material deprivation. Poverty can be endured faithfully, but it is not automatically a higher spiritual state. Provision and devotion are not enemies. God may sustain His servants through the willing gifts of His people.\n\nThe Corinthians would have understood the ordinary connection between sacred labor and provision. Paul appeals to that connection before moving to the direct instruction of the Lord. His cumulative argument is difficult to evade: common practice, Scripture, agricultural labor, and worship all affirm the right of workers to support. Yet the chapter’s surprise remains. Paul possesses the right and declines it. His self-denial does not overturn the principle; it reveals that the gospel may call a servant to surrender even a divinely recognized provision when love and mission require it.",
         "exegesis": "",
         "historicalBackground": "",
         "technicalNotes": "",
@@ -471,7 +656,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Partakers with the altar",
+          "explanation": "Those serving at Israel’s altar received designated portions of sacrificial offerings. Paul cites this worship pattern as a precedent for sustaining gospel workers, not as permission to turn ministry into private profit.",
+          "scriptureReferences": [
+            "1 Corinthians 10:18",
+            "Leviticus 6:16-18"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -492,7 +686,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 9:4",
+        "Matthew 10:10",
+        "Luke 10:7",
+        "Galatians 6:6",
+        "1 Timothy 5:17"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -506,7 +706,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Live of the gospel",
+          "explanation": "The Lord authorized those who announce the gospel to receive their livelihood from that work. Support is therefore a legitimate provision for ministry, while the surrounding chapter guards it from entitlement, coercion, and commercial ambition.",
+          "scriptureReferences": [
+            "Matthew 10:10",
+            "Luke 10:7"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -527,7 +736,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 9:12",
+        "2 Corinthians 11:9-12",
+        "Matthew 18:6",
+        "1 Corinthians 4:12",
+        "2 Corinthians 12:13-18"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -541,7 +756,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Make my glorying void",
+          "explanation": "Paul’s “glorying” is his joy in offering the gospel without charge at Corinth, not pride in personal virtue. Accepting support there would remove a deliberate sign that his message was not for sale.",
+          "scriptureReferences": [
+            "1 Corinthians 9:12",
+            "2 Corinthians 11:9-12"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -562,7 +786,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Acts 9:15-16",
+        "Acts 22:14-15",
+        "Acts 26:16-18",
+        "Jeremiah 20:9",
+        "2 Timothy 4:2"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -576,7 +806,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Necessity is laid upon me",
+          "explanation": "Preaching is not Paul’s optional route to honor; Christ’s call has placed him under obligation. The cry “woe is unto me” expresses stewardship before God, not a threat that gospel service earns his salvation.",
+          "scriptureReferences": [
+            "Jeremiah 1:17",
+            "Isaiah 6:5"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -597,7 +836,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 4:1-2",
+        "Galatians 2:7",
+        "Colossians 1:25",
+        "1 Thessalonians 2:4",
+        "Acts 9:15"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -611,7 +856,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "A dispensation … committed unto me",
+          "explanation": "“Dispensation” here means a stewardship or entrusted responsibility. Whether the task feels willing or costly, Paul remains a manager of a message that belongs to God and must answer for its faithful administration.",
+          "scriptureReferences": [
+            "1 Corinthians 3:8",
+            "1 Chronicles 28:9"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -632,7 +886,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 9:6",
+        "1 Corinthians 7:31",
+        "1 Corinthians 9:7",
+        "1 Corinthians 8:9",
+        "1 Corinthians 10:33"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -646,7 +906,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Without charge",
+          "explanation": "Paul’s special reward is the freedom to proclaim Christ without taking payment from the Corinthians. He uses his right by choosing not to use it, so that the manner of preaching reinforces the gospel’s gracious character.",
+          "scriptureReferences": [
+            "1 Corinthians 9:6",
+            "1 Corinthians 9:7"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -667,7 +936,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 9:1",
+        "1 Corinthians 10:33",
+        "1 Corinthians 9:20-22",
+        "James 5:19",
+        "Galatians 5:1"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -681,7 +956,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Made myself servant unto all",
+          "explanation": "Paul is free from human ownership yet voluntarily takes a servant’s posture for the salvation of others. This is missionary self-giving, not surrender of conscience or participation in sin; Christ’s purpose governs every adaptation.",
+          "scriptureReferences": [
+            "1 Corinthians 10:33",
+            "1 Corinthians 9:20-22"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -702,7 +986,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Acts 16:3",
+        "Romans 3:19",
+        "Acts 17:2",
+        "Romans 6:14",
+        "Acts 17:3"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -716,7 +1006,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Became as a Jew",
+          "explanation": "Paul adapts to Jewish customs when doing so helps remove needless barriers, as his circumcision of Timothy illustrates. “As” signals purposeful identification, not deceit or a denial that his own Jewish heritage now stands under Christ.",
+          "scriptureReferences": [
+            "Acts 16:3",
+            "Acts 17:2"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -737,7 +1036,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Acts 15:28",
+        "1 Corinthians 7:19-22",
+        "Galatians 5:13",
+        "Acts 16:4",
+        "Psalms 119:32"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -781,7 +1086,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 8:13",
+        "1 Corinthians 10:33",
+        "1 Corinthians 9:19",
+        "Romans 15:1",
+        "1 Corinthians 7:16"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -795,7 +1106,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "All things to all men",
+          "explanation": "The phrase describes flexible service directed toward saving people, not moral compromise or imitation of every practice. Paul changes what may be changed while remaining governed by God’s law and the law of Christ.",
+          "scriptureReferences": [
+            "1 Corinthians 8:13",
+            "1 Corinthians 9:19"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -816,7 +1136,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 9:12",
+        "Mark 8:35",
+        "Romans 1:16",
+        "Philippians 1:27",
+        "2 Timothy 1:8"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -830,7 +1156,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Partaker thereof with you",
+          "explanation": "Paul hopes to share with his hearers in the gospel’s promised blessings. His missionary sacrifice is fellowship, not solitary achievement: preacher and congregation together receive what God freely gives through Christ.",
+          "scriptureReferences": [
+            "1 Corinthians 9:12",
+            "Mark 8:35"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -851,7 +1186,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 9:25-27",
+        "Philippians 3:12-14",
+        "Hebrews 12:1-2",
+        "2 Timothy 4:7-8",
+        "Revelation 3:11"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -865,7 +1206,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Run all … one receiveth the prize",
+          "explanation": "Corinth’s hearers knew disciplined athletic contests, including the nearby Isthmian games. Paul uses the single-prize race to demand earnest purpose, not to teach that only one Christian is saved; every believer is summoned to run faithfully.",
+          "scriptureReferences": [
+            "Psalms 19:5",
+            "1 Corinthians 9:26"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -886,7 +1236,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Galatians 5:23",
+        "1 Corinthians 15:54",
+        "James 1:12",
+        "2 Timothy 4:8",
+        "Revelation 2:10"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -900,7 +1256,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Temperate in all things",
+          "explanation": "An athlete accepts disciplined training for a fading wreath. Christian self-control is broader and aims at an imperishable crown; it is Spirit-formed perseverance, not bodily harshness used to purchase God’s favor.",
+          "scriptureReferences": [
+            "Galatians 5:23",
+            "1 Corinthians 15:54"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -921,7 +1286,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Philippians 3:13-14",
+        "Hebrews 12:1-2",
+        "1 Timothy 6:12",
+        "2 Timothy 4:7",
+        "2 Corinthians 10:3-5"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -935,7 +1306,15 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Beateth the air",
+          "explanation": "A boxer who strikes empty air expends energy without landing a blow. Paul refuses aimless activity: his ministry and self-discipline have a defined gospel goal rather than motion that merely appears strenuous.",
+          "scriptureReferences": [
+            "2 Timothy 4:7"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -956,7 +1335,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 9:25",
+        "Romans 8:13",
+        "Colossians 3:5",
+        "2 Timothy 4:7-8",
+        "2 Peter 1:10"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -970,7 +1355,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "I myself should be a castaway",
+          "explanation": "“Castaway” means disapproved after testing, like a competitor who fails qualification. Paul rejects presumption: preaching to others does not remove his own need for disciplined, grace-dependent faithfulness.",
+          "scriptureReferences": [
+            "1 Corinthians 9:25",
+            "Romans 6:18"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],

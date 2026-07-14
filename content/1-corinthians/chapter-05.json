@@ -32,7 +32,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 1:11",
+        "1 Corinthians 5:11",
+        "Leviticus 18:8",
+        "Deuteronomy 22:30",
+        "Deuteronomy 27:20"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -46,7 +52,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "His father's wife",
+          "explanation": "The expression normally identifies the man’s stepmother rather than his biological mother. Such a union violated the biblical boundary of a father’s marriage and was publicly scandalous even in the surrounding culture, making the church’s tolerance especially grievous.",
+          "scriptureReferences": [
+            "Leviticus 18:8",
+            "Deuteronomy 22:30"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -67,7 +82,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 5:6",
+        "Numbers 25:6",
+        "Ezekiel 9:4",
+        "1 Corinthians 5:5",
+        "1 Corinthians 4:6-8"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -81,7 +102,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Have not rather mourned",
+          "explanation": "Mourning is the fitting communal response because serious sin wounds both the offender and the congregation. Paul contrasts grief with inflated confidence: discipline should arise from sorrow over destruction and desire for restoration, not delight in punishment.",
+          "scriptureReferences": [
+            "1 Corinthians 5:6",
+            "Numbers 25:6"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -102,7 +132,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "2 Corinthians 10:1",
+        "2 Corinthians 10:11",
+        "2 Corinthians 13:2",
+        "Colossians 2:5",
+        "1 Thessalonians 2:17"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -116,7 +152,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Absent in body, but present in spirit",
+          "explanation": "Paul is physically away yet intentionally present through informed concern, apostolic judgment, and the letter read in the assembly. The phrase does not describe leaving his body mystically; it expresses active solidarity across geographical distance.",
+          "scriptureReferences": [
+            "2 Corinthians 10:1",
+            "2 Corinthians 10:11"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -137,7 +182,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Acts 3:6",
+        "Matthew 16:19",
+        "Acts 4:7-12",
+        "Matthew 18:16-18",
+        "Acts 4:30"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -151,7 +202,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Gathered together",
+          "explanation": "Discipline belongs to the assembled congregation acting under Christ’s name and authority, not to a private vendetta. Paul’s spirit joins their deliberation through his apostolic direction, while the decisive power remains that of the Lord Jesus Christ.",
+          "scriptureReferences": [
+            "Acts 3:6",
+            "Matthew 16:19"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -172,7 +232,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Timothy 1:20",
+        "2 Corinthians 2:6-8",
+        "1 Corinthians 5:11-13",
+        "Galatians 6:1",
+        "2 Thessalonians 3:14-15"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -217,7 +283,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 5:2",
+        "1 Corinthians 15:33",
+        "1 Corinthians 3:21",
+        "Galatians 5:9",
+        "1 Corinthians 4:18"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -231,7 +303,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "A little leaven leaveneth the whole lump",
+          "explanation": "A small piece of fermented dough could permeate a fresh batch. Paul uses the ordinary process to show that tolerated, celebrated wrongdoing reshapes a community beyond the individual case. The warning concerns influence, not the physical substance of yeast.",
+          "scriptureReferences": [
+            "1 Corinthians 5:2",
+            "1 Corinthians 15:33"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -252,7 +333,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 5:13",
+        "1 Corinthians 10:17",
+        "1 Corinthians 15:3",
+        "1 Peter 1:19",
+        "Exodus 12:15"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -297,7 +384,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Exodus 12:15",
+        "Psalms 42:4",
+        "1 Corinthians 5:1",
+        "1 Corinthians 3:3",
+        "1 Peter 2:1"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -311,7 +404,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Sincerity and truth",
+          "explanation": "These are the unleavened qualities fitting a people whose Passover sacrifice is Christ. “Sincerity” suggests unmixed integrity, while “truth” means life aligned with God’s reality. The feast becomes a sustained manner of Christian existence rather than a call to repeat the ceremonial sacrifice.",
+          "scriptureReferences": [
+            "Exodus 12:15",
+            "Psalms 42:4"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -332,7 +434,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 5:10-11",
+        "2 Thessalonians 3:14-15",
+        "2 John 1:10-11",
+        "Titus 3:10-11",
+        "Matthew 18:15-17"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -346,7 +454,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Not to company",
+          "explanation": "The instruction concerns close, affirming association with a professed believer persisting in serious sin, as the following verses clarify. It does not authorize contempt or isolation from unbelieving neighbors; Paul explicitly rejects leaving ordinary contact with the world.",
+          "scriptureReferences": [
+            "1 Corinthians 5:7",
+            "Psalms 1:1"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -367,7 +484,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 10:27",
+        "1 Corinthians 1:20",
+        "Matthew 5:14-16",
+        "John 8:23",
+        "John 17:15"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -381,7 +504,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Go out of the world",
+          "explanation": "Paul uses deliberate impossibility to correct a misunderstanding. Christian holiness does not require withdrawal from all people whose conduct contradicts the gospel. Believers remain present as witnesses while maintaining accountable standards inside the community that bears Christ’s name.",
+          "scriptureReferences": [
+            "1 Corinthians 10:27",
+            "John 17:15"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -402,11 +534,17 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 6:6",
+        "1 Corinthians 5:9-10",
+        "1 Corinthians 10:21",
+        "2 Thessalonians 3:14-15",
+        "2 John 1:10-11"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
-        "detailedExplanation": "The boundary concerns anyone “called a brother” whose settled public life is characterized by sexual immorality, greed, idolatry, abusive speech, drunkenness, or extortion. Paul is not demanding sinless perfection before fellowship. The issue is persistent conduct joined to a Christian profession and resistant to correction.\n\n“With such an one no not to eat” includes ordinary table fellowship and would naturally bear on the church’s communal meal as well. In that culture, eating together publicly signaled acceptance and solidarity. Temporary exclusion makes the church’s verdict visible.\n\n“Called a brother” places profession and conduct in direct tension. The church disciplines in relation to the confession a person asks it to recognize. It does not claim authority over everyone who once attended a service or bears a cultural Christian label.\n\nThe list’s economic terms matter in Corinth. A covetous or extortionate member might use contracts, loans, patronage, or courts while maintaining a respectable sexual reputation. Paul gives the congregation no permission to ignore such harm.\n\nEating signaled more than caloric intake; table fellowship expressed social belonging. Exclusion therefore carried real loneliness and shame. Its seriousness requires that lesser measures—private appeal, instruction, and opportunities to repent—be pursued where appropriate before the final boundary.\n\nThis command must be handled consistently and with due process. Wealth, family influence, and respectable appearance cannot shield the greedy or abusive while only less powerful offenders are disciplined. When repentance occurs, the same gospel that required a boundary requires forgiveness and restoration.",
+        "detailedExplanation": "The boundary concerns anyone “called a brother” whose settled public life is characterized by sexual immorality, greed, idolatry, abusive speech, drunkenness, or extortion. Paul is not demanding sinless perfection before fellowship. The issue is persistent conduct joined to a Christian profession and resistant to correction.\n\n“With such an one no not to eat” includes ordinary table fellowship and the Lord’s Supper. In that culture, eating together publicly signaled acceptance and solidarity. Temporary exclusion makes the church’s verdict visible.\n\n“Called a brother” places profession and conduct in direct tension. The church disciplines in relation to the confession a person asks it to recognize. It does not claim authority over everyone who once attended a service or bears a cultural Christian label.\n\nThe list’s economic terms matter in Corinth. A covetous or extortionate member might use contracts, loans, patronage, or courts while maintaining a respectable sexual reputation. Paul gives the congregation no permission to ignore such harm.\n\nEating signaled more than caloric intake; table fellowship expressed social belonging. Exclusion therefore carried real loneliness and shame. Its seriousness requires that lesser measures—private appeal, instruction, and opportunities to repent—be pursued where appropriate before the final boundary.\n\nThis command must be handled consistently and with due process. Wealth, family influence, and respectable appearance cannot shield the greedy or abusive while only less powerful offenders are disciplined. When repentance occurs, the same gospel that required a boundary requires forgiveness and restoration.",
         "exegesis": "",
         "historicalBackground": "",
         "technicalNotes": "",
@@ -416,7 +554,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Called a brother",
+          "explanation": "The decisive issue is the contradiction between a public Christian identity and unrepentant practice. Paul’s list extends beyond sexual sin to greed, idolatry, abuse, drunkenness, and exploitation, preventing selective discipline that protects respectable forms of wrongdoing.",
+          "scriptureReferences": [
+            "1 Corinthians 6:6",
+            "1 Corinthians 5:1-9"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -437,7 +584,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Luke 12:14",
+        "Mark 4:11",
+        "1 Corinthians 6:1-5",
+        "John 18:36",
+        "Colossians 4:5"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -451,7 +604,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Them that are within",
+          "explanation": "“Within” names those who identify with the covenant community and have accepted its accountability. Paul limits the church’s disciplinary jurisdiction to its own members. It bears witness to outsiders but does not attempt to govern society by congregational discipline.",
+          "scriptureReferences": [
+            "Luke 12:14",
+            "Mark 4:11"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -472,7 +634,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Deuteronomy 17:7",
+        "1 Corinthians 5:1",
+        "Acts 17:31",
+        "1 Corinthians 5:5",
+        "Romans 2:16"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -486,7 +654,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Put away from among yourselves",
+          "explanation": "The command echoes covenant language for removing serious evil from Israel’s midst. Here it requires exclusion from congregational fellowship, not violence. God retains final judgment, while the church protects its witness and seeks the offender’s awakening through a bounded, restorative act.",
+          "scriptureReferences": [
+            "Psalms 50:6",
+            "1 Corinthians 5:1"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],

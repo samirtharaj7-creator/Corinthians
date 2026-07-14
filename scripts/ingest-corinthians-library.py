@@ -33,6 +33,7 @@ PRIVATE_MANIFEST_PATH = ROOT / ".research" / "corinthians-source-manifest.json"
 SAFE_SUMMARY_PATH = ROOT / "research" / "corinthians-corpus-summary.json"
 
 AUTHOR_HINTS = [
+    ("SdaBc-6", "Seventh-day Adventist Bible Commentary"),
     ("Kay Arthur", "Kay Arthur"),
     ("Paul Stevens  Dan Williams", "Paul Stevens; Dan Williams"),
     ("Paul Stevens", "Paul Stevens"),
@@ -84,6 +85,16 @@ COVERAGE_HINTS = [
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--source-dir", type=Path, default=DEFAULT_SOURCE_DIR)
+    parser.add_argument(
+        "--extra-pdf",
+        action="append",
+        type=Path,
+        default=[],
+        help=(
+            "Add an individual PDF to the corpus without replacing --source-dir. "
+            "Repeat this option for more than one supplemental source."
+        ),
+    )
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
     parser.add_argument("--ocr-dir", type=Path, default=DEFAULT_OCR_DIR)
     parser.add_argument("--workers", type=int, default=3)
@@ -337,7 +348,25 @@ def main() -> int:
     if args.chunk_overlap >= args.chunk_words:
         raise SystemExit("--chunk-overlap must be smaller than --chunk-words")
 
-    pdfs = sorted(source_dir.glob("*.pdf"), key=lambda path: path.name.casefold())
+    extra_pdfs: list[Path] = []
+    for raw_path in args.extra_pdf:
+        path = raw_path.expanduser().resolve()
+        if not path.is_file():
+            raise SystemExit(f"Supplemental PDF not found: {path}")
+        if path.suffix.casefold() != ".pdf":
+            raise SystemExit(f"Supplemental source is not a PDF: {path}")
+        extra_pdfs.append(path)
+
+    source_pdfs = sorted(source_dir.glob("*.pdf"), key=lambda path: path.name.casefold())
+    seen_paths: set[Path] = set()
+    pdfs: list[Path] = []
+    for path in [*source_pdfs, *extra_pdfs]:
+        resolved = path.resolve()
+        if resolved in seen_paths:
+            continue
+        seen_paths.add(resolved)
+        pdfs.append(resolved)
+    pdfs.sort(key=lambda path: (path.name.casefold(), str(path).casefold()))
     if not pdfs:
         raise SystemExit(f"No PDF files found in {source_dir}")
 
@@ -585,7 +614,11 @@ def main() -> int:
         },
         "resources": resources,
     }
-    local_manifest = {"sourceDirectory": str(source_dir), **manifest}
+    local_manifest = {
+        "sourceDirectory": str(source_dir),
+        "extraPdfs": [str(path) for path in extra_pdfs],
+        **manifest,
+    }
     (staging / "manifest.json").write_text(
         json.dumps(local_manifest, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",

@@ -3,7 +3,9 @@
 import type { CSSProperties } from "react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { BookOpen, Library, List, Minus, Plus } from "lucide-react";
+import { ScriptureReferenceChip } from "@/components/scripture-reference-chip";
 import type { ChapterContent, VerseEntry } from "@/lib/schemas";
+import type { ReferencePreviewMap } from "@/lib/reference-previews";
 import {
   READER_VERSE_CHANGE_EVENT,
   type ReaderVerseEventDetail
@@ -37,10 +39,12 @@ function clampNumber(value: number, min: number, max: number) {
 
 export function ChapterStudy({
   chapter,
-  bookName
+  bookName,
+  referencePreviews
 }: {
   chapter: PublicChapterContent;
   bookName: string;
+  referencePreviews: ReferencePreviewMap;
 }) {
   const firstVerse = chapter.verses[0]?.verse ?? "";
   const [selectedVerseRef, setSelectedVerseRef] = useState(firstVerse);
@@ -241,7 +245,6 @@ export function ChapterStudy({
   const notesFontSize = clampNumber(18 + notesLevel * 2, 16, 24);
   const chapterTheme = chapter.title || chapter.themes[0] || "";
   const hasDetailedExplanation = Boolean(selectedVerse.commentary.detailedExplanation.trim());
-  const hasStudyLinks = selectedVerse.crossReferences.length > 0 || selectedVerse.wordNotes.length > 0;
 
   return (
     <section
@@ -328,22 +331,22 @@ export function ChapterStudy({
         </div>
         <div className="commentary-pane-body">
           <div className="commentary-shell">
-          <article className={hasDetailedExplanation || hasStudyLinks ? "exposition-card" : "exposition-card exposition-card-blank"}>
-            <div className="exposition-card-heading">
-              <h2>{selectedVerse.verse}</h2>
-            </div>
-            {hasDetailedExplanation ? (
-              <DetailedExplanation value={selectedVerse.commentary.detailedExplanation} />
-            ) : (
-              <div className="commentary-blank-space" aria-label={`Blank study notes for ${selectedVerse.verse}`} />
-            )}
-            {hasStudyLinks ? (
+            <article className="exposition-card">
+              <div className="exposition-card-heading">
+                <h2>{selectedVerse.verse}</h2>
+              </div>
+              {hasDetailedExplanation ? (
+                <DetailedExplanation value={selectedVerse.commentary.detailedExplanation} />
+              ) : (
+                <div className="commentary-blank-space" aria-label={`Blank study notes for ${selectedVerse.verse}`} />
+              )}
               <VerseStudyCard
+                key={selectedVerse.verse}
                 crossReferences={selectedVerse.crossReferences}
+                referencePreviews={referencePreviews}
                 wordNotes={selectedVerse.wordNotes}
               />
-            ) : null}
-          </article>
+            </article>
           </div>
         </div>
       </aside>
@@ -422,9 +425,11 @@ function DetailedExplanation({ value }: { value: string }) {
 
 function VerseStudyCard({
   crossReferences,
+  referencePreviews,
   wordNotes
 }: {
   crossReferences: string[];
+  referencePreviews: ReferencePreviewMap;
   wordNotes: PublicVerseEntry["wordNotes"];
 }) {
   const hasReferences = crossReferences.length > 0;
@@ -443,9 +448,12 @@ function VerseStudyCard({
               <h3>Cross References</h3>
               <div className="reference-chip-list">
                 {crossReferences.map((reference) => (
-                  <span className="reference-chip" key={reference}>
-                    {reference}
-                  </span>
+                  <ScriptureReferenceChip
+                    className="reference-chip"
+                    key={reference}
+                    preview={referencePreviews[reference]!}
+                    reference={reference}
+                  />
                 ))}
               </div>
             </div>
@@ -461,9 +469,12 @@ function VerseStudyCard({
                     {note.scriptureReferences.length > 0 ? (
                       <div className="word-reference-list" aria-label={`${note.term} Scripture references`}>
                         {note.scriptureReferences.map((reference) => (
-                          <span className="word-reference-chip" key={`${note.term}-${reference}`}>
-                            {reference}
-                          </span>
+                          <ScriptureReferenceChip
+                            className="word-reference-chip"
+                            key={`${note.term}-${reference}`}
+                            preview={referencePreviews[reference]!}
+                            reference={reference}
+                          />
                         ))}
                       </div>
                     ) : null}

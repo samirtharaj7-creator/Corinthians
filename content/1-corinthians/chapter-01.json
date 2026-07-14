@@ -37,11 +37,17 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Romans 1:1",
+        "Galatians 1:1",
+        "1 Corinthians 9:1",
+        "1 Corinthians 16:21",
+        "Acts 18:17"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
-        "detailedExplanation": "Paul introduces himself by vocation before he addresses the church’s failures. He is “called to be an apostle,” commissioned by Jesus Christ through God’s will. The claim gives the letter authority, yet its grammar leaves no room for self-importance: apostleship is received, not achieved. Paul will speak firmly because the message and congregation entrusted to him are Christ’s.\n\n“Apostle” means an authorized emissary, one sent with a commission. In Paul’s case the title rests on the risen Christ’s call and carries responsibility for founding and guiding churches. It is more specific than the calling shared by every Christian witness. The Corinthians cannot reduce him to one voice in a local popularity contest, yet Paul will use this authority to pull attention away from himself.\n\nThe title “Jesus Christ” also places the executed Jesus within Israel’s messianic hope. Before Paul addresses Roman Corinth’s values, his opening grammar locates the church inside God’s purpose fulfilled through the Messiah.\n\nSosthenes appears beside him as “our brother.” He may be the synagogue ruler beaten before Gallio after Paul’s hearing in Corinth, though the name was common enough that certainty is impossible. What matters in the greeting is his place within the family of faith. The letter does not arrive as the private verdict of an isolated religious celebrity. From its first line, apostolic responsibility and brotherly fellowship stand together—a fitting correction for a church enthralled by distinguished names.",
+        "detailedExplanation": "Paul introduces himself by vocation before he addresses the church’s failures. He is “called to be an apostle,” commissioned by Jesus Christ through God’s will. The claim gives the letter authority, yet its grammar leaves no room for self-importance: apostleship is received, not achieved. Paul will speak firmly because the message and congregation entrusted to him are Christ’s.\n\n“Apostle” means an authorized emissary, one sent with a commission. In Paul’s case the title rests on the risen Christ’s call and carries responsibility for founding and guiding churches. It is more specific than the calling shared by every Christian witness. The Corinthians cannot reduce him to one voice in a local popularity contest, yet Paul will use this authority to pull attention away from himself.\n\nThe title “Jesus Christ” also places the executed Jesus within Israel’s messianic hope. Before Paul addresses Roman Corinth’s values, his opening grammar locates the church inside God’s purpose fulfilled through the Messiah.\n\nSosthenes appears beside him as “our brother.” He may be the synagogue ruler beaten before Gallio after Paul’s hearing in Corinth, though the name was common enough that certainty is impossible. Paul’s singular voice in the thanksgiving and throughout the letter makes clear that Sosthenes is a named coworker, not a second author. His presence nevertheless matters: the letter does not arrive as the private verdict of an isolated religious celebrity. From its first line, apostolic responsibility and brotherly fellowship stand together—a fitting correction for a church enthralled by distinguished names.",
         "exegesis": "",
         "historicalBackground": "",
         "technicalNotes": "",
@@ -51,7 +57,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Called to be an apostle",
+          "explanation": "The calling defines Paul’s authority as a commission received from Christ rather than a status he claimed for himself. His apostleship therefore carries both responsibility and dependence: he speaks for Christ, yet remains answerable to the divine will that sent him.",
+          "scriptureReferences": [
+            "Romans 1:1",
+            "Galatians 1:1"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -72,7 +87,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Romans 1:7",
+        "1 Corinthians 6:11",
+        "Hebrews 13:12",
+        "Jude 1:1",
+        "Acts 18:1-8"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -86,7 +107,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Sanctified in Christ Jesus",
+          "explanation": "“Sanctified” first identifies what God has done by setting this congregation apart in Christ. It also establishes the standard for what follows: their conduct must increasingly agree with the holy identity they have received, even though their present maturity is incomplete.",
+          "scriptureReferences": [
+            "Hebrews 10:10",
+            "Jude 1:1"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -107,7 +137,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Romans 1:7",
+        "2 Corinthians 1:2",
+        "Ephesians 1:2",
+        "1 Peter 1:2",
+        "1 Corinthians 1:2"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -121,7 +157,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Grace be unto you, and peace",
+          "explanation": "Grace names God’s undeserved favor, while peace describes the restored wholeness that flows from it. Paul joins them because Corinth’s fractured life cannot be healed by stronger personalities; reconciliation begins with God’s gift through the Father and the Lord Jesus Christ.",
+          "scriptureReferences": [
+            "Romans 1:7",
+            "2 Corinthians 1:2"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -142,7 +187,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Romans 1:8",
+        "1 Corinthians 1:5-7",
+        "2 Corinthians 8:9",
+        "Philippians 1:3-6",
+        "Acts 11:23"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -156,7 +207,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "The grace of God which is given you",
+          "explanation": "Paul’s gratitude rests on grace already given, not on an idealized picture of Corinth. The phrase lets him recognize God’s real work among deeply flawed believers and makes his coming correction hopeful rather than cynical: divine grace has not abandoned them.",
+          "scriptureReferences": [
+            "Romans 1:8",
+            "1 Corinthians 1:3"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -177,11 +237,17 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 12:8",
+        "1 Corinthians 13:1-2",
+        "1 Corinthians 8:1-3",
+        "Colossians 2:2-3",
+        "2 Corinthians 9:11"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
-        "detailedExplanation": "The Corinthians had been enriched “in all utterance, and in all knowledge.” Public speech and cultivated intelligence carried considerable prestige in the Greek-speaking Roman world, and these believers plainly possessed striking abilities. Paul does not dismiss them as counterfeit. God had truly given them resources for witness and instruction.\n\nThe thanksgiving also contains an irony that the rest of the letter will unfold. Their eloquence had not made them charitable, and their knowledge had not made them wise. Real gifts can be used immaturely. Speech becomes a means of display; knowledge becomes a badge of rank. The defect lies neither in speaking well nor in understanding much, but in detaching either from Christ and the good of the congregation.\n\nThe terms for “utterance” and “knowledge” will recur in the discussion of spiritual gifts. Utterance can include testimony, teaching, tongues, and prophecy; knowledge may describe understanding given for the church. Paul has not yet sorted or ranked these manifestations. He simply recognizes their abundance.\n\nThat restraint is instructive. The same apostle who will regulate gifts first gives thanks for them. Correction need not begin by denying everything good in a person or congregation. It asks how what is genuinely given can be brought back under love, intelligibility, and the lordship of Christ.\n\n“Enriched by him” keeps gift and Giver in their proper relation. Christian ability is held in stewardship. Its worth is measured by whether it tells the truth about Christ and builds up his people, not by the attention it attracts.",
+        "detailedExplanation": "The Corinthians had been enriched “in all utterance, and in all knowledge.” Public speech and cultivated intelligence carried considerable prestige in the Greek-speaking Roman world, and these believers plainly possessed striking abilities. Paul does not dismiss them as counterfeit. God had truly given them resources for witness and instruction.\n\nThe thanksgiving also contains an irony that the rest of the letter will unfold. Their eloquence had not made them charitable, and their knowledge had not made them wise. Real gifts can be used immaturely. Speech becomes a means of display; knowledge becomes a badge of rank. The defect lies neither in speaking well nor in understanding much, but in detaching either from Christ and the good of the congregation.\n\nThe terms for “utterance” and “knowledge” will recur in the discussion of spiritual gifts. Utterance includes the ability to communicate the gospel clearly; knowledge includes an intelligent grasp of God, Christ, and the plan of salvation. The church needs both, since faith has definite content and that content must be taught. Paul has not yet sorted or ranked the manifestations. He simply recognizes their abundance.\n\nThat restraint is instructive. The same apostle who will regulate gifts first gives thanks for them. Correction need not begin by denying everything good in a person or congregation. It asks how what is genuinely given can be brought back under love, intelligibility, and the lordship of Christ.\n\n“Enriched by him” keeps gift and Giver in their proper relation. Christian ability is held in stewardship. Its worth is measured by whether it tells the truth about Christ and builds up his people, not by the attention it attracts.",
         "exegesis": "",
         "historicalBackground": "",
         "technicalNotes": "",
@@ -191,7 +257,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Enriched by him",
+          "explanation": "The Corinthians’ speech and knowledge were genuine gifts, but “enriched by him” keeps those abilities from becoming personal trophies. Their abundance came from Christ and was meant for service; its value depends on whether it builds the congregation rather than displaying the recipient.",
+          "scriptureReferences": [
+            "1 Corinthians 12:8",
+            "Colossians 2:2-3"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -212,7 +287,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 2:1-5",
+        "1 John 5:11-13",
+        "Mark 16:20",
+        "1 Thessalonians 1:5",
+        "Revelation 1:2"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -226,7 +307,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "The testimony of Christ",
+          "explanation": "This is the apostolic witness concerning Christ, especially the crucified and risen Lord whom Paul proclaimed. Its confirmation “in” the Corinthians is visible in the faith and gifts produced among them, so the messenger’s claim is supported by God’s transforming work.",
+          "scriptureReferences": [
+            "1 Corinthians 2:1",
+            "1 John 5:11-13"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -247,7 +337,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 12:7",
+        "1 Corinthians 13:8-12",
+        "Titus 2:13",
+        "Revelation 1:7",
+        "2 Timothy 4:8"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -261,7 +357,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Waiting for the coming",
+          "explanation": "Christian waiting is active expectancy directed toward Christ’s public return. Spiritual gifts belong to the interval before that event; they equip the church for faithful witness but do not replace its hope for the Lord himself to appear and complete his work.",
+          "scriptureReferences": [
+            "1 Corinthians 4:5",
+            "2 Timothy 4:8"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -282,7 +387,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Philippians 1:6",
+        "1 Thessalonians 5:23-24",
+        "Jude 1:24",
+        "Matthew 24:13",
+        "Ephesians 5:27"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -296,7 +407,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Confirm you unto the end",
+          "explanation": "The same Christ who established the gospel among them is able to sustain them until history reaches its appointed goal. Paul grounds perseverance in Christ’s faithfulness, not Corinthian self-confidence, while “blameless” points to the verdict of the coming day.",
+          "scriptureReferences": [
+            "1 Peter 5:10",
+            "Jude 1:24"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -317,7 +437,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 10:13",
+        "1 John 1:3",
+        "John 15:4-5",
+        "1 Thessalonians 5:24",
+        "Hebrews 2:17"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -331,7 +457,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "The fellowship of his Son",
+          "explanation": "“Fellowship” means participation in a shared relationship and life, not casual association. God’s call joins believers to Christ and therefore to one another. Rival groups built around favored teachers contradict the communion with the one Son into which all were summoned.",
+          "scriptureReferences": [
+            "1 John 1:3",
+            "1 Corinthians 10:16"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -352,7 +487,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "John 17:21-23",
+        "Philippians 2:2",
+        "2 Corinthians 13:11",
+        "Romans 15:5-6",
+        "Romans 16:17"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -397,7 +538,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 3:3",
+        "1 Corinthians 6:1-7",
+        "1 Corinthians 11:18",
+        "Galatians 5:20",
+        "Philippians 2:14"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -411,7 +558,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "The house of Chloe",
+          "explanation": "The wording most naturally refers to people associated with Chloe’s household, whether relatives, servants, or business agents. Paul names the channel of the report instead of trading in anonymous accusation, showing that responsible correction depends on identifiable testimony.",
+          "scriptureReferences": [
+            "1 Corinthians 11:18",
+            "1 Corinthians 3:3"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -432,7 +588,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 3:4-6",
+        "Acts 18:24-28",
+        "1 Corinthians 16:12",
+        "Galatians 2:9",
+        "1 Corinthians 4:6"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -446,7 +608,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "I am of Paul",
+          "explanation": "Each slogan turns a Christian teacher into the badge of a competing group. “Of” signals claimed attachment or belonging; Paul exposes how devotion to useful ministers had hardened into rival identities that displaced the church’s common allegiance to Christ.",
+          "scriptureReferences": [
+            "1 Corinthians 3:4-6",
+            "1 Corinthians 16:12"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -467,7 +638,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Galatians 3:27",
+        "Romans 6:3-4",
+        "Acts 4:12",
+        "1 Corinthians 6:20",
+        "1 Corinthians 1:15"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -481,7 +658,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Is Christ divided?",
+          "explanation": "The question expects an emphatic no. Christ cannot be partitioned among competing parties, and no minister can occupy his saving place. The following questions about crucifixion and baptism show why party loyalty is absurd: the church belongs to the crucified Lord alone.",
+          "scriptureReferences": [
+            "1 Corinthians 1:15",
+            "1 Corinthians 6:20"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -502,7 +688,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Acts 18:8",
+        "Romans 16:23",
+        "1 Corinthians 1:15-17",
+        "John 4:2",
+        "Acts 19:4-5"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -516,7 +708,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Crispus and Gaius",
+          "explanation": "Paul remembers two individuals he personally baptized: Crispus, associated with the Corinthian synagogue, and Gaius, later known as a host. Their names matter here only because the small number prevents anyone from turning Paul’s baptizing activity into a personal following.",
+          "scriptureReferences": [
+            "Acts 18:8",
+            "Romans 16:23"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -537,7 +738,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Galatians 3:27",
+        "Acts 19:5",
+        "John 3:30",
+        "1 Corinthians 1:13-14",
+        "2 Corinthians 4:5"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -551,7 +758,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "In mine own name",
+          "explanation": "To be baptized into someone’s name implies allegiance and identification. Paul rejects any suggestion that baptism placed converts under his ownership. The rite confesses Christ’s lordship; its administrator is a servant and must never become the center of the baptized person’s identity.",
+          "scriptureReferences": [
+            "John 3:28",
+            "John 3:29"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -572,7 +788,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 16:15",
+        "1 Corinthians 16:17",
+        "Acts 16:15",
+        "Acts 16:33",
+        "1 Corinthians 1:15"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -586,7 +808,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "The household of Stephanas",
+          "explanation": "A “household” could include family members, dependents, and servants connected with one domestic unit. Paul’s recollection highlights Stephanas’s home as an early center of Corinthian faith, while his admitted uncertainty keeps the emphasis away from a prestige list of baptisms.",
+          "scriptureReferences": [
+            "1 Corinthians 16:15",
+            "1 Corinthians 16:17"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -607,7 +838,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "John 4:2",
+        "Matthew 28:19",
+        "1 Corinthians 9:16",
+        "1 Corinthians 2:1-5",
+        "Galatians 6:14"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -621,7 +858,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Made of none effect",
+          "explanation": "The expression means emptied of its proper force. Rhetorical display could draw attention so thoroughly to the speaker that the cross was treated as material for performance. Paul refuses a manner of proclamation that makes admiration of the messenger compete with God’s saving act.",
+          "scriptureReferences": [
+            "1 Corinthians 2:4-5",
+            "1 Corinthians 2:1"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -642,7 +888,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Romans 1:16",
+        "1 Corinthians 15:1-2",
+        "2 Corinthians 2:15-16",
+        "1 Corinthians 1:23-24",
+        "2 Corinthians 4:3"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -687,7 +939,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Isaiah 29:14",
+        "1 Corinthians 3:19",
+        "Job 5:12-13",
+        "Isaiah 19:11-14",
+        "Romans 1:22"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -701,7 +959,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Bring to nothing",
+          "explanation": "God does not oppose careful thought; he overturns wisdom that claims independence from him. The quotation announces a divine reversal in which celebrated discernment fails because it cannot recognize salvation in a crucified Messiah or secure the future God alone gives.",
+          "scriptureReferences": [
+            "1 Corinthians 3:19",
+            "Job 5:12"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -722,7 +989,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Isaiah 33:18",
+        "Romans 1:22",
+        "Colossians 2:8",
+        "1 Corinthians 3:18-20",
+        "2 Samuel 15:31"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -736,7 +1009,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "The disputer of this world",
+          "explanation": "The “disputer” is one skilled in argument within the standards of the present age. Paul gathers intellectual and religious experts into a series of questions, not to praise ignorance, but to show that debate cannot discover the saving wisdom God reveals in Christ.",
+          "scriptureReferences": [
+            "Isaiah 33:18",
+            "1 Corinthians 1:19"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -757,7 +1039,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Matthew 11:25",
+        "Luke 10:21",
+        "Romans 10:14-17",
+        "Titus 1:3",
+        "1 Corinthians 1:18"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -771,7 +1059,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "The foolishness of preaching",
+          "explanation": "The apparent foolishness belongs to the proclaimed message of Christ crucified, not to careless or irrational speech. God chose proclamation as the means by which hearers encounter that saving event, so faith rests on what he has done rather than intellectual prestige.",
+          "scriptureReferences": [
+            "1 Corinthians 1:24",
+            "Matthew 11:25"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -792,7 +1089,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Matthew 12:38",
+        "Acts 17:18-21",
+        "Matthew 12:39",
+        "Matthew 16:1-4",
+        "Mark 8:11"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -806,7 +1109,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Require a sign",
+          "explanation": "The request seeks a compelling public demonstration that would authenticate the messenger on the hearer’s terms. Paul contrasts this demand with the Greek pursuit of wisdom, then confronts both expectations with a crucified Messiah whom neither cultural standard would naturally commend.",
+          "scriptureReferences": [
+            "Matthew 12:38",
+            "Acts 17:18-21"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -827,7 +1139,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 1:18",
+        "Isaiah 8:14",
+        "Galatians 5:11",
+        "1 Peter 2:7-8",
+        "Galatians 3:1"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -841,7 +1159,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "A stumblingblock",
+          "explanation": "A “stumblingblock” is an obstacle that trips or ensnares. A crucified claimant to messiahship offended expectations of triumphant deliverance and evoked the shame of one hanged under a curse. Yet the very event rejected as scandal is where God’s saving purpose is revealed.",
+          "scriptureReferences": [
+            "1 Corinthians 1:18",
+            "Ephesians 3:8"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -862,7 +1189,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 1:18",
+        "1 Corinthians 1:30",
+        "Colossians 2:3",
+        "Romans 1:16",
+        "1 Corinthians 1:9"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -876,7 +1209,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "The power of God, and the wisdom of God",
+          "explanation": "Christ embodies both what the surrounding cultures sought and what their standards missed. In the crucified and risen Lord, God acts effectively to save and discloses the plan human reasoning could not devise. Power and wisdom meet in the same person.",
+          "scriptureReferences": [
+            "Colossians 2:3",
+            "1 Corinthians 1:18"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -897,7 +1239,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Job 42:2",
+        "Romans 11:33-36",
+        "2 Corinthians 13:4",
+        "1 Corinthians 1:27-29",
+        "Psalms 115:3"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -911,7 +1259,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "The foolishness of God",
+          "explanation": "Paul speaks with deliberate irony, not as though God possesses folly or weakness. Even what human judgment labels foolish in God’s action surpasses its best wisdom; the apparent defeat of the cross proves stronger than every power arrayed against it.",
+          "scriptureReferences": [
+            "1 Corinthians 1:18",
+            "1 Samuel 17:40-51"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -932,7 +1289,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Matthew 11:25",
+        "James 2:5",
+        "James 1:9-11",
+        "Luke 18:24-25",
+        "1 Corinthians 1:20"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -946,7 +1309,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Wise men after the flesh",
+          "explanation": "“After the flesh” means measured by ordinary human standards of education, influence, and birth. Paul does not say that no prominent people believed, but that the congregation’s makeup disproved the assumption that social distinction grants privileged access to God.",
+          "scriptureReferences": [
+            "1 Corinthians 1:20",
+            "James 3:13-17"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -967,7 +1339,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Psalms 8:2",
+        "Matthew 21:16",
+        "Judges 7:2",
+        "2 Corinthians 12:9",
+        "Luke 1:51-52"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -981,7 +1359,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "To confound the wise",
+          "explanation": "“Confound” carries the sense of putting to shame by exposing a false basis for confidence. God’s choice of people dismissed as foolish or weak overturns the world’s ranking system and demonstrates that salvation depends on divine grace rather than human credentials.",
+          "scriptureReferences": [
+            "Psalms 8:2",
+            "Matthew 21:16"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -1002,7 +1389,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Romans 4:17",
+        "Luke 1:52",
+        "2 Corinthians 12:11",
+        "1 Corinthians 2:6",
+        "Isaiah 40:17"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -1016,7 +1409,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Things which are not",
+          "explanation": "The phrase describes people treated by society as if they possessed no standing or significance. God chooses the disregarded to bring established pretensions “to nought,” revealing that worldly status is temporary and cannot determine a person’s worth before him.",
+          "scriptureReferences": [
+            "Romans 4:17",
+            "1 Corinthians 2:6"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -1037,7 +1439,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Ephesians 2:9",
+        "1 Corinthians 4:7",
+        "Jeremiah 9:23-24",
+        "Romans 3:27",
+        "Romans 11:35-36"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -1051,7 +1459,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "No flesh should glory",
+          "explanation": "“Flesh” here embraces humanity in its creaturely weakness and self-reliance. Since God deliberately saves in a way that excludes status as a qualification, no person can boast before him as though intelligence, power, lineage, or achievement had secured grace.",
+          "scriptureReferences": [
+            "1 Corinthians 1:31",
+            "Ephesians 2:9"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -1072,7 +1489,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Jeremiah 23:5-6",
+        "Romans 3:21-24",
+        "1 Corinthians 6:11",
+        "Colossians 2:3",
+        "2 Corinthians 5:21"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -1086,7 +1509,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Made unto us wisdom",
+          "explanation": "Christ does not merely deliver information about God’s wisdom; in union with him believers receive the saving reality that wisdom accomplishes. Paul unfolds it as righteousness, sanctification, and redemption—God’s acceptance, holy claim, and liberating work centered in Christ.",
+          "scriptureReferences": [
+            "Colossians 2:3",
+            "2 Corinthians 5:17"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -1107,7 +1539,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Jeremiah 9:23-24",
+        "2 Corinthians 10:17",
+        "Galatians 6:14",
+        "Psalms 34:2",
+        "Philippians 3:3"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -1121,7 +1559,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Glory in the Lord",
+          "explanation": "Biblical boasting is redirected from self-exaltation to grateful celebration of God’s character and deeds. The one who boasts in the Lord acknowledges that every saving good comes from him, leaving no basis for rivalry over human teachers or social advantage.",
+          "scriptureReferences": [
+            "1 Chronicles 16:10",
+            "2 Corinthians 10:17"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],

@@ -6,13 +6,16 @@ const books = ["1-corinthians", "2-corinthians"];
 const errors = [];
 const verses = new Map();
 const privateManifestPath = join(root, ".research", "corinthians-source-manifest.json");
+const backgroundPath = join(root, "content", "background.json");
+const homepagePath = join(root, "components", "hero-section.tsx");
 
 const prohibitedPublicPatterns = [
   { label: "URL", pattern: /https?:\/\/|\bwww\./iu },
   { label: "file citation marker", pattern: /\bfilecite\b|\bturn\d+(?:file|search|view)\d+\b|[]/iu },
   { label: "research-process language", pattern: /\b(?:uploaded|research corpus|source audit|source trail|bibliograph(?:y|ic)|footnotes?|endnotes?)\b/iu },
   { label: "editorial-process language", pattern: /\b(?:humanization|public prose|sounds? human|machine[- ]generated|formulaic|editorial (?:pass|note|language)|drafting process|rewrite (?:this |the |these )?(?:commentary|notes?|prose))\b/iu },
-  { label: "source attribution", pattern: /\baccording to (?:the )?(?:commentator|scholar|author|researcher)\b/iu }
+  { label: "source attribution", pattern: /\baccording to (?:the )?(?:commentator|scholar|author|researcher)\b/iu },
+  { label: "denominational self-label", pattern: /\b(?:Seventh[- ]day Adventist|Adventist|SDA)\b/iu }
 ];
 
 const privateSourcePhrases = new Set();
@@ -105,6 +108,18 @@ for (const book of books) {
   }
 }
 
+if (existsSync(backgroundPath)) {
+  auditPublicValue("Introduction", JSON.parse(readFileSync(backgroundPath, "utf8")));
+} else {
+  errors.push("The public introduction content is missing.");
+}
+
+if (existsSync(homepagePath)) {
+  auditPublicText("Homepage", readFileSync(homepagePath, "utf8"));
+} else {
+  errors.push("The homepage study copy is missing.");
+}
+
 assert(verses.size === 694, `Expected 694 reviewed verses; found ${verses.size}.`);
 
 requirePatterns("1 Corinthians 16:2", [
@@ -124,13 +139,57 @@ for (const reference of ["1 Corinthians 8:8", "1 Corinthians 10:25", "1 Corinthi
   ]);
 }
 
-for (const reference of ["1 Corinthians 14:2", "1 Corinthians 14:13", "1 Corinthians 14:27"]) {
+requirePatterns("1 Corinthians 14:2", [
+  { label: "human-language reading", pattern: /\b(?:human[- ]language|human languages?|foreign languages?|Acts 2|Pentecost)\b/iu },
+  { label: "legitimate interpretive uncertainty", pattern: /\b(?:another|alternative|other) (?:reading|view)|\b(?:precise|exact) (?:form|phenomenon)[^.]{0,100}\b(?:uncertain|debated|not settled|does not settle)|\b(?:two|both) (?:readings|views)\b/iu },
+  { label: "interpretable meaning", pattern: /\b(?:interpret|translation|translate|meaning)\b/iu }
+]);
+
+for (const reference of ["1 Corinthians 14:13", "1 Corinthians 14:27"]) {
   requirePatterns(reference, [
-    { label: "human-language interpretation", pattern: /\b(?:human|foreign|real) languages?\b|\bmeaningful language\b/iu },
-    { label: "interpretation or translation", pattern: /\b(?:interpret|translation|translate)/iu }
+    { label: "interpretation requirement", pattern: /\b(?:interpret|translation|translate)\b/iu },
+    { label: "edification or order", pattern: /\b(?:edif|build|understand|order|one at a time|self-control)\w*/iu }
   ]);
+}
+
+requirePatterns("1 Corinthians 12:30", [
+  { label: "tongues are not universal", pattern: /\b(?:not|no)\b[^.]{0,120}\b(?:all|universal|every)\b|\b(?:all|universal|every)\b[^.]{0,120}\b(?:not|no)\b/iu }
+]);
+
+for (const reference of [
+  "1 Corinthians 12:10",
+  "1 Corinthians 12:28",
+  "1 Corinthians 14:2",
+  "1 Corinthians 14:4",
+  "1 Corinthians 14:5",
+  "1 Corinthians 14:6",
+  "1 Corinthians 14:9",
+  "1 Corinthians 14:10",
+  "1 Corinthians 14:11",
+  "1 Corinthians 14:13",
+  "1 Corinthians 14:14",
+  "1 Corinthians 14:15",
+  "1 Corinthians 14:16",
+  "1 Corinthians 14:17",
+  "1 Corinthians 14:18",
+  "1 Corinthians 14:19",
+  "1 Corinthians 14:21",
+  "1 Corinthians 14:22",
+  "1 Corinthians 14:23",
+  "1 Corinthians 14:26",
+  "1 Corinthians 14:27",
+  "1 Corinthians 14:28",
+  "1 Corinthians 14:39"
+]) {
   const text = verses.get(reference) ?? "";
-  assert(!/\b(?:ecstatic speech|private prayer language|prayer beyond .*ordinary speech)\b/iu.test(text), `${reference} retains private ecstatic-language ambiguity.`);
+  assert(
+    !/\b(?:the|this) (?:tongue|tongues|gift)(?:\s+\w+){0,6}\s+(?:is|are|must be) (?:a )?(?:meaningful )?human languages?\b/iu.test(text),
+    `${reference} states the human-language interpretation with unsupported certainty.`
+  );
+  assert(
+    !/\b(?:not|never)\b[^.]{0,100}\b(?:private ecstatic|ecstatic prayer|distinct Corinthian manifestation)\b/iu.test(text),
+    `${reference} categorically excludes a reading the controlling commentary leaves open.`
+  );
 }
 
 requirePatterns("1 Corinthians 3:15", [
@@ -140,6 +199,30 @@ requirePatterns("1 Corinthians 3:15", [
 requirePatterns("1 Corinthians 15:29", [
   { label: "no proxy-baptism authorization", pattern: /\b(?:proxy|vicarious|on behalf of the dead)\b/iu },
   { label: "no authorization", pattern: /\b(?:does not|doesn['’]t|not|neither)\b[^.]{0,100}\b(?:command|approve|authorize|establish)\b/iu }
+]);
+
+requirePatterns("1 Corinthians 13:13", [
+  { label: "abiding faith", pattern: /\bfaith\b[^.]{0,140}\b(?:abide|remain|continue|trust|depend)\w*/iu },
+  { label: "abiding hope", pattern: /\bhope\b[^.]{0,140}\b(?:abide|remain|continue|expect|anticipat)\w*/iu },
+  { label: "love's primacy", pattern: /\blove\b[^.]{0,120}\b(?:greatest|first place|supreme|primacy)\b/iu }
+]);
+
+requirePatterns("1 Corinthians 2:9", [
+  { label: "plan of salvation", pattern: /\b(?:plan|wisdom|work) of salvation\b|\bsaving (?:plan|wisdom|work)\b/iu },
+  { label: "Spirit-given revelation", pattern: /\bSpirit\b[^.]{0,100}\breveal/iu }
+]);
+
+requirePatterns("1 Corinthians 5:5", [
+  { label: "restorative discipline", pattern: /\b(?:restore|restorative|repent|recovery|save)\w*/iu }
+]);
+
+requirePatterns("1 Corinthians 7:11", [
+  { label: "safety qualification", pattern: /\b(?:safety|danger|abuse|violence|protect)\w*/iu }
+]);
+
+requirePatterns("1 Corinthians 14:35", [
+  { label: "situational context", pattern: /\b(?:context|situation|question|disruption|11:5)\b/iu },
+  { label: "no universal silence inference", pattern: /\b(?:not|cannot|does not)\b[^.]{0,150}\b(?:universal|absolute|all women|every woman|silent)\b/iu }
 ]);
 
 for (const reference of ["1 Corinthians 15:51", "2 Corinthians 5:3", "2 Corinthians 5:8"]) {
@@ -160,6 +243,30 @@ for (const reference of ["2 Corinthians 9:6", "2 Corinthians 9:7"]) {
     { label: "anti-prosperity safeguard", pattern: /\b(?:not|does not|doesn['’]t|never)\b[^.]{0,140}\b(?:wealth|income|financial|prosperity|material rewards?|personal enrichment)\b/iu }
   ]);
 }
+
+requirePatterns("2 Corinthians 6:14", [
+  { label: "prospective interfaith-marriage application", pattern: /\b(?:marry|marriage|spouse)\b/iu },
+  { label: "non-racial safeguard", pattern: /\b(?:race|racial|ethnic|ethnicity)\b/iu }
+]);
+
+requirePatterns("2 Corinthians 9:11", [
+  { label: "material generosity context", pattern: /\b(?:money|material|financial|resources?|collection|giving)\b/iu },
+  { label: "anti-prosperity safeguard", pattern: /\b(?:not|does not|doesn['’]t|never)\b[^.]{0,160}\b(?:wealth|prosperity|personal enrichment|guarantee)\b/iu }
+]);
+
+requirePatterns("2 Corinthians 10:4", [
+  { label: "nonviolent spiritual warfare", pattern: /\b(?:not|never|does not)\b[^.]{0,120}\b(?:physical violence|violence|coercion|weapons?)\b|\b(?:spiritual|truth|prayer)\b[^.]{0,120}\b(?:warfare|weapons?)\b/iu }
+]);
+
+requirePatterns("2 Corinthians 12:2", [
+  { label: "no astral-travel inference", pattern: /\b(?:astral|immortal soul|disembodied)\b/iu },
+  { label: "textual uncertainty", pattern: /\b(?:does not say|does not settle|does not know|cannot determine|uncertain|uncertainty|Paul does not know)\b/iu }
+]);
+
+requirePatterns("2 Corinthians 13:14", [
+  { label: "personal distinction within the Trinity", pattern: /\b(?:distinct|distinction|three persons|Father|Son|Spirit)\b/iu },
+  { label: "divine unity", pattern: /\b(?:one God|divine unity|one saving blessing|Trinity|triune)\b/iu }
+]);
 
 if (errors.length) {
   console.error(`Corinthians theological validation failed with ${errors.length} error${errors.length === 1 ? "" : "s"}:`);

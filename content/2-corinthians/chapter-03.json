@@ -1,7 +1,7 @@
 {
   "chapterNumber": 3,
   "title": "",
-  "summary": "Paul contrasts the old covenant’s fading glory with the Spirit’s lasting, transforming ministry under the new covenant.",
+  "summary": "Paul contrasts the fading glory of the Mosaic administration with the Spirit’s lasting, transforming ministry under the new covenant.",
   "historicalContext": "",
   "literaryContext": "",
   "themes": [],
@@ -19,7 +19,7 @@
     {
       "range": "3:7-11",
       "title": "A Glory That Surpasses",
-      "summary": "The lasting ministry of righteousness carries a glory greater than the fading glory of the former covenant."
+      "summary": "The Spirit’s lasting ministry of righteousness surpasses the temporary glory that marked Moses’ covenantal ministry."
     },
     {
       "range": "3:12-18",
@@ -37,7 +37,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "2 Corinthians 2:17",
+        "Acts 18:27",
+        "2 Corinthians 5:12",
+        "1 Corinthians 16:3",
+        "2 Corinthians 10:8"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -51,7 +57,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Epistles of commendation",
+          "explanation": "Letters of recommendation introduced travelers and authenticated teachers to communities that did not know them. Paul asks why such credentials should be needed in Corinth, where the congregation’s own existence already bears public testimony to the ministry through which it received the gospel.",
+          "scriptureReferences": [
+            "2 Corinthians 2:17",
+            "Acts 18:27"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -72,7 +87,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "2 Corinthians 7:3",
+        "Romans 1:8",
+        "1 Corinthians 9:1-2",
+        "1 Thessalonians 1:8",
+        "2 Corinthians 11:11"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -86,7 +107,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Our epistle written in our hearts",
+          "explanation": "The Corinthians are Paul’s living letter of commendation, carried in the affection and responsibility of his heart while also open to public observation. Changed people provide a form of authentication more substantial than a document written to advertise its bearer.",
+          "scriptureReferences": [
+            "1 Corinthians 3:10",
+            "2 Corinthians 7:3"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -107,7 +137,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Exodus 31:18",
+        "2 Corinthians 6:16",
+        "Jeremiah 31:33",
+        "Ezekiel 36:26-27",
+        "Hebrews 8:10"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -121,7 +157,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "The epistle of Christ",
+          "explanation": "Christ is the true author of the living letter; Paul and his coworkers merely ministered it. The Spirit writes God’s will into responsive human hearts, fulfilling the promise of inward renewal rather than leaving transformation dependent on ink or external credentials.",
+          "scriptureReferences": [
+            "Exodus 31:18",
+            "2 Corinthians 6:16"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -142,7 +187,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "2 Corinthians 2:14",
+        "1 Corinthians 15:10",
+        "Philippians 1:6",
+        "1 Thessalonians 1:8",
+        "2 Corinthians 3:3"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -156,7 +207,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Trust have we through Christ to God-ward",
+          "explanation": "Paul’s confidence moves through Christ and terminates in God. It is not self-commendation disguised as spirituality. The living evidence in Corinth permits boldness because Christ has acted through the ministry, making God rather than the messenger its adequate ground.",
+          "scriptureReferences": [
+            "Philippians 1:6",
+            "2 Corinthians 3:3"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -177,7 +237,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "2 Corinthians 2:16",
+        "2 Corinthians 12:9",
+        "1 Corinthians 3:6",
+        "2 Corinthians 4:7",
+        "Exodus 4:11-16"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -191,7 +257,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Our sufficiency is of God",
+          "explanation": "“Sufficiency” means competence or adequacy for the entrusted ministry. Paul denies that the capacity originates in unaided thought, talent, or credentials. God makes servants able to bear the new-covenant message, leaving no room for either boasting or despairing self-reliance.",
+          "scriptureReferences": [
+            "2 Corinthians 2:16",
+            "2 Corinthians 12:9"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -212,7 +287,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Jeremiah 31:31-33",
+        "Romans 7:6",
+        "Romans 8:2-4",
+        "Hebrews 8:6-10",
+        "Matthew 5:17-19"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -257,7 +338,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "2 Corinthians 3:6",
+        "2 Corinthians 3:3",
+        "Deuteronomy 10:1-4",
+        "Deuteronomy 4:8",
+        "Romans 7:10-13"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -271,7 +358,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "The ministration of death",
+          "explanation": "Paul names the effect of a covenant ministry engraved on stone when it confronts sinful people but cannot itself impart the life it commands. The commandments remain holy and the giving was glorious; death arises from sin and condemnation, not from moral evil in God’s law.",
+          "scriptureReferences": [
+            "2 Corinthians 3:6",
+            "2 Corinthians 3:3"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -292,7 +388,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "2 Corinthians 3:6",
+        "Acts 2:17",
+        "Galatians 5:5",
+        "2 Corinthians 3:17",
+        "Acts 2:18"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -306,7 +408,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "The ministration of the spirit",
+          "explanation": "This is new-covenant ministry characterized by the Holy Spirit, who writes God’s will on hearts and gives the life external command cannot produce. Its greater glory fulfills the law’s righteous purpose through transformation rather than abolishing holiness or obedience.",
+          "scriptureReferences": [
+            "2 Corinthians 3:6",
+            "Acts 2:17"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -327,7 +438,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "2 Corinthians 3:6",
+        "2 Corinthians 5:21",
+        "1 Corinthians 1:30",
+        "Romans 3:21-26",
+        "Romans 8:1-4"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -341,7 +458,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "The ministration of righteousness",
+          "explanation": "The new-covenant ministry announces God’s justifying gift in Christ and serves the Spirit’s work of forming righteous lives. It exceeds the condemning ministry because it supplies in the gospel what exposed sinners lack, while never redefining sin as righteousness.",
+          "scriptureReferences": [
+            "2 Corinthians 3:6",
+            "2 Corinthians 5:21"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -362,7 +488,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "John 1:14-18",
+        "Hebrews 3:3-6",
+        "Hebrews 8:6",
+        "2 Corinthians 4:6",
+        "Revelation 21:23"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -376,7 +508,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "The glory that excelleth",
+          "explanation": "The glory of the new covenant so surpasses the former administration that the earlier radiance appears dim by comparison. Paul argues by greater glory, not by calling God’s previous revelation evil; fulfillment in Christ outshines what genuinely prepared for it.",
+          "scriptureReferences": [
+            "Job 25:5",
+            "Revelation 21:23"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -397,7 +538,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "2 Corinthians 3:7",
+        "2 Corinthians 3:6",
+        "Romans 5:20",
+        "2 Corinthians 4:1",
+        "Romans 5:21"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -411,7 +558,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "That which remaineth",
+          "explanation": "What remains is the enduring new-covenant ministry of the Spirit in contrast with the transitional covenant administration associated with Moses’ veiled glory. Paul is not declaring God’s moral will temporary; he contrasts ministries according to their covenantal permanence and life-giving effect.",
+          "scriptureReferences": [
+            "2 Corinthians 3:7",
+            "2 Corinthians 3:6"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -432,7 +588,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "2 Corinthians 4:2",
+        "2 Corinthians 7:4",
+        "1 Thessalonians 2:2",
+        "2 Corinthians 4:3",
+        "2 Corinthians 10:1"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -446,7 +608,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Great plainness of speech",
+          "explanation": "“Plainness” carries the sense of bold openness or freedom in speaking. Hope in the enduring glory of the new covenant allows Paul to communicate without manipulative concealment. Confidence in God’s work produces candor rather than self-promoting rhetoric.",
+          "scriptureReferences": [
+            "2 Corinthians 4:2",
+            "2 Corinthians 7:4"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -467,7 +638,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Exodus 34:33-35",
+        "2 Corinthians 3:18",
+        "Hebrews 10:1",
+        "Colossians 2:16-17",
+        "John 1:17"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -481,7 +658,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "A vail over his face",
+          "explanation": "Paul interprets Moses’ veil as preventing Israel from gazing at the fading outcome of that radiance. The image serves his covenant comparison; it does not accuse Moses of deceit, since the underlying account also shows him entering God’s presence and removing the veil.",
+          "scriptureReferences": [
+            "Exodus 34:33-35",
+            "2 Corinthians 3:18"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -502,7 +688,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "2 Corinthians 4:3",
+        "Jeremiah 5:21",
+        "Acts 28:26",
+        "2 Corinthians 4:6",
+        "John 12:46"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -516,7 +708,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "Which vail is done away in Christ",
+          "explanation": "The veil represents hardened perception that reads the old covenant without recognizing its goal in Christ. Christ removes this obstruction by revealing the Scriptures’ saving center. The problem is not Scripture itself but a heart unable to see its fulfillment.",
+          "scriptureReferences": [
+            "2 Corinthians 4:3",
+            "Jeremiah 5:21"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -537,7 +738,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Acts 13:27-29",
+        "2 Corinthians 3:14",
+        "2 Corinthians 3:16",
+        "Luke 24:25-27",
+        "John 5:39-47"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -551,7 +758,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "The vail is upon their heart",
+          "explanation": "Paul relocates the veil from Moses’ face to the hearer’s heart, identifying an inward barrier to understanding. The statement describes spiritual resistance, not an ethnic defect, and the next verse holds out the same possibility of turning to the Lord.",
+          "scriptureReferences": [
+            "Acts 13:27-29",
+            "2 Corinthians 3:14"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -572,7 +788,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "Exodus 34:34",
+        "Luke 24:45",
+        "Acts 3:19",
+        "Romans 11:23",
+        "2 Corinthians 3:17"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -586,7 +808,16 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "The vail shall be taken away",
+          "explanation": "Paul echoes Moses removing the veil when turning toward the Lord. In conversion, obstructed understanding gives way to recognition of God’s glory in Christ. The passive wording keeps removal as God’s gracious work while calling the hearer genuinely to turn.",
+          "scriptureReferences": [
+            "Exodus 34:34",
+            "Isaiah 25:7"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],
@@ -607,7 +838,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "John 8:36",
+        "Romans 8:2",
+        "Romans 8:9-11",
+        "Galatians 5:1",
+        "Galatians 5:13"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -651,7 +888,13 @@
       "theologicalInsight": "",
       "structuralNotes": "",
       "relatedConnection": "",
-      "crossReferences": [],
+      "crossReferences": [
+        "1 Corinthians 13:12",
+        "Romans 8:29",
+        "Romans 12:2",
+        "1 John 3:2",
+        "Exodus 34:29-35"
+      ],
       "application": "",
       "sources": [],
       "commentary": {
@@ -665,7 +908,24 @@
         "application": "",
         "reviewFlags": []
       },
-      "wordNotes": [],
+      "wordNotes": [
+        {
+          "term": "κατοπτρίζω (katoptrizō) — “beholding as in a glass”",
+          "explanation": "The verb may describe beholding in a mirror or reflecting like one. The context gives priority to beholding the Lord as the cause of transformation, while the changed life increasingly reflects the glory it receives.",
+          "scriptureReferences": [
+            "1 Corinthians 13:12",
+            "2 Corinthians 4:6"
+          ]
+        },
+        {
+          "term": "Changed into the same image",
+          "explanation": "As the whole community beholds the Lord’s glory with unveiled faces, the Spirit progressively conforms believers to Christ’s character. “From glory to glory” describes advancing transformation under divine action, not the discovery of inherent deity or instant sinless perfection.",
+          "scriptureReferences": [
+            "Romans 8:29",
+            "Romans 12:2"
+          ]
+        }
+      ],
       "sourceAudit": {
         "exegesis": [],
         "historicalBackground": [],

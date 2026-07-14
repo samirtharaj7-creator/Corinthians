@@ -15,6 +15,17 @@ DEFAULT_CORPUS = ROOT / ".research" / "corinthians-corpus"
 DEFAULT_MANIFEST = ROOT / ".research" / "corinthians-source-manifest.json"
 DEFAULT_PUBLIC_SUMMARY = ROOT / "research" / "corinthians-corpus-summary.json"
 
+REQUIRED_SUPPLEMENTAL_SOURCES = {
+    "3219f55568bfee58ee95d5403a7208f5ba2f53a9f645c7fc265a4c4b463358f0": {
+        "pages": 182,
+        "coverage": "1 Corinthians",
+    },
+    "4c8d88c6759142ab50d41cbcb6267b25c2d2d7957dc177d32fe63d34ff842462": {
+        "pages": 118,
+        "coverage": "2 Corinthians",
+    },
+}
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -47,19 +58,53 @@ def main() -> int:
     require("resources" not in public_summary, "Public-safe summary must not expose named resources.")
     require("sourceDirectory" not in public_summary, "Public-safe summary must not expose a source path.")
     require(public_summary.get("summary") == summary, "Public-safe aggregate statistics do not match the private manifest.")
-    require(summary["files"] == 38, f"Expected 38 PDF files; found {summary['files']}.")
-    require(summary["uniqueFiles"] == 37, f"Expected 37 unique PDFs; found {summary['uniqueFiles']}.")
-    require(summary["duplicates"] == 1, f"Expected one duplicate; found {summary['duplicates']}.")
-    require(summary["pages"] == 8054, f"Expected 8,054 canonical pages; found {summary['pages']}.")
-    require(summary["readable"] == 37, f"Every unique PDF must be readable; found {summary['readable']}.")
+    require(summary["files"] == len(resources), "Manifest file count is inconsistent.")
+    require(
+        summary["uniqueFiles"] == sum(1 for item in resources if not item["duplicateOf"]),
+        "Manifest unique-file count is inconsistent.",
+    )
+    require(
+        summary["duplicates"] == sum(1 for item in resources if item["duplicateOf"]),
+        "Manifest duplicate count is inconsistent.",
+    )
+    require(
+        summary["pages"]
+        == sum(item["pageCount"] for item in resources if not item["duplicateOf"]),
+        "Manifest canonical page count is inconsistent.",
+    )
+    require(
+        summary["words"]
+        == sum(item["wordCount"] for item in resources if not item["duplicateOf"]),
+        "Manifest word count is inconsistent.",
+    )
+    require(
+        summary["readable"] == summary["uniqueFiles"],
+        f"Every unique PDF must be readable; found {summary['readable']} of {summary['uniqueFiles']}.",
+    )
     require(summary["needsOcr"] == 0, f"No PDF should remain pending OCR; found {summary['needsOcr']}.")
     require(summary["ocrPages"] > 0, "The scanned source should contribute OCR pages.")
     require(all(item["extractionStatus"] == "readable" for item in resources), "A manifest resource is not readable.")
     require(not any(item["needsOcr"] for item in resources), "A manifest resource still needs OCR.")
 
     unique_resources = [item for item in resources if not item["duplicateOf"]]
-    require(len(unique_resources) == 37, "Canonical resource count is inconsistent.")
-    require(len(list((corpus / "text").glob("*.txt"))) == 37, "Expected one full-text file per unique PDF.")
+    require(
+        len(list((corpus / "text").glob("*.txt"))) == summary["uniqueFiles"],
+        "Expected one full-text file per unique PDF.",
+    )
+
+    resources_by_hash = {item["sha256"]: item for item in unique_resources}
+    for checksum, expectation in REQUIRED_SUPPLEMENTAL_SOURCES.items():
+        item = resources_by_hash.get(checksum)
+        require(item is not None, f"Required supplemental source is missing: {checksum[:16]}.")
+        require(
+            item["pageCount"] == expectation["pages"],
+            f"Required supplemental source {checksum[:16]} has {item['pageCount']} pages; "
+            f"expected {expectation['pages']}.",
+        )
+        require(
+            expectation["coverage"] in item["coverage"],
+            f"Required supplemental source {checksum[:16]} has unexpected coverage metadata.",
+        )
 
     connection = sqlite3.connect(database_path)
     try:
@@ -75,6 +120,18 @@ def main() -> int:
         require(page_count == summary["pages"], "Database page count does not match the manifest.")
         require(chunk_count == summary["chunks"], "Database chunk count does not match the manifest.")
         require(fts_count == chunk_count, "FTS row count does not match the chunk count.")
+
+        for checksum, expectation in REQUIRED_SUPPLEMENTAL_SOURCES.items():
+            row = connection.execute(
+                "SELECT source_id, page_count, extraction_status FROM sources "
+                "WHERE sha256 = ? AND duplicate_of IS NULL",
+                (checksum,),
+            ).fetchone()
+            require(row is not None, f"Required supplemental source is absent from SQLite: {checksum[:16]}.")
+            require(
+                row[1:] == (expectation["pages"], "readable"),
+                f"Required supplemental source {checksum[:16]} has invalid SQLite metadata: {row[1:]}",
+            )
 
         for item in unique_resources:
             row = connection.execute(

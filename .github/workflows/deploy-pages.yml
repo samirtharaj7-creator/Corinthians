@@ -35,6 +35,9 @@ jobs:
       - name: Validate commentary content
         run: npm run validate:corinthians
 
+      - name: Validate introduction content
+        run: npm run validate:background
+
       - name: Validate theological safeguards
         run: npm run validate:theology
 

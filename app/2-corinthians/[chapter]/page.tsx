@@ -9,6 +9,7 @@ import {
   getCorinthiansChapterAdjacency,
   getCorinthiansStaticParams
 } from "@/lib/corinthians";
+import { getReferencePreviewsForChapter } from "@/lib/reference-previews";
 import type { ChapterContent } from "@/lib/schemas";
 
 const BOOK_SLUG = "2-corinthians" as const;
@@ -44,6 +45,7 @@ export default async function SecondCorinthiansChapterPage({
   if (!content || !adjacency) notFound();
 
   const publicContent = withoutAuditSources(content);
+  const referencePreviews = getReferencePreviewsForChapter(content);
 
   return (
     <main className="reader-page">
@@ -59,6 +61,7 @@ export default async function SecondCorinthiansChapterPage({
         key={`${book.slug}-${content.chapterNumber}-reader`}
         chapter={publicContent}
         bookName={book.name}
+        referencePreviews={referencePreviews}
       />
       <nav className="reader-chapter-nav no-print" aria-label={`${book.name} adjacent chapters`}>
         {adjacency.previous ? (
