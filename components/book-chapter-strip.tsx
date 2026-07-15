@@ -6,7 +6,6 @@ import {
   READER_VERSE_CHANGE_EVENT,
   type ReaderVerseEventDetail
 } from "@/lib/reader-events";
-import { slugify } from "@/lib/utils";
 
 type BookChapterStripProps = {
   activeChapter: number;
@@ -110,18 +109,12 @@ export function BookChapterStrip({
         return;
       }
 
-      const verseButtonId = referenceHash(bookName, chapter, verse);
-      const verseButton = document.getElementById(verseButtonId);
-      verseButton?.click();
-
       setSelectedVerse(verse);
       setInputValue(formatReference(inputBookName, chapter, verse));
       window.history.replaceState(null, "", `#v${verse}`);
-      window.requestAnimationFrame(() => {
-        verseButton?.scrollIntoView({ block: "center", behavior: "smooth" });
-      });
+      window.dispatchEvent(new HashChangeEvent("hashchange"));
     },
-    [activeChapter, addRecentReference, bookName, bookSlug, inputBookName, isValidReference]
+    [activeChapter, addRecentReference, bookSlug, inputBookName, isValidReference]
   );
 
   useEffect(() => {
@@ -438,10 +431,6 @@ function formatReference(bookName: string, chapter: number, verse: number) {
 
 function abbreviateBookName(bookName: string) {
   return bookName.replace("Corinthians", "Cor.");
-}
-
-function referenceHash(bookName: string, chapter: number, verse: number) {
-  return slugify(formatReference(bookName, chapter, verse));
 }
 
 function verseFromHash(hash: string, currentChapter: number) {

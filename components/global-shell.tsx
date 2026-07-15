@@ -1,12 +1,16 @@
 const libraryItems = [
   { name: "Hermeneutics", description: "Learn to read Scripture faithfully", href: "https://hermeneutics.mybibleexplorer.com" },
   { name: "Psalms", description: "Worship, lament, praise, and prayer", href: "https://psalms.mybibleexplorer.com" },
-  { name: "Daniel", description: "Prophecy and providence", href: "https://daniel.mybibleexplorer.com" },
-  { name: "Revelation", description: "Symbols, judgment, and final hope", href: "https://revelation.mybibleexplorer.com/" },
   { name: "Sanctuary", description: "A blueprint of salvation", href: "https://sanctuary.mybibleexplorer.com/#structure" },
   { name: "Last Day Events", description: "Earth's final chapter", href: "https://lastdayevents.mybibleexplorer.com/index.html" },
+  { name: "Parables", description: "Stories of the kingdom", href: "https://parables.mybibleexplorer.com" },
   { name: "Romans", description: "Righteousness by faith and life in the Spirit", href: "https://romans.mybibleexplorer.com" },
-  { name: "Corinthians", description: "Christ-centered life in the church", href: "/", current: true }
+  { name: "Corinthians", description: "Unity, worship, holy living, and resurrection", href: "/", current: true },
+  { name: "Hebrews", description: "Christ, covenant, sanctuary, and persevering faith", href: "https://hebrews.mybibleexplorer.com/" },
+  { name: "Isaiah", description: "Judgment, comfort, and gospel hope", href: "https://isaiah.mybibleexplorer.com/" },
+  { name: "Daniel", description: "Prophecy and providence", href: "https://daniel.mybibleexplorer.com" },
+  { name: "Revelation", description: "Symbols, judgment, and final hope", href: "https://revelation.mybibleexplorer.com/" },
+  { name: "Life of Christ", description: "The life and ministry of Jesus", href: "https://christ.mybibleexplorer.com/" }
 ] as const;
 
 export function GlobalShell() {
@@ -15,7 +19,7 @@ export function GlobalShell() {
       <div className="mbe-shell-wrap">
         <div className="mbe-ribbon-left">
           <a className="mbe-ribbon-brand" href="https://mybibleexplorer.com" aria-label="My Bible Explorer home">
-            <img className="mbe-ribbon-logo" src="/assets/my-bible-explorer-logo.png" alt="My Bible Explorer" />
+            <img className="mbe-ribbon-logo" src="https://mybibleexplorer.com/assets/my-bible-explorer-logo.png?v=mbe-20260715-1" alt="My Bible Explorer" width={107} height={34}/>
           </a>
           <a className="mbe-ribbon-back" href="https://mybibleexplorer.com/#journeys">
             Back to Library
@@ -54,7 +58,7 @@ export function GlobalFooter() {
     <footer className="mbe-global-footer" data-tool="corinthians">
       <div className="mbe-shell-wrap mbe-footer-wrap">
         <a className="mbe-footer-brand" href="https://mybibleexplorer.com" aria-label="My Bible Explorer home">
-          <img className="mbe-footer-logo" src="/assets/my-bible-explorer-logo.png" alt="My Bible Explorer" />
+          <img className="mbe-footer-logo" src="https://mybibleexplorer.com/assets/my-bible-explorer-logo.png?v=mbe-20260715-1" alt="My Bible Explorer" width={107} height={34}/>
         </a>
         <span>Know the Word. Live the Word.</span>
         <span>
