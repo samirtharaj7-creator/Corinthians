@@ -53,8 +53,8 @@ export function HeroSection() {
             <p className="home-title-prefix">The Epistles to the</p>
             <h1 id="home-title">Corinthians</h1>
             <p className="home-showcase-description">
-              Read 1 and 2 Corinthians verse by verse, with the King James text alongside clear
-              study notes that trace Paul&apos;s argument, theology, and pastoral counsel.
+              Enter the Corinthian letters, where Paul confronts division, disorder, and doubt with the cross,
+              holy love, resurrection hope, and God&apos;s strength revealed through weakness.
             </p>
             <div className="home-showcase-actions">
               <a href="/1-corinthians/1/" className="home-showcase-primary">
