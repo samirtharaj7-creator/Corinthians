@@ -121,6 +121,24 @@
   background: rgba(8, 21, 33, 0.24);
 }
 
+.background-glance {
+  margin: 2.2rem 0 0;
+}
+
+.background-glance-table-wrap {
+  margin-top: 1rem;
+}
+
+.background-glance-table {
+  min-width: 40rem;
+}
+
+.background-glance-table td:first-child {
+  width: 10rem;
+  color: #f3e8cc;
+  font-weight: 600;
+}
+
 .background-timeline {
   margin: 1.8rem 0 2.1rem;
   border: 1px solid rgba(201, 164, 76, 0.22);
@@ -236,6 +254,10 @@
   .background-data-table {
     min-width: 38rem;
     font-size: 0.86rem;
+  }
+
+  .background-glance-table {
+    min-width: 34rem;
   }
 
   .background-timeline ol::before {

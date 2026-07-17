@@ -43,9 +43,21 @@ const comparisonBlockSchema = z
   })
   .strict();
 
+const glanceRowSchema = z.tuple([nonEmptyText, nonEmptyText]);
+
+const glanceBlockSchema = z
+  .object({
+    type: z.literal("glance"),
+    title: nonEmptyText,
+    headers: glanceRowSchema,
+    rows: z.array(glanceRowSchema).min(6).max(10)
+  })
+  .strict();
+
 const backgroundBlockSchema = z.discriminatedUnion("type", [
   paragraphBlockSchema,
   timelineBlockSchema,
+  glanceBlockSchema,
   comparisonBlockSchema
 ]);
 
@@ -92,6 +104,9 @@ const backgroundContentSchema = z
     const comparisonBlocks = content.sections.flatMap((section) =>
       section.blocks.filter((block) => block.type === "comparison")
     );
+    const glanceBlocks = content.sections.flatMap((section) =>
+      section.blocks.filter((block) => block.type === "glance")
+    );
 
     const relationshipSection = content.sections.find((section) => section.id === "pauls-relationship-with-corinth");
     const finalSection = content.sections.find((section) => section.id === "how-the-letters-fit-together");
@@ -112,6 +127,17 @@ const backgroundContentSchema = z
         code: "custom",
         path: ["sections"],
         message: "The final section must contain the only comparison table."
+      });
+    }
+
+    if (
+      glanceBlocks.length !== 1 ||
+      !finalSection?.blocks.some((block) => block.type === "glance")
+    ) {
+      context.addIssue({
+        code: "custom",
+        path: ["sections"],
+        message: "The final section must contain the only Book at a Glance table."
       });
     }
   });

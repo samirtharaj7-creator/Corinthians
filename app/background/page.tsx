@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { CalendarDays } from "lucide-react";
+import { BookOpenCheck, CalendarDays } from "lucide-react";
 import {
   getBackgroundContent,
   type BackgroundBlock
@@ -40,6 +40,44 @@ function BackgroundBlockView({ block, sectionTitle }: {
             </li>
           ))}
         </ol>
+      </section>
+    );
+  }
+
+  if (block.type === "glance") {
+    return (
+      <section className="background-glance" aria-labelledby="background-glance-title">
+        <div className="background-structured-heading">
+          <BookOpenCheck className="h-5 w-5" />
+          <div>
+            <p>Overview</p>
+            <h3 id="background-glance-title">{block.title}</h3>
+          </div>
+        </div>
+        <div
+          className="background-table-wrap background-glance-table-wrap"
+          role="region"
+          aria-label={`${sectionTitle}: ${block.title}`}
+          tabIndex={0}
+        >
+          <table className="background-data-table background-glance-table">
+            <caption className="sr-only">{block.title}</caption>
+            <thead>
+              <tr>
+                {block.headers.map((header) => <th key={header}>{header}</th>)}
+              </tr>
+            </thead>
+            <tbody>
+              {block.rows.map((row) => (
+                <tr key={row[0]}>
+                  {row.map((cell, cellIndex) => (
+                    <td key={`${cellIndex}-${cell.slice(0, 24)}`}>{cell}</td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </section>
     );
   }

@@ -233,7 +233,7 @@ if (!existsSync(backgroundPath)) {
       assert(Array.isArray(section?.blocks) && section.blocks.length > 0, `background.sections[${sectionIndex}].blocks must not be empty.`);
       (section?.blocks ?? []).forEach((block, blockIndex) => {
         blocks.push({ block, path: `background.sections[${sectionIndex}].blocks[${blockIndex}]` });
-        assert(["paragraph", "timeline", "comparison"].includes(block?.type), `${blocks.at(-1).path} has unsupported type ${String(block?.type)}.`);
+        assert(["paragraph", "timeline", "glance", "comparison"].includes(block?.type), `${blocks.at(-1).path} has unsupported type ${String(block?.type)}.`);
         if (block?.type === "paragraph") {
           assert(isNonEmptyString(block.text), `${blocks.at(-1).path}.text must be a non-empty string.`);
         }
@@ -268,6 +268,24 @@ if (!existsSync(backgroundPath)) {
       });
     }
 
+    const glances = blocks.filter(({ block }) => block?.type === "glance");
+    assert(glances.length === 1, `Expected exactly 1 Book at a Glance table; found ${glances.length}.`);
+    if (glances.length === 1) {
+      const { block, path } = glances[0];
+      assert(block.title === "Book at a Glance", `${path}.title must be Book at a Glance.`);
+      assert(Array.isArray(block.headers) && block.headers.length === 2, `${path}.headers must contain exactly 2 columns.`);
+      assert(block.headers?.[0] === "Detail" && block.headers?.[1] === "Information", `${path}.headers must be Detail and Information.`);
+      assert(Array.isArray(block.rows) && block.rows.length >= 6 && block.rows.length <= 10, `${path}.rows must contain 6–10 rows.`);
+      (block.rows ?? []).forEach((row, rowIndex) => {
+        assert(Array.isArray(row) && row.length === 2, `${path}.rows[${rowIndex}] must contain exactly 2 cells.`);
+        (row ?? []).forEach((cell, cellIndex) => assert(isNonEmptyString(cell), `${path}.rows[${rowIndex}][${cellIndex}] must be a non-empty string.`));
+      });
+      assert(
+        background.sections.at(-1)?.blocks?.some((candidate) => candidate === block),
+        "The Book at a Glance table must appear in the final section."
+      );
+    }
+
     const allPublicEntries = collectStrings(background);
     validatePublicText(allPublicEntries);
 
@@ -292,7 +310,7 @@ if (!existsSync(backgroundPath)) {
       const overlapSummary = process.argv[2] ? " Optional 12-word manuscript-overlap audit passed." : " Manuscript-overlap audit skipped (no path supplied).";
       console.log(
         `Background content validated: ${expectedSectionIds.length} ordered sections, 1 seven-event timeline, ` +
-        `1 three-column comparison table, and ${narrativeWordCount} narrative words. ` +
+        `1 two-column Book at a Glance table, 1 three-column comparison table, and ${narrativeWordCount} narrative words. ` +
         `Word count includes main paragraph blocks only.${overlapSummary}`
       );
     }
