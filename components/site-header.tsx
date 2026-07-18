@@ -48,7 +48,7 @@ export function SiteHeader() {
           className="reader-menu-button"
           variant="ghost"
           size="icon"
-          aria-label="Open menu"
+          aria-label={open ? "Close menu" : "Open menu"}
           aria-expanded={open}
           onClick={() => setOpen((value) => !value)}
         >
