@@ -67,9 +67,8 @@ export function ChapterStudy({
         setSelectedVerseRef(match.verse);
         setExpandedCompactVerseRef(compactReader ? match.verse : null);
         window.requestAnimationFrame(() => {
-          document.getElementById(slugify(match.verse))?.scrollIntoView({
-            block: compactReader ? "nearest" : "center"
-          });
+          if (compactReader) getVerseButtonElement(match.verse)?.scrollIntoView({ block: "nearest" });
+          else scrollVerseButtonIntoPane(match.verse, "auto");
         });
       }
     }
@@ -456,6 +455,24 @@ function FontScaleControls({
   );
 }
 
+function getVerseButtonElement(verse: string) {
+  if (typeof document === "undefined") return null;
+  return document.querySelector<HTMLElement>(`[data-verse-id="${slugify(verse)}"]`);
+}
+
+function scrollVerseButtonIntoPane(verse: string, behavior: ScrollBehavior) {
+  const target = getVerseButtonElement(verse);
+  const pane = target?.closest<HTMLElement>(".scripture-pane-body");
+  if (!target || !pane) return;
+
+  const targetRect = target.getBoundingClientRect();
+  const paneRect = pane.getBoundingClientRect();
+  pane.scrollTo({
+    top: pane.scrollTop + targetRect.top - paneRect.top - (pane.clientHeight - targetRect.height) / 2,
+    behavior
+  });
+}
+
 function VerseButton({
   index,
   verse,
@@ -475,7 +492,7 @@ function VerseButton({
 }) {
   return (
     <button
-      id={slugify(verse.verse)}
+      data-verse-id={slugify(verse.verse)}
       className={active ? "scripture-card scripture-card-active" : "scripture-card"}
       aria-controls={compact && expanded ? notesPanelId : undefined}
       aria-expanded={compact ? expanded : undefined}

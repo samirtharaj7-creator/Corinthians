@@ -6,6 +6,7 @@ import {
   READER_VERSE_CHANGE_EVENT,
   type ReaderVerseEventDetail
 } from "@/lib/reader-events";
+import { slugify } from "@/lib/utils";
 
 type BookChapterStripProps = {
   activeChapter: number;
@@ -113,6 +114,9 @@ export function BookChapterStrip({
       setInputValue(formatReference(inputBookName, chapter, verse));
       window.history.replaceState(null, "", `#v${verse}`);
       window.dispatchEvent(new HashChangeEvent("hashchange"));
+      window.requestAnimationFrame(() => {
+        scrollVerseButtonIntoPane(bookName, chapter, verse, "smooth");
+      });
     },
     [activeChapter, addRecentReference, bookSlug, inputBookName, isValidReference]
   );
@@ -431,6 +435,24 @@ function formatReference(bookName: string, chapter: number, verse: number) {
 
 function abbreviateBookName(bookName: string) {
   return bookName.replace("Corinthians", "Cor.");
+}
+
+function getVerseButtonElement(bookName: string, chapter: number, verse: number) {
+  if (typeof document === "undefined") return null;
+  return document.querySelector<HTMLElement>(`[data-verse-id="${slugify(formatReference(bookName, chapter, verse))}"]`);
+}
+
+function scrollVerseButtonIntoPane(bookName: string, chapter: number, verse: number, behavior: ScrollBehavior) {
+  const target = getVerseButtonElement(bookName, chapter, verse);
+  const pane = target?.closest<HTMLElement>(".scripture-pane-body");
+  if (!target || !pane) return;
+
+  const targetRect = target.getBoundingClientRect();
+  const paneRect = pane.getBoundingClientRect();
+  pane.scrollTo({
+    top: pane.scrollTop + targetRect.top - paneRect.top - (pane.clientHeight - targetRect.height) / 2,
+    behavior
+  });
 }
 
 function verseFromHash(hash: string, currentChapter: number) {

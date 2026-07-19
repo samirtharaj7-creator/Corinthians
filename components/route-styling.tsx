@@ -12,17 +12,11 @@ export function RouteStyling() {
     const path = pathname.replace(/\/$/, "") || "/";
     const chapterMatch = path.match(/^\/(?:1-corinthians|2-corinthians)\/(\d+)$/);
 
-    // Cross-page reader navigation must never inherit an outer-page scroll
-    // position. Each reader pane maintains its own independent scroll state.
-    window.history.scrollRestoration = "manual";
-    const resetOuterScroll = () => {
+    const resetReaderViewport = () => {
+      window.scrollTo({ top: 0, left: 0, behavior: "instant" });
       html.scrollTop = 0;
       body.scrollTop = 0;
-      window.scrollTo(0, 0);
     };
-    resetOuterScroll();
-    const resetFrame = window.requestAnimationFrame(resetOuterScroll);
-    const resetTimer = window.setTimeout(resetOuterScroll, 100);
 
     html.classList.add("dark");
     html.style.colorScheme = "dark";
@@ -34,12 +28,8 @@ export function RouteStyling() {
     else if (chapterMatch) {
       body.dataset.corinthiansRoute = "commentary";
       body.dataset.corinthiansChapter = chapterMatch[1];
+      resetReaderViewport();
     } else body.removeAttribute("data-corinthians-route");
-
-    return () => {
-      window.cancelAnimationFrame(resetFrame);
-      window.clearTimeout(resetTimer);
-    };
   }, [pathname]);
 
   return null;
