@@ -950,7 +950,10 @@ body[data-corinthians-chapter] .commentary-reading p {
 
 @media (max-width: 640px) {
   .home-showcase-copy h1 {
-    font-size: clamp(3rem, 16vw, 4.5rem) !important;
+    width: max-content;
+    max-width: 100% !important;
+    font-size: clamp(1.8rem, 10.5vw, 4.25rem) !important;
+    white-space: nowrap;
   }
 
   .verse-copy {
@@ -2072,7 +2075,10 @@ body[data-corinthians-chapter] .split-reader {
 
 @media (max-width: 640px) {
   .home-showcase-copy h1 {
-    font-size: clamp(3rem, 16vw, 4.5rem) !important;
+    width: max-content;
+    max-width: 100% !important;
+    font-size: clamp(1.8rem, 10.5vw, 4.25rem) !important;
+    white-space: nowrap;
   }
 
   body[data-corinthians-chapter] .verse-copy {
