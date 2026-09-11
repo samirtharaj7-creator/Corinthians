@@ -1,21 +1,22 @@
 const libraryItems = [
-  { name: "Hermeneutics", description: "Learn to read Scripture faithfully", href: "https://hermeneutics.mybibleexplorer.com" },
-  { name: "Psalms", description: "Worship, lament, praise, and prayer", href: "https://psalms.mybibleexplorer.com" },
-  { name: "Sanctuary", description: "A blueprint of salvation", href: "https://sanctuary.mybibleexplorer.com/#structure" },
-  { name: "Last Day Events", description: "Earth's final chapter", href: "https://lastdayevents.mybibleexplorer.com/index.html" },
-  { name: "Parables", description: "Stories of the kingdom", href: "https://parables.mybibleexplorer.com" },
-  { name: "Romans", description: "Righteousness by faith and life in the Spirit", href: "https://romans.mybibleexplorer.com" },
-  { name: "Corinthians", description: "Unity, worship, holy living, and resurrection", href: "/", current: true },
-  { name: "Galatians", description: "Freedom in Christ and life by the Spirit", href: "https://galatians.mybibleexplorer.com/" },
-  { name: "Ephesians", description: "Grace, unity, new life, and spiritual warfare", href: "https://ephesians.mybibleexplorer.com/" },
-  { name: "Philippians", description: "Joy, humility, perseverance, and contentment", href: "https://philippians.mybibleexplorer.com/" },
   { name: "Colossians", description: "The supremacy of Christ and life in Him", href: "https://colossians.mybibleexplorer.com/" },
-  { name: "Hebrews", description: "Christ, covenant, sanctuary, and persevering faith", href: "https://hebrews.mybibleexplorer.com/" },
-  { name: "James", description: "Living faith, wisdom, speech, patience, and prayer", href: "https://james.mybibleexplorer.com/" },
-  { name: "Isaiah", description: "Judgment, comfort, and gospel hope", href: "https://isaiah.mybibleexplorer.com/" },
+  { name: "Corinthians", description: "Unity, worship, holy living, and resurrection", href: "/", current: true },
   { name: "Daniel", description: "Prophecy and providence", href: "https://daniel.mybibleexplorer.com" },
-  { name: "Revelation", description: "Symbols, judgment, and final hope", href: "https://revelation.mybibleexplorer.com/" },
+  { name: "Ephesians", description: "Grace, unity, new life, and spiritual warfare", href: "https://ephesians.mybibleexplorer.com/" },
+  { name: "Galatians", description: "Freedom in Christ and life by the Spirit", href: "https://galatians.mybibleexplorer.com/" },
+  { name: "Hebrews", description: "Christ, covenant, sanctuary, and persevering faith", href: "https://hebrews.mybibleexplorer.com/" },
+  { name: "Hermeneutics", description: "Learn to read Scripture faithfully", href: "https://hermeneutics.mybibleexplorer.com" },
+  { name: "Isaiah", description: "Judgment, comfort, and gospel hope", href: "https://isaiah.mybibleexplorer.com/" },
+  { name: "James", description: "Living faith, wisdom, speech, patience, and prayer", href: "https://james.mybibleexplorer.com/" },
+  { name: "Last Day Events", description: "Earth's final chapter", href: "https://lastdayevents.mybibleexplorer.com/index.html" },
   { name: "Life of Christ", description: "The life and ministry of Jesus", href: "https://christ.mybibleexplorer.com/" },
+  { name: "Parables", description: "Stories of the kingdom", href: "https://parables.mybibleexplorer.com" },
+  { name: "Philippians", description: "Joy, humility, perseverance, and contentment", href: "https://philippians.mybibleexplorer.com/" },
+  { name: "Psalms", description: "Worship, lament, praise, and prayer", href: "https://psalms.mybibleexplorer.com" },
+  { name: "Revelation", description: "Symbols, judgment, and final hope", href: "https://revelation.mybibleexplorer.com/" },
+  { name: "Romans", description: "Righteousness by faith and life in the Spirit", href: "https://romans.mybibleexplorer.com" },
+  { name: "Salvation", description: "Righteousness by faith, justification, and assurance", href: "https://salvation.mybibleexplorer.com/" },
+  { name: "Sanctuary", description: "A blueprint of salvation", href: "https://sanctuary.mybibleexplorer.com/#structure" },
 ] as const;
 
 export function GlobalShell() {
@@ -43,7 +44,6 @@ export function GlobalShell() {
                     aria-current={"current" in item && item.current ? "page" : undefined}
                   >
                     <span className="mbe-library-name">{item.name}</span>
-                    <span className="mbe-library-desc">{item.description}</span>
                   </a>
                 ))}
               </div>
